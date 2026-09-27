@@ -9,7 +9,7 @@
     {
       "id": "uk-northag-fsu-armoured-car-patrol",
       "name": "Armoured Car Patrol",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 2,
       "points": 32,
@@ -31,7 +31,7 @@
     {
       "id": "uk-northag-fsu-gazelle-scout-helicopter",
       "name": "Gazelle Scout Helicopter",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 24,
@@ -52,7 +52,7 @@
     {
       "id": "uk-northag-fsu-dismounted-infantry-platoon",
       "name": "Dismounted Infantry Platoon",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 50,
@@ -74,7 +74,7 @@
     {
       "id": "uk-northag-fsu-sas-patrol",
       "name": "SAS Patrol",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 25,
@@ -95,7 +95,7 @@
     {
       "id": "uk-northag-fsu-chieftain-tank-troop",
       "name": "Chieftain Tank Troop",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 147,
@@ -123,7 +123,7 @@
     {
       "id": "uk-northag-fsu-fortified-building",
       "name": "Fortified Building",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 4,
       "points": 20,
@@ -137,7 +137,7 @@
     {
       "id": "uk-northag-fsu-recce-tank-patrol",
       "name": "Recce Tank Patrol",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 2,
       "points": 34,
@@ -177,7 +177,7 @@
     {
       "id": "uk-northag-fsu-fv102-striker-section",
       "name": "FV102 Striker Section",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 2,
       "points": 58,
@@ -195,7 +195,7 @@
     {
       "id": "uk-northag-fsu-armoured-reconnaissance-patrol",
       "name": "Armoured Reconnaissance Patrol",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 3,
       "points": 17,
@@ -214,7 +214,7 @@
     {
       "id": "uk-northag-fsu-forward-observation-officer",
       "name": "Forward Observation Officer",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 12,
@@ -234,7 +234,7 @@
     {
       "id": "uk-northag-fsu-sniper-hideout",
       "name": "Sniper-Hideout",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 16,
@@ -254,7 +254,7 @@
     {
       "id": "uk-northag-fsu-atgm-dug-out",
       "name": "ATGM Dug-Out",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 28,
@@ -273,7 +273,7 @@
     {
       "id": "uk-northag-fsu-marked-minefield",
       "name": "Marked Minefield",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 15,
@@ -289,7 +289,7 @@
     {
       "id": "uk-northag-fsu-hidden-minefield",
       "name": "Hidden Minefield",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 25,
@@ -305,7 +305,7 @@
      {
       "id": "uk-northag-fsu-hidden-claymore-anti-personnel-minefield",
       "name": "Hidden Claymore Anti-personnel Minefield",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 15,
@@ -321,7 +321,7 @@
     {
       "id": "uk-northag-fsu-anti-tank-ditch",
       "name": "Anti-tank Ditch",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 2,
       "points": 15,
@@ -337,7 +337,7 @@
      {
       "id": "uk-northag-fsu-air-defence-team",
       "name": "Air Defence Team",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 2,
       "points": 10,
@@ -356,7 +356,7 @@
     {
       "id": "uk-northag-fsu-sgpmg-dug-out",
       "name": "sGPMG Dug-Out",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 2,
       "points": 9,
@@ -377,7 +377,7 @@
     {
       "id": "uk-northag-fsu-bridge-demolition",
       "name": "Bridge Demolition",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 10,
@@ -392,7 +392,7 @@
     {
       "id": "uk-northag-fsu-road-block",
       "name": "Road Block",
-      "category": "Forward Screen Units",
+      "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 10,

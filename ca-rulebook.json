@@ -409,7 +409,7 @@
     {
       "id": "uk-northag-vu-chieftain-troop",
       "name": "Chieftain Troop",
-      "category": "Vanguard Unit",
+      "category": "Tank Units",
       "minQty": 0,
       "maxQty": 1,
       "points": 129,
@@ -427,7 +427,8 @@
     {
       "id": "uk-northag-vu-mechanised-infantry-platoon",
       "name": "Mechanised Infantry Platoon",
-      "category": "Vanguard Unit",
+      "category": "Infantry Units",
+      "categorySlots": 4,
       "minQty": 0,
       "maxQty": 1,
       "points": 69,

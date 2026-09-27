@@ -17,8 +17,8 @@
       "morale": "R",
       "unitComposition": [
         {
-          "qty": 2,
-          "name": "FV721 Fox armoured cars",
+          "qty": 1,
+          "name": "3 Men",
           "equipmentId": "uk-northag-fv721-fox"
         }
       ],

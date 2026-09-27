@@ -1,7 +1,7 @@
 { 
   "armyList": 
   [ 
-  { "id": "rulebook-canadian", "name": "Canadian 3rd Infantry Division", "supplement": "Rule Book", "year": "1944", "url": "https://raw.githubusercontent.com/atpcummings-code/northag-data/refs/heads/main/uk-northag.json" },
-  { "id": "rulebook-german", "name": "12th SS Panzer Division", "supplement": "Rule Book", "year": "1944", "url": "https://raw.githubusercontent.com/atpcummings-code/northag-data/refs/heads/main/su-northag.json" }
+  { "id": "rulebook-canadian", "name": "Canadian 3rd Infantry Division", "supplement": "Rule Book", "year": "1944", "url": "https://raw.githubusercontent.com/atpcummings-code/battlegroup-data/refs/heads/main/ca-rulebook.json" },
+  { "id": "rulebook-german", "name": "12th SS Panzer Division", "supplement": "Rule Book", "year": "1944", "url": "https://raw.githubusercontent.com/atpcummings-code/battlegroup-data/refs/heads/main/de-rulebook.json" }
   ]   
 } 

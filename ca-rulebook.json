@@ -5,5 +5,29 @@
   "group": "Rule Book",
   "year": "1944",
   "colour": "#5C3A2E",
- "units": [],
+"units": [
+    {
+      "id": "rulebook-canadian-fhu-forward-headquarters",
+      "name": "Forward Headquarters",
+      "category": "Forward headquarters Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 21,
+      "br": 3,
+      "morale": "R",
+      "unitComposition": [
+        {
+          "qty": 2,
+          "name": "FV721 Fox armoured cars",
+          "equipmentId": "uk-northag-fv721-fox"
+        }
+      ],
+      "specialRules": [
+        {"name": "Senior Officer"},
+        {"name": "Artillery Spotter"},
+        {"name": "Unique"}
+      ],
+            "optionalSpecialRules": []
+    }
+]
 }

@@ -491,7 +491,7 @@
     {
       "id": "uk-northag-mc-chieftain-troop",
       "name": "Chieftain Troop",
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "minQty": 0,
       "maxQty": 1,
       "points": 129,
@@ -508,7 +508,7 @@
     {
       "id": "uk-northag-mc-battlegroup-commander",
       "name": "Battlegroup Commander",
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "minQty": 0,
       "maxQty": 1,
       "points": 22,
@@ -531,7 +531,7 @@
     {
       "id": "uk-northag-mc-mechanised-infantry-platoon",
       "name": "Mechanised Infantry Platoon",
-      "category": "main Column",
+      "category": "Reconnaissance",
       "minQty": 0,
       "maxQty": 1,
       "points": 69,
@@ -594,7 +594,7 @@
     {
       "id": "uk-northag-mc-tactical-command-centre",
       "name": "Tactical Command Centre",
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "minQty": 0,
       "maxQty": 1,
       "points": 16,
@@ -642,7 +642,7 @@
   {
       "id": "uk-northag-mc-forward-air-controller",
       "name": "Forward Air Controller",
-      "category": "Main Column",
+      "category": "Reconnaissance",
     "hiddenUntilUnlocked": true,
       "minQty": 0,
       "maxQty": 1,
@@ -686,7 +686,7 @@
 {
       "id": "uk-northag-mc-electronic-warfare-team",
       "name": "Electronic Warfare Team",
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "hiddenUntilUnlocked": true,
       "minQty": 0,
       "maxQty": 1,
@@ -729,7 +729,7 @@
 {
       "id": "uk-northag-mc-ground-surveillance-radar-team",
       "name": "Ground Surveillance Radar Team",
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "hiddenUntilUnlocked": true,
       "minQty": 0,
       "maxQty": 1,
@@ -748,7 +748,7 @@
 {
       "id": "uk-northag-mc-supply-truck",
       "name": "Supply Truck",
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "hiddenUntilUnlocked": true,
       "minQty": 0,
       "maxQty": 1,
@@ -765,7 +765,7 @@
 {
       "id": "uk-northag-mc-ambulance",
       "name": "Ambulance",
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "hiddenUntilUnlocked": true,
       "minQty": 0,
       "maxQty": 1,
@@ -806,7 +806,7 @@
     {
       "id": "uk-northag-mc-military-police-team",
       "name": "Military Police Team",
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "minQty": 0,
       "maxQty": 1,
       "points": 18,
@@ -826,7 +826,7 @@
     {
       "id": "uk-northag-mc-forward-observation-officer",
       "name": "Forward Observation Officer",
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "minQty": 0,
       "maxQty": 1,
       "points": 18,
@@ -873,7 +873,7 @@
 {
       "id": "uk-northag-mc-guided-weapons-carrier-section",
       "name": "Guided Weapons Carrier Section", 
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "minQty": 0,
       "maxQty": 1,
       "points": 56,
@@ -889,7 +889,7 @@
     {
       "id": "uk-northag-mc-surface-to-air-missile-launcher",
       "name": "Surface to Air Missile Launcher", 
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "minQty": 0,
       "maxQty": 1,
       "points": 14,
@@ -919,7 +919,7 @@
     {
       "id": "uk-northag-mc-mine-clearance-vehicle",
       "name": "Mine Clearance Vehicle", 
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "minQty": 0,
       "maxQty": 1,
       "points": 12,
@@ -938,7 +938,7 @@
 {
       "id": "uk-northag-mc-81mm-mortar-battery",
       "name": "81mm Mortar Battery", 
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "minQty": 0,
       "maxQty": 1,
       "points": 48,
@@ -957,7 +957,7 @@
 {
       "id": "uk-northag-mc-105mm-abbot-battery",
       "name": "105mm Abbot Battery", 
-      "category": "Main Column",
+      "category": "Reconnaissance",
       "minQty": 0,
       "maxQty": 1,
       "points": 64,

@@ -362,6 +362,7 @@
       "name": "Aerial Artillery Observer",
       "category": "Artillery Units",
       "points": 66,
+      "maxQty": 1,
       "br": 3,
       "morale": "R",
       "unitComposition": [

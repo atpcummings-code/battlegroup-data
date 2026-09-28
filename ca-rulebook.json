@@ -406,9 +406,53 @@
       "points": 5,
       "br": 0,
       "notes": "10\" of improvised barricades made of earth filled boxes, rubble, furniture, destroyed vehicles etc. Counts as hard cover for infantry behind it."
+    },
+    {
+      "id": "ca-rulebook-def-machine-gun-dugout",
+      "name": "Machine Gun Dugout",
+      "category": "Defences",
+       "points": 32,
+      "br": 1,
+      "morale": "R",
+      "unitComposition": [
+        {"qty": 1, "name": "3 men and a Vickers HMG in reinforced cover", "equipmentId": "ca-vickers-hmg"}
+      ],
+      "specialRules": [{"name": "Reinforced Cover"}],
+      "notes": "The cover is lost if the MG team move.",
+      "options": []
+    },
+    {
+      "id": "ca-rulebook-def-mortar-pit",
+      "name": "Mortar Pit",
+      "category": "Defences",
+       "points": 32,
+      "br": 1,
+      "morale": "R",
+      "unitComposition": [
+        {"qty": 1, "name": "3 men and  an 3\" mortar", "equipmentId": "ca-3inch-mortar"}
+      ],
+      "specialRules": [{"name": "Reinforced Cover"}],
+      "notes": "The cover is lost if the mortar team move",
+      "options": []
+    },
+{
+      "id": "ca-rulebook-def-fortified-building",
+      "name": "Fortified Building",
+      "category": "Defences",
+      "points": 30,
+      "br": 0,
+      "specialRules": [{"name": "Reinforced Cover"}],
+      "notes": "A single chosen building, anywhere on teh table, it counts as reinforced cover rather than hard cover"
+    },
+{
+      "id": "ca-rulebook-def-foxholes",
+      "name": "Foxholes",
+      "category": "Defences",
+      "points": 10,
+      "br": 0,
+      "specialRules": [{"name": "Reinforced Cover"}],
+      "notes": "Deploy up to 10 infantry in foxhols; they count as reinforced cover until they move."
     }
-
-
     
   ]
 }

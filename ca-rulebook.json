@@ -495,7 +495,7 @@
       "morale": "",
       "specialRules": [],
       "unitComposition": [],
-      "notes": ""
+      "notes": "A single mixed anti-tank and anti-personnel minefield"
     },
     {
       "id": "ca-rulebook-def-command-bunker",
@@ -531,10 +531,47 @@
       "id": "ca-rulebook-def-booby-trapped-building",
       "name": "Booby-Trapped Building",
       "category": "Defences",
-      "points": 0,
+      "points": 25,
       "br": 0,
       "specialRules": [],
-      "notes": ""
+      "notes": "A chosen building anywhere on teh table has been wired with booby-traps. The first time an enemy unit enter steh building roll a D6. On a 2+ it detonates and the unit take a 3/3+ HE hit. On a 1 there is a fault and teh booby trap fails to go off!"
+    },
+    {
+      "id": "ca-rulebook-def-barbed wire",
+      "name": "Barbed Wire",
+      "category": "Defences",
+      "points": 10,
+      "br": 0,
+      "specialRules": [],
+      "notes": "Up to 10\" of barbed wire. It is an obstacle for vehicles and infantry."
+    },
+    {
+      "id": "ca-rulebook-def-improvised-road-block,
+      "name": "Improvised Road Block",
+      "category": "Defences",
+      "points": 5,
+      "br": 0,
+      "specialRules": [],
+      "notes": "Something large and heavy across a road. Place on any road or track, anywhere on table. It counts as an obstacle."
+    },
+    {
+      "id": "ca-rulebook-def-anti-tank-ditch-embankment,
+      "name": "Anti-tank Ditch/Embankment",
+      "category": "Defences",
+      "points": 20,
+      "br": 0,
+      "reestricted": "yes",
+      "specialRules": [],
+      "notes": "10\" of ditch or embankment, impassable to vehicles without a bridge"
+    },
+    {
+      "id": "ca-rulebook-def-off-table-17pdr-anti-tank-shot,
+      "name": "Off-table 17pdr Anti-tank Shot",
+      "category": "Defences",
+      "points": 5,
+      "br": 0,
+      "specialRules": [],
+      "notes": "The positions are covered by 17pdr anti-tank guns well camouflaged behind the lines.  You may take a single 17pdr Aimed Fire - Armour Piercing shot at an enemy vehicle within 30\" of your table edge.  Teh shot will hit on a dice roll of 6, with a penetration value of 8. This requires no order to use.
     }
   ]
 }

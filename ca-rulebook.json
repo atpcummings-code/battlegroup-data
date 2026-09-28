@@ -217,7 +217,7 @@
           "maxQty": 1,
           "composition": [
             {"qty": 1, "name": "6pdr gun with 3 crew", "mode": "append","equipmentId": "ca-6pdr-gun"}
-          ], 
+          ] 
         }
           ]
         

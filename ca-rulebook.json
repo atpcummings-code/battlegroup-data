@@ -599,17 +599,13 @@
       "id": "ca-rulebook-rsu-armoured-car",
       "name": "Armoured Car",
       "category": "Reconnaissance",
-      "maxQty": 1,
-      "points": 21,
-      "br": 3,
+      "points": 0,
+      "br": 0,
       "morale": "R",
-      "unitComposition": [
-        {"qty": 1, "name": "3 Men", "equipmentId": ""}
-      ],
+      "unitComposition": [],
       "specialRules": [
-        {"name": "Senior Officer"},
-        {"name": "Artillery Spotter"},
-        {"name": "Unique"}
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"}
       ],
       "optionGroupLimits": [
         {"groupName": "Choose armoured car:", "options": ["ca-rulebook-rsu-armoured-car-1","ca-rulebook-rsu-armoured-car-2","ca-rulebook-rsu-armoured-car-3","ca-rulebook-rsu-armoured-car-4"], "min": 0, "max": 1}

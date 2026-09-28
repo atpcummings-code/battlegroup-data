@@ -232,7 +232,7 @@
         },
         {
           "id": "ca-rulebook-iu-infantry-platoon-5",
-          "name": Anti-tank Gun",
+          "name": "Anti-tank Gun",
           "points": 34,
           "br": 2,
           "maxQty": 1,

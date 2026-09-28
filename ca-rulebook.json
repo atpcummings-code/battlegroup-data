@@ -67,7 +67,7 @@
       "br": 1,
       "morale": "R",
       "unitComposition": [{"qty": 1,"name": "2 Men","equipmentId": ""},{"qty": 1,"name": "Jeep","equipmentId": "ca-jeep"}],
-      "specialRules": [{"name": "Officer"},{"name": "Unique"},{"name": "Air Spotter 3+"}],
+      "specialRules": [{"name": "Officer"},{"name": "Air Spotter 3+"},{"name": "Unique"}],
        "optionGroupLimits": [
 { "groupName": "Upgrade Jeep to:","options": ["ca-rulebook-fhu-forward-air-control-officer-1","ca-rulebook-fhu-forward-air-control-officer-2"], "min": 0, "max": 1 },
 { "groupName": "Replace 2 men and Jeep with:","options": ["ca-rulebook-fhu-forward-air-control-officer-3"], "min": 0, "max": 1 }

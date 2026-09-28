@@ -53,7 +53,7 @@
           "name": "M4A4 Sherman Tank",
           "points": 44,
           "br": 0,
-          "composition": [{"qty": 1, "name": "M4A4 Sherman Tank","equipmentId": "ca-m4a4-sherman-tank"}],
+          "composition": [{"qty": 1, "name": "M4A4 Sherman Tank","equipmentId": "ca-m4a4-sherman"}],
           "compositionMode": "replace" 
         }
       ]
@@ -307,11 +307,11 @@
       "options": [
       {
 "id": "ca-rulebook-au-forward-observer-team-1",
-"name": "Bren Carrier,
+"name": "Bren Carrier",
 "points": 4,
 "br": 0,
 "morale": "R",
-"composition": [{"qty": 1,"name": "Bren Carrier", "mode": "modify", "replaces": "Jeep","equipmentId": "ca-bren-carrier"}],
+"composition": [{"qty": 1,"name": "Bren Carrier", "mode": "modify", "replaces": "Jeep","equipmentId": "ca-bren-carrier"}]
 
       }
       ]
@@ -324,7 +324,7 @@
      "points": 0,
       "br": 0,
        "optionGroupLimits": [
-{ "groupName": "Choose Tank:","options": ["ca-rulebook-au-off-table-mortar-fire-1","ca-rulebook-au-off-table-mortar-fire-2"], "min": 0, "max": 1 }
+{ "groupName": "Choose battery type:","options": ["ca-rulebook-au-off-table-mortar-fire-1","ca-rulebook-au-off-table-mortar-fire-2"], "min": 0, "max": 1 }
        ],
       "options": [
       {
@@ -367,7 +367,7 @@
      "points": 0,
       "br": 0,
        "optionGroupLimits": [
-{ "groupName": "Choose Tank:","options": ["ca-rulebook-au-off-table-artillery-fire-1","ca-rulebook-au-off-table-artillery-fire-2"], "min": 0, "max": 1 }
+{ "groupName": "Choose battery type:","options": ["ca-rulebook-au-off-table-artillery-fire-1","ca-rulebook-au-off-table-artillery-fire-2"], "min": 0, "max": 1 }
        ],
       "options": [
       {

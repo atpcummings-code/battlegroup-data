@@ -88,7 +88,7 @@
 "composition": [{"qty": 1,"name": "Bren Carrier", "mode": "modify", "replaces": "Jeep","equipmentId": "ca-bren-carrier"}]
       },
         {
-"id": "ca-rulebook-fhu-fEorward-air-control-officer-3",
+"id": "ca-rulebook-fhu-forward-air-control-officer-3",
 "name": "Humber Scout Car",
 "points": 6,
 "br": 0, 
@@ -157,7 +157,7 @@
       "br": 11,
       "morale": "R",
       "optionGroupLimits": [
-{ "groupName": "The platoon may include up to four of the following additional units. No unit maybe taken more than once:", "options": ["ca-rulebook-iu-infantry-platoon-1", "ca-rulebook-iu-infantry-platoon-2", "ca-rulebook-iu-infantry-platoon-3","ca-rulebook-iu-infantry-platoon-4","ca-rulebook-iu-infantry-platoon-5"], "min": 0, "max": 4 }
+{ "groupName": "The platoon may include up to four of the following additional units. No unit may be taken more than once:", "options": ["ca-rulebook-iu-infantry-platoon-1", "ca-rulebook-iu-infantry-platoon-2", "ca-rulebook-iu-infantry-platoon-3","ca-rulebook-iu-infantry-platoon-4","ca-rulebook-iu-infantry-platoon-5"], "min": 0, "max": 4 }
 ],
       "unitComposition": [
         {"qty": 1, "name": "Platoon Command Section (5 Men)","equipmentId": "" },
@@ -216,7 +216,7 @@
           "composition": [
             {"qty": 1, "name": "6pdr gun with 3 crew", "mode": "append","equipmentId": "ca-6pdr-gun"}
           ] 
-        },
+        }
           ]
     },
    {

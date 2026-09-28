@@ -97,6 +97,23 @@
       }
       ]
     },
+   {
+      "id": "ca-rulebook-fhu-motorcycle-dispatch-rider",
+      "name": "Motorcycle Dispatch Rider",
+      "category": "Forward Headquarters Units",
+      "points": 12,
+      "br": 0,
+      "morale": "I",
+      "unitComposition": [
+        {"qty": 1, "name": "1 Man","equipmentId": "" },
+         {"qty": 1, "name": "Motorcycle","equipmentId": "ca-motorcycle"}
+      ],
+      "specialRules": [
+        {"name": "Dispatches"}
+      ],
+      
+      "options": []
+    },
     {
       "id": "ca-rulebook-fhu-dismounted-infantry-platoon",
       "name": "Dismounted Infantry Platoon",

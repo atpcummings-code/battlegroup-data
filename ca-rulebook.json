@@ -634,7 +634,7 @@
           "compositionMode": "replace"
         },
         {
-          "id": "ca-rulebook-rsu-dingo",
+          "id": "ca-rulebook-rsu-armoured-car-3",
           "name": "Dingo",
           "points": 13,
           "br": 1,
@@ -643,7 +643,7 @@
           "compositionMode": "replace"
         },
         {
-          "id": "ca-rulebook-rsu-morris-light-reconnaissance-car",
+          "id": "ca-rulebook-rsu-armoured-car-4",
           "name": "Morris Light Reconnaissance Car",
           "points": 13,
           "br": 1,

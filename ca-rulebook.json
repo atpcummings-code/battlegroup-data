@@ -62,21 +62,38 @@
       "id": "ca-rulebook-fhu-forward-air-control-officer",
       "name": "Forward Air Control Officer",
       "category": "Forward Headquarters Units",
-      "minQty": 0,
       "maxQty": 1,
-      "points": 24,
-      "br": 2,
+      "points": 26,
+      "br": 1,
       "morale": "R",
-      "unitComposition": [{"qty": 1,"name": "Gazelle Scout Helicopter","equipmentId": "ca-rulebook-gazelle"}],
-      "specialRules": [{"name": "Helicopter"},{"name": "Scout 3"},{"name": "Artillery Spotter"}],
-      
+      "unitComposition": [{"qty": 1,"name": 2 Men","equipmentId": "ca-jeep"}],
+      "specialRules": [{"name": "Officer"},{"name": "Unique"},{"name": "Air Spotter 3+"}],
+       "optionGroupLimits": [
+{ "groupName": "Upgrade Jeep to:","options": ["ca-rulebook-fhu-forward-air-control-officer-1","ca-rulebook-fhu-forward-air-control-officer-2"], "min": 0, "max": 1 },
+{ "groupName": "Replace 2 men and Jeep with:","options": ["ca-rulebook-fhu-forward-air-control-officer-3"], "min": 0, "max": 1 }
+],
       "options": [
       {
-"id": "ca-rulebook-fhu-gazelle-scout-helicopter-1",
-"name": "Add 1 Timed 105mm Artillery Strike",
-"points": 12,
+"id": "ca-rulebook-fhu-forward-air-control-officer-1",
+"name": "Radio Medium Truck",
+"points": 2,
 "br": 0, 
-"composition": [{"qty": 1,"name": "Timed 105mm Artillery Strike", "mode": "append", "equipmentId": "ca-rulebook-105mm"}]}
+"composition": [{"qty": 1,"name": "Radio Medium Truck", "mode": "replace", "equipmentId": "ca-radio-medium-truck"}]
+      },
+        {
+"id": "ca-rulebook-fhu-forward-air-control-officer-2",
+"name": "Bren Carrier",
+"points": 4,
+"br": 0, 
+"composition": [{"qty": 1,"name": "Bren Carrier", "mode": "replace", "equipmentId": "ca-bren-carrier"}]
+      },
+        {
+"id": "ca-rulebook-fhu-forward-air-control-officer-3",
+"name": "Humber Scout Car",
+"points": 6,
+"br": 0, 
+"composition": [{"qty": 1,"name": "Humber Scout Car", "mode": "replace", "equipmentId": "ca-humberscout-car"}]
+      }
       ]
     },
     {

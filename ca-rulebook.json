@@ -66,7 +66,7 @@
       "points": 26,
       "br": 1,
       "morale": "R",
-      "unitComposition": [{"qty": 1,"name": "2 Men","equipmentId": "ca-jeep"}],
+      "unitComposition": [{"qty": 1,"name": "2 Men","equipmentId": ""},{"qty": 1,"name": "Jeep","equipmentId": "ca-jeep"}],
       "specialRules": [{"name": "Officer"},{"name": "Unique"},{"name": "Air Spotter 3+"}],
        "optionGroupLimits": [
 { "groupName": "Upgrade Jeep to:","options": ["ca-rulebook-fhu-forward-air-control-officer-1","ca-rulebook-fhu-forward-air-control-officer-2"], "min": 0, "max": 1 },
@@ -78,14 +78,14 @@
 "name": "Radio Medium Truck",
 "points": 2,
 "br": 0, 
-"composition": [{"qty": 1,"name": "Radio Medium Truck", "mode": "replace", "equipmentId": "ca-radio-medium-truck"}]
+"composition": [{"qty": 1,"name": "Radio Medium Truck", "mode": "modify", "replaces": "Jeep","equipmentId": "ca-radio-medium-truck"}]
       },
         {
 "id": "ca-rulebook-fhu-forward-air-control-officer-2",
 "name": "Bren Carrier",
 "points": 4,
 "br": 0, 
-"composition": [{"qty": 1,"name": "Bren Carrier", "mode": "replace", "equipmentId": "ca-bren-carrier"}]
+"composition": [{"qty": 1,"name": "Bren Carrier", "mode": "modify", "replaces": "Jeep","equipmentId": "ca-bren-carrier"}]
       },
         {
 "id": "ca-rulebook-fhu-forward-air-control-officer-3",

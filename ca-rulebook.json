@@ -36,7 +36,7 @@
       "options": [
         {
           "id": "ca-rulebook-fhu-forward-headquarters-1",
-          "name": "",
+          "name": "Jeep",
           "points": 2,
           "br": 0,
           "composition": [{"qty": 1, "name": "Jeep","equipmentId": "ca-jeep"}],
@@ -44,7 +44,7 @@
         },
         {
           "id": "ca-rulebook-fhu-forward-headquarters-2",
-          "name": "",
+          "name": "Dingo Scout Car",
           "points": 0,
           "br": 0,
           "composition": [{"qty": 1, "name": "Dingo Scout Car","equipmentId": "ca-dingo-scout-car"}],
@@ -52,7 +52,7 @@
         },
         {
           "id": "ca-rulebook-fhu-forward-headquarters-3",
-          "name": "",
+          "name": "M4A4 Sherman Tank",
           "points": 44,
           "br": 0,
           "composition": [{"qty": 1, "name": "M4A4 Sherman Tank","equipmentId": "ca-m4a4-sherman-tank"}],

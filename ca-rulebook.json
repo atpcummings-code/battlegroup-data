@@ -182,51 +182,66 @@
       "unitComposition": [
         {"qty": 1, "name": "Platoon Command Section (5 Men)","equipmentId": "" },
          {"qty": 3, "name": "Rifle Section (10 Men with a Bren)","equipmentId": "" },
-        {"qty": 1, "name": "Light Mortar Team (2 Men with a 2\" Mortar)","equipmentId": "" }
+        {"qty": 1, "name": "Light Mortar Team (2 Men with a 2\" Mortar)","equipmentId": "ca-2inch-mortar" }
       ],
       "specialRules": [
-        {"name": "Advanced Gunnery"},
-        {"name": "Advanced Sights"}
+        {"name": "Bren Team"}
       ],
       
-       "upgrades": [
-       
-      ],
       "options": [
         {
-          "id": "ca-rulebook-vu-mechanised-infantry-platoon-1",
-          "name": "sGPMG Weapons Team",
-          "points": 4,
-          "br": 0,
-          
-          "composition": [ 
-          {"qty": 1, "name": "sGPMG Weapons Team)", "mode": "append","equipmentId": "ca-rulebook-infantry-sgpmg-team"}
-          ]
-        },
-        {
-          "id": "ca-rulebook-vu-mechanised-infantry-platoon-2",
-          "name": "Sniper Team",
-          "points": 6,
-          "br": 0,
-          
-          "composition": [
-            {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "ca-rulebook-infantry-sniper-team"}
-          ]
-        },
-        {
-          "id": "ca-rulebook-vu-mechanised-infantry-platoon-3",
-          "name": "Carl Gustav Weapons Team",
+          "id": "ca-rulebook-iu-infantry-platoon-1",
+          "name": "Combat Medic",
           "points": 8,
           "br": 0,
-          
-          "composition": [
-            {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append","equipmentId": "ca-rulebook-carl-gustav"}
+          "maxQty": 1,
+          "specialRules": [{"name": "Medic"}],
+          "composition": [ 
+          {"qty": 1, "name": "1 Man", "mode": "append","equipmentId": ""}
           ]
         },
-         { "id": "ca-rulebook-vu-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "ca-rulebook-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "ca-rulebook-fv103-spartan" }], "points": 16, "br": 2, "morale": "R"},
-        { "id": "ca-rulebook-vu-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "ca-rulebook-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "ca-rulebook-fv103-spartan"}], "points": 11, "br": 2, "morale": "R" }
+        {
+          "id": "ca-rulebook-iu-infantry-platoon-2",
+          "name": "Heavy Machine Gun Team",
+          "points": 22,
+          "br": 1,
+          "maxQty": 1,
+          "composition": [
+            {"qty": 1, "name": "3 men with a Vickers HMG", "mode": "append","equipmentId": "ca-vickers-hmg"}
+          ]
+        },
+        {
+          "id": "ca-rulebook-iu-infantry-platoon-3",
+          "name": "PIAT Team",
+          "points": 14,
+          "br": 1,
+          "maxQty": 1,
+          "composition": [
+            {"qty": 1, "name": "2 men with a PIAT", "mode": "append","equipmentId": "ca-piat"}
+          ]
+        },
+        {
+          "id": "ca-rulebook-iu-infantry-platoon-4",
+          "name": "Medium Mortar Team",
+          "points": 24,
+          "br": 1,
+          "maxQty": 1,
+          "composition": [
+            {"qty": 1, "name": "3 men with  3\" Mortar", "mode": "append","equipmentId": "ca-3inch-mortar"}
+          ]
+        },
+        {
+          "id": "ca-rulebook-iu-infantry-platoon-5",
+          "name": Anti-tank Gun",
+          "points": 34,
+          "br": 2,
+          "maxQty": 1,
+          "composition": [
+            {"qty": 1, "name": "6pdr gun with 3 crew", "mode": "append","equipmentId": "ca-6pdr-gun"}
+          ], 
+        }
+          ]
         
-      ]
     },
     {
       "id": "ca-rulebook-mc-chieftain-troop",

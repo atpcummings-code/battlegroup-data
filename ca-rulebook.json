@@ -572,6 +572,27 @@
       "br": 0,
       "specialRules": [],
       "notes": "The positions are covered by 17pdr anti-tank guns well camouflaged behind the lines.  You may take a single 17pdr Aimed Fire - Armour Piercing shot at an enemy vehicle within 30\" of your table edge.  The shot will hit on a dice roll of 6, with a penetration value of 8. This requires no order to use."
+    },
+    {
+      "id": "ca-rulebook-rsu-Sniper",
+      "name": "Sniper,
+      "category": "Reconnaissance",
+      "points": 10,
+      "br": 1,
+      "morale": "V",
+      "specialRules": [{"name": "Sniper Scout"}],
+      "unitComposition": [
+        {"qty": 1, "name": "Sniper", "equipmentId": ""}
+      ],
+      "notes": "A Sniper wwth a spotter increases its maximum range from 30\" to 40\", hitting on a 6",
+      "options": [
+        {
+          "id": "ca-rulebook-rsu-Sniper-1",
+          "name": "Spotter (1 man)",
+          "points": 5,
+          "composition": [{"qty": 1, "name": "Spotter (1 man)", "mode": "append"}]
+        }
+      ]
     }
   ]
 }

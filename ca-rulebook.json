@@ -648,6 +648,22 @@
           "compositionMode": "replace"
         }
       ]
+    },
+    {
+      "id": "ca-rulebook-rsu-infantry-foot-patrol",
+      "name": "Infantry Foot Patrol",
+      "category": "Reconnaissance",
+      "points": 31,
+      "br": 2,
+      "morale": "R",
+      "unitComposition": [{"qty": 1, "name": "Rifle Section (10 Men with a Bren)", "equipmentId": ""}],
+      "specialRules": [
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"},
+        {"name": "Bren Team"}
+      ],
+      "optionGroupLimits": [],
+      "options": []
     }
 
 

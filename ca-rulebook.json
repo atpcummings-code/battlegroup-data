@@ -223,7 +223,7 @@
         
     },
    {
-      "id": "ca-rulebook-fhu-rifle-section",
+      "id": "ca-rulebook-iu-rifle-section",
       "name": "Rifle Section",
       "category": "Infantry Units",
       "points": 21,
@@ -236,7 +236,7 @@
       "options": []
     },
    {
-      "id": "ca-rulebook-fhu-carrier-section",
+      "id": "ca-rulebook-iu-carrier-section",
       "name": "Carrier Section",
       "category": "Infantry Units",
       "points": 54,
@@ -251,6 +251,6 @@
       ],
       "specialRules": [],
       "options": []
-    },
+    }
  ]
 }

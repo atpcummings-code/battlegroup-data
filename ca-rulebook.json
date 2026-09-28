@@ -14,7 +14,7 @@
       "maxQty": 2,
       "points": 32,
       "br": 2,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {
           "qty": 2,
@@ -36,7 +36,7 @@
       "maxQty": 1,
       "points": 24,
       "br": 2,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [{"qty": 1,"name": "Gazelle Scout Helicopter","equipmentId": "uk-northag-gazelle"}],
       "specialRules": [{"name": "Helicopter"},{"name": "Scout 3"},{"name": "Artillery Spotter"}],
       
@@ -57,7 +57,7 @@
       "maxQty": 1,
       "points": 50,
       "br": 7,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {
           "qty": 7,
@@ -100,7 +100,7 @@
       "maxQty": 1,
       "points": 147,
       "br": 9,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 3, "name": "Mk9 Chieftains in tank scrapes","equipmentId": "uk-northag-mk9-chiftain" }
       ],
@@ -142,7 +142,7 @@
       "maxQty": 2,
       "points": 34,
       "br": 2,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 2, "name": "Scorpion or Scimitar light tanks"}
       ],
@@ -182,7 +182,7 @@
       "maxQty": 2,
       "points": 58,
       "br": 2,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 2, "name": "FV102 Striker","equipmentId": "uk-northag-fv102-striker" }
       ],
@@ -200,7 +200,7 @@
       "maxQty": 3,
       "points": 17,
       "br": 2,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Fire Team","equipmentId": "uk-northag-infantry-fire-team" },
          {"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan" }
@@ -219,7 +219,7 @@
       "maxQty": 1,
       "points": 12,
       "br": 2,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Command Team in Foxholes","equipmentId": "uk-northag-infantry-command-team" }
       ],
@@ -239,7 +239,7 @@
       "maxQty": 1,
       "points": 16,
       "br": 1,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Sniper Team concealed and deployed in Reinforced Cover.","equipmentId": "uk-northag-infantry-sniper-team"}
       ],
@@ -259,7 +259,7 @@
       "maxQty": 1,
       "points": 28,
       "br": 1,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Weapons Team with a MILAN ATGM deployed in a dug-out. The cover is lost of the unit moves.","equipmentId": "uk-northag-milan"}
       ],
@@ -360,7 +360,7 @@
       "minQty": 0,
       "maxQty": 2,
       "points": 9,
-      "morale": "P",
+      "morale": "R",
       "br": 1,
       "notes": "",
       "unitComposition": [
@@ -414,7 +414,7 @@
       "maxQty": 1,
       "points": 129,
       "br": 9,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains","equipmentId": "uk-northag-mk9-chiftain"}],
       "specialRules": [{"name": "Advanced Gunnery"},{"name": "Advanced Sights"},
         {"name": "Unreliable"}],
@@ -433,7 +433,7 @@
       "maxQty": 1,
       "points": 69,
       "br": 12,
-      "morale": "P",
+      "morale": "R",
       "optionGroupLimits": [
 
 { "groupName": "Add 1 of the following Infantry Weapons Teams:", "options": ["uk-northag-vu-mechanised-infantry-platoon-1", "uk-northag-vu-mechanised-infantry-platoon-2", "uk-northag-vu-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
@@ -483,8 +483,8 @@
             {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append","equipmentId": "uk-northag-carl-gustav"}
           ]
         },
-         { "id": "uk-northag-vu-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "uk-northag-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan" }], "points": 16, "br": 2, "morale": "P"},
-        { "id": "uk-northag-vu-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "uk-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan"}], "points": 11, "br": 2, "morale": "P" }
+         { "id": "uk-northag-vu-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "uk-northag-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan" }], "points": 16, "br": 2, "morale": "R"},
+        { "id": "uk-northag-vu-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "uk-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan"}], "points": 11, "br": 2, "morale": "R" }
         
       ]
     },
@@ -496,7 +496,7 @@
       "maxQty": 1,
       "points": 129,
       "br": 9,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains","equipmentId": "uk-northag-mk9-chiftain" }],
       "specialRules": [{"name": "Advanced Gunnery"},{"name": "Advanced Sights"}],
       
@@ -513,7 +513,7 @@
       "maxQty": 1,
       "points": 22,
       "br": 4,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team" },
         {"qty": 1, "name": "FV432","equipmentId": "uk-northag-fv432" }
@@ -536,7 +536,7 @@
       "maxQty": 1,
       "points": 69,
       "br": 12,
-      "morale": "P",
+      "morale": "R",
       "optionGroupLimits": [
 
 { "groupName": "Add 1 of the following Infantry Weapons Teams:", "options": ["uk-northag-mc-mechanised-infantry-platoon-1", "uk-northag-mc-mechanised-infantry-platoon-2", "uk-northag-mc-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
@@ -586,8 +586,8 @@
             {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append","equipmentId": "uk-northag-carl-gustav"}
           ]
         },
-         { "id": "uk-northag-mc-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "uk-northag-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan"}], "points": 16, "br": 2, "morale": "P"},
-        { "id": "uk-northag-mc-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "uk-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan"}], "points": 11, "br": 2, "morale": "P" }
+         { "id": "uk-northag-mc-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "uk-northag-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan"}], "points": 16, "br": 2, "morale": "R"},
+        { "id": "uk-northag-mc-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "uk-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan"}], "points": 11, "br": 2, "morale": "R" }
         
       ]
     },
@@ -599,7 +599,7 @@
       "maxQty": 1,
       "points": 16,
       "br": 3,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"}
       ],
@@ -648,7 +648,7 @@
       "maxQty": 1,
       "points": 13,
       "br": 2,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"},
         {"qty": 1, "name": "Land Rover","equipmentId": "uk-northag-land-rover"}
@@ -692,7 +692,7 @@
       "maxQty": 1,
       "points": 16,
       "br": 3,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"}
        ],
@@ -735,7 +735,7 @@
       "maxQty": 1,
       "points": 16,
       "br": 3,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"},
         {"qty": 1, "name": "Surveillance Radar Team", "equipmentId": "uk-northag-infantry-command-team"},
@@ -754,7 +754,7 @@
       "maxQty": 1,
       "points": 9,
       "br": 0,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Truck", "equipmentId": "uk-northag-bedford-mk4-truck"}
        ],
@@ -771,7 +771,7 @@
       "maxQty": 1,
       "points": 10,
       "br": 0,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
        ],
       "specialRules": [
@@ -811,7 +811,7 @@
       "maxQty": 1,
       "points": 18,
       "br": 2,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team" },
         {"qty": 1, "name": "Land Rover","equipmentId": "uk-northag-land-rover"}
@@ -831,7 +831,7 @@
       "maxQty": 1,
       "points": 18,
       "br": 2,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team" },
         {"qty": 1, "name": "Land Rover","equipmentId": "uk-northag-land-rover"}
@@ -878,7 +878,7 @@
       "maxQty": 1,
       "points": 56,
       "br": 4,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 2, "name": "FV438 Swingfires","equipmentId": "uk-northag-fv438-swingfire" }
       ],
@@ -894,7 +894,7 @@
       "maxQty": 1,
       "points": 14,
       "br": 1,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Weapons Team","equipmentId": "uk-northag-infantry-Weapons-team" },
         {"qty": 1, "name": "Towed Rapier SAM","equipmentId": "uk-northag-rapier" },
@@ -924,7 +924,7 @@
       "maxQty": 1,
       "points": 12,
       "br": 1,
-      "morale": "P",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "FV180 CET","equipmentId": "uk-northag-fv180-cet" },
         {"qty": 1, "name": "Giant Viper"}

@@ -221,6 +221,36 @@
         }
           ]
         
-    }
+    },
+   {
+      "id": "ca-rulebook-fhu-rifle-section",
+      "name": "Rifle Section",
+      "category": "Infantry Units",
+      "points": 21,
+      "br": 2,
+      "morale": "R",
+      "unitComposition": [
+        {"qty": 1, "name": "10 Men with a Bren","equipmentId": "" }
+      ],
+      "specialRules": [{"name": "Bren Team"}],
+      "options": []
+    },
+   {
+      "id": "ca-rulebook-fhu-carrier-section",
+      "name": "Carrier Section",
+      "category": "Infantry Units",
+      "points": 54,
+      "br": 6,
+      "restricted": "yes",
+      "morale": "R",
+      "unitComposition": [
+        {"qty": 1, "name": "Carrier Rifle Section (3 Men with a Bren)","equipmentId": "" },
+        {"qty": 1, "name": "Carrier Light Mortar Team (3 Men with 2\" mortar)","equipmentId": "" },
+        {"qty": 1, "name": "Carrier PIAT Team (3 Men with a PIAT)","equipmentId": "ca-piat" },
+        {"qty": 1, "name": "Bren Carriers","equipmentId": "ca-bren-carrier" }
+      ],
+      "specialRules": [],
+      "options": []
+    },
  ]
 }

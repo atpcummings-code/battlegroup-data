@@ -92,7 +92,8 @@
 "name": "Humber Scout Car",
 "points": 6,
 "br": 0, 
-"composition": [{"qty": 1,"name": "Humber Scout Car", "mode": "replace", "equipmentId": "ca-humberscout-car"}]
+"composition": [{"qty": 1,"name": "Humber Scout Car", "equipmentId": "ca-humberscout-car"}],
+"compositionMode": "replace" 
       }
       ]
     },

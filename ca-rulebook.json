@@ -1,6 +1,6 @@
 {
   "id": "rulebook-canadian",
-  "equipmentRef": "ca-equipment.json"
+  "equipmentRef": "ca-equipment.json",
   "factionLogo": "",
   "name": "Canadian 3rd Infantry Division Battlegroup",
   "group": "Rule Book",

@@ -711,7 +711,7 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Dingo", "equipmentId": "ca-dingo"}]
+          "composition": [{"qty": 1, "name": "Dingo", "equipmentId": "ca-dingo"}],
           "compositionMode": "replace"
         },
         {
@@ -720,7 +720,7 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Humber Scout Car", "equipmentId": "ca-humber-scout-car"}]
+          "composition": [{"qty": 1, "name": "Humber Scout Car", "equipmentId": "ca-humber-scout-car"}],
           "compositionMode": "replace"
         }
       ]

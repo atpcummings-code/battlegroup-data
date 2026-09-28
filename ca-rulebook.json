@@ -88,7 +88,7 @@
 "composition": [{"qty": 1,"name": "Bren Carrier", "mode": "modify", "replaces": "Jeep","equipmentId": "ca-bren-carrier"}]
       },
         {
-"id": "ca-rulebook-fhu-forward-air-control-officer-3",
+"id": "ca-rulebook-fhu-fEorward-air-control-officer-3",
 "name": "Humber Scout Car",
 "points": 6,
 "br": 0, 
@@ -162,7 +162,7 @@
       "unitComposition": [
         {"qty": 1, "name": "Platoon Command Section (5 Men)","equipmentId": "" },
          {"qty": 3, "name": "Rifle Section (10 Men with a Bren)","equipmentId": "" },
-        {"qty": 1, "name": "Light Mortar Team (2 Men with a 2\" Mortar)","equipmentId": "ca-2inch-mortar" }
+        {"qty": 1, "name": "Light Mortar Team (2 Men with a 2 Mortar)","equipmentId": "ca-2inch-mortar" }
       ],
       "specialRules": [{"name": "Bren Team"}],
       "options": [
@@ -204,7 +204,7 @@
           "br": 1,
           "maxQty": 1,
           "composition": [
-            {"qty": 1, "name": "3 men with 3\" Mortar", "mode": "append","equipmentId": "ca-3inch-mortar"}
+            {"qty": 1, "name": "3 men with 3 Mortar", "mode": "append","equipmentId": "ca-3inch-mortar"}
           ]
         },
         {
@@ -242,9 +242,9 @@
       "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Carrier Rifle Section (3 Men with a Bren)","equipmentId": "" },
-        {"qty": 1, "name": "Carrier Light Mortar Team (3 Men with 2\" mortar)","equipmentId": "" },
+        {"qty": 1, "name": "Carrier Light Mortar Team (3 Men with 2 mortar)","equipmentId": "" },
         {"qty": 1, "name": "Carrier PIAT Team (3 Men with a PIAT)","equipmentId": "ca-piat" },
-        {"qty": 1, "name": "Bren Carriers","equipmentId": "ca-bren-carrier" }
+        {"qty": 3, "name": "Bren Carriers","equipmentId": "ca-bren-carrier" }
       ],
       "specialRules": [],
       "options": []

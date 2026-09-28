@@ -108,10 +108,7 @@
         {"qty": 1, "name": "1 Man","equipmentId": "" },
          {"qty": 1, "name": "Motorcycle","equipmentId": "ca-motorcycle"}
       ],
-      "specialRules": [
-        {"name": "Dispatches"}
-      ],
-      
+      "specialRules": [{"name": "Dispatches"}],
       "options": []
     },
    {
@@ -126,10 +123,7 @@
         {"qty": 1, "name": "3 Men","equipmentId": "" },
          {"qty": 1, "name": "Radio Medium Truck","equipmentId": "ca-radio-medium-truck"}
       ],
-      "specialRules": [
-        {"name": "Communications"},{"name": "Unique"}
-      ],
-      
+      "specialRules": [{"name": "Communications"},{"name": "Unique"}],
       "options": []
     },
    {
@@ -139,13 +133,8 @@
       "points": 14,
       "br": 0,
       "morale": "I",
-      "unitComposition": [
-        {"qty": 1, "name": "2 Men","equipmentId": "" }
-      ],
-      "specialRules": [
-        {"name": "Communications"}
-      ],
-      
+      "unitComposition": [{"qty": 1, "name": "2 Men","equipmentId": "" }],
+      "specialRules": [{"name": "Communications"}],
       "options": []
     },
    {
@@ -155,16 +144,10 @@
       "points": 7,
       "br": 0,
       "morale": "I",
-      "unitComposition": [
-        {"qty": 1, "name": "2 Men","equipmentId": "" }
-      ],
-      "specialRules": [
-        {"name": "Wire Communications"}
-      ],
-      
+      "unitComposition": [{"qty": 1, "name": "2 Men","equipmentId": "" }],
+      "specialRules": [{"name": "Wire Communications"}],
       "options": []
     },
-    
     {
       "id": "ca-rulebook-iu-infantry-platoon",
       "name": "Infantry Platoon",
@@ -175,7 +158,7 @@
       "morale": "R",
       "optionGroupLimits": [
 
-{ "groupName": "The platoon may include up to four of teh following additional units. No unit maybe taken more than once:", "options": ["ca-rulebook-iu-infantry-platoon-1", "ca-rulebook-iu-infantry-platoon-2", "ca-rulebook-iu-infantry-platoon-3","ca-rulebook-iu-infantry-platoon-4","ca-rulebook-iu-infantry-platoon-5"], "min": 0, "max": 4 }
+{ "groupName": "The platoon may include up to four of the following additional units. No unit maybe taken more than once:", "options": ["ca-rulebook-iu-infantry-platoon-1", "ca-rulebook-iu-infantry-platoon-2", "ca-rulebook-iu-infantry-platoon-3","ca-rulebook-iu-infantry-platoon-4","ca-rulebook-iu-infantry-platoon-5"], "min": 0, "max": 4 }
 
 ],
       "unitComposition": [
@@ -184,7 +167,6 @@
         {"qty": 1, "name": "Light Mortar Team (2 Men with a 2 Mortar)","equipmentId": "ca-2inch-mortar" }
       ],
       "specialRules": [{"name": "Bren Team"}],
-      
       "options": [
         {
           "id": "ca-rulebook-iu-infantry-platoon-1",
@@ -194,7 +176,7 @@
           "maxQty": 1,
           "specialRules": [{"name": "Medic"}],
           "composition": [ 
-          {"qty": 1, "name": "1 Man", "mode": "append","equipmentId": ""}
+          {"qty": 1, "name": "1 Man", "mode": "append","equipmentId": "ca-combat-medic"}
           ]
         },
         {

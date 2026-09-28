@@ -471,7 +471,7 @@
       "morale": "V",
       "specialRules": [{"name": "Sniper Scout"}],
       "unitComposition": [
-        {"qty": 1, "name": "Sniper", "equipmentId": ""}
+        {"qty": 1, "name": "Sniper (1 man)", "equipmentId": ""}
       ],
       "notes": "A single sniper in reinforced cover. It can be placed anywhere outside of the opponent's deployment zone. The cover is lost if the sniper moves."
     },
@@ -582,7 +582,7 @@
       "morale": "V",
       "specialRules": [{"name": "Sniper Scout"}],
       "unitComposition": [
-        {"qty": 1, "name": "Sniper", "equipmentId": ""}
+        {"qty": 1, "name": "Sniper (1 man)", "equipmentId": ""}
       ],
       "notes": "A Sniper with a spotter increases its maximum range from 30\" to 40\", hitting on a 6.",
       "options": [
@@ -594,6 +594,68 @@
           "composition": [{"qty": 1, "name": "Spotter (1 man)", "mode": "append", "equipmentId": ""}]
         }
       ]
+    },
+{
+      "id": "ca-rulebook-rsu-armoured-car",
+      "name": "Armoured Car",
+      "category": "Reconnaissance",
+      "maxQty": 1,
+      "points": 21,
+      "br": 3,
+      "morale": "R",
+      "unitComposition": [
+        {"qty": 1, "name": "3 Men", "equipmentId": ""}
+      ],
+      "specialRules": [
+        {"name": "Senior Officer"},
+        {"name": "Artillery Spotter"},
+        {"name": "Unique"}
+      ],
+      "optionGroupLimits": [
+        {"groupName": "Choose armoured car:", "options": ["ca-rulebook-rsu-armoured-car-1","ca-rulebook-rsu-armoured-car-2","ca-rulebook-rsu-armoured-car-3","ca-rulebook-rsu-armoured-car-4"], "min": 0, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-rsu-armoured-car-1",
+          "name": "Humber Scout Car",
+          "points": 13,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Humber Scout Car", "equipmentId": "ca-humber-scout-car"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-rsu-armoured-car-2",
+          "name": "Humber IV Armoured Car",
+          "points": 28,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Humber IV Armoured Car", "equipmentId": "ca-humber-iv-armoured-car"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-rsu-dingo",
+          "name": "Dingo",
+          "points": 13,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Dingo", "equipmentId": "ca-dingo"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-rsu-morris-light-reconnaissance-car",
+          "name": "Morris Light Reconnaissance Car",
+          "points": 13,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Humber Scout Car", "equipmentId": "ca-morris-light-reconnaissance-car"}],
+          "compositionMode": "replace"
+        }
+      ]
     }
+
+
+
+    
   ]
 }

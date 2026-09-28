@@ -11,7 +11,7 @@
       "id": "ca-rulebook-fhu-forward-headquarters",
       "name": "Forward Headquarters",
       "category": "Forward Headquarters Units",
-      "unique": "yes",
+      "maxQty": 1,
       "points": 21,
       "br": 3,
       "morale": "R",
@@ -28,8 +28,6 @@
         {"name": "Unique"}
       ],
        "optionGroupLimits": [
-
-
 { "groupName": "Transport Forward Headquarters in:","options": ["ca-rulebook-fhu-forward-headquarters-1"], "min": 0, "max": 1 },
 { "groupName": "Replace 3 men with:","options": ["ca-rulebook-fhu-forward-headquarters-2", "ca-rulebook-fhu-forward-headquarters-3"], "min": 0, "max": 1 }
 ],
@@ -61,8 +59,8 @@
       ]
     },
     {
-      "id": "ca-rulebook-fhu-gazelle-scout-helicopter",
-      "name": "Gazelle Scout Helicopter",
+      "id": "ca-rulebook-fhu-forward-air-control-officer",
+      "name": "Forward Air Control Officer",
       "category": "Forward Headquarters Units",
       "minQty": 0,
       "maxQty": 1,

@@ -175,8 +175,7 @@
       "morale": "R",
       "optionGroupLimits": [
 
-{ "groupName": "Add 1 of the following Infantry Weapons Teams:", "options": ["ca-rulebook-vu-mechanised-infantry-platoon-1", "ca-rulebook-vu-mechanised-infantry-platoon-2", "ca-rulebook-vu-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
-{ "groupName": "May add 1 of the following Infantry Weapons Teams, mounted in FV103 Soaratn:","options": ["ca-rulebook-vu-mechanised-infantry-platoon-4", "ca-rulebook-vu-mechanised-infantry-platoon-5"], "min": 0, "max": 1 }
+{ "groupName": "The platoon may include up to four of teh following additional units. No unit maybe taken more than once:", "options": ["ca-rulebook-iu-infantry-platoon-1", "ca-rulebook-iu-infantry-platoon-2", "ca-rulebook-iu-infantry-platoon-3","ca-rulebook-iu-infantry-platoon-4","ca-rulebook-iu-infantry-platoon-5"], "min": 0, "max": 4 }
 
 ],
       "unitComposition": [
@@ -184,9 +183,7 @@
          {"qty": 3, "name": "Rifle Section (10 Men with a Bren)","equipmentId": "" },
         {"qty": 1, "name": "Light Mortar Team (2 Men with a 2 Mortar)","equipmentId": "ca-2inch-mortar" }
       ],
-      "specialRules": [
-        {"name": "Bren Team"}
-      ],
+      "specialRules": [{"name": "Bren Team"}],
       
       "options": [
         {
@@ -227,7 +224,7 @@
           "br": 1,
           "maxQty": 1,
           "composition": [
-            {"qty": 1, "name": "3 men with  3 Mortar", "mode": "append","equipmentId": "ca-3inch-mortar"}
+            {"qty": 1, "name": "3 men with 3 Mortar", "mode": "append","equipmentId": "ca-3inch-mortar"}
           ]
         },
         {

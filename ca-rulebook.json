@@ -176,7 +176,7 @@
       "unitComposition": [
         {"qty": 1, "name": "Platoon Command Section (5 Men)", "equipmentId": ""},
         {"qty": 3, "name": "Rifle Section (10 Men with a Bren)", "equipmentId": ""},
-        {"qty": 1, "name": "Light Mortar Team (2 Men with a 2 Mortar)", "equipmentId": "ca-2inch-mortar"}
+        {"qty": 1, "name": "Light Mortar Team (2 Men with a 2\" Mortar)", "equipmentId": "ca-2inch-mortar"}
       ],
       "specialRules": [{"name": "Bren Team"}],
       "options": [
@@ -218,7 +218,7 @@
           "br": 1,
           "maxQty": 1,
           "composition": [
-            {"qty": 1, "name": "3 men with 3 Mortar", "mode": "append", "equipmentId": "ca-3inch-mortar"}
+            {"qty": 1, "name": "3 men with a 3\" Mortar", "mode": "append", "equipmentId": "ca-3inch-mortar"}
           ]
         },
         {
@@ -256,7 +256,7 @@
       "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "Carrier Rifle Section (3 Men with a Bren)", "equipmentId": ""},
-        {"qty": 1, "name": "Carrier Light Mortar Team (3 Men with 2 mortar)", "equipmentId": ""},
+        {"qty": 1, "name": "Carrier Light Mortar Team (3 Men with a 2\" Mortar)", "equipmentId": "ca-2inch-mortar"},
         {"qty": 1, "name": "Carrier PIAT Team (3 Men with a PIAT)", "equipmentId": "ca-piat"},
         {"qty": 3, "name": "Bren Carriers", "equipmentId": "ca-bren-carrier"}
       ],
@@ -399,7 +399,7 @@
         }
       ]
     },
-{
+    {
       "id": "ca-rulebook-def-improvised-barricades",
       "name": "Improvised Barricades",
       "category": "Defences",
@@ -411,7 +411,7 @@
       "id": "ca-rulebook-def-machine-gun-dugout",
       "name": "Machine Gun Dugout",
       "category": "Defences",
-       "points": 32,
+      "points": 32,
       "br": 1,
       "morale": "R",
       "unitComposition": [
@@ -425,26 +425,26 @@
       "id": "ca-rulebook-def-mortar-pit",
       "name": "Mortar Pit",
       "category": "Defences",
-       "points": 32,
+      "points": 32,
       "br": 1,
       "morale": "R",
       "unitComposition": [
-        {"qty": 1, "name": "3 men and  an 3\" mortar", "equipmentId": "ca-3inch-mortar"}
+        {"qty": 1, "name": "3 men and a 3\" mortar", "equipmentId": "ca-3inch-mortar"}
       ],
       "specialRules": [],
-      "notes": "The cover is lost if the mortar team move",
+      "notes": "The cover is lost if the mortar team move.",
       "options": []
     },
-{
+    {
       "id": "ca-rulebook-def-fortified-building",
       "name": "Fortified Building",
       "category": "Defences",
       "points": 30,
       "br": 0,
       "specialRules": [],
-      "notes": "A single chosen building, anywhere on teh table, it counts as reinforced cover rather than hard cover"
+      "notes": "A single chosen building, anywhere on the table. It counts as reinforced cover rather than hard cover."
     },
-{
+    {
       "id": "ca-rulebook-def-foxholes",
       "name": "Foxholes",
       "category": "Defences",
@@ -473,9 +473,9 @@
       "unitComposition": [
         {"qty": 1, "name": "Sniper", "equipmentId": ""}
       ],
-      "notes": "A single sniper in reinforced cover. It can be placed anywhere outside of teh opponents deployment zone. The cover is lost if the sniper moves."
+      "notes": "A single sniper in reinforced cover. It can be placed anywhere outside of the opponent's deployment zone. The cover is lost if the sniper moves."
     },
-     {
+    {
       "id": "ca-rulebook-def-at-gun-dugout",
       "name": "AT Gun Dugout",
       "category": "Defences",
@@ -484,7 +484,7 @@
       "morale": "",
       "specialRules": [],
       "unitComposition": [],
-      "notes": "Reinforced cover for a singe anti-tank gun and crew until the gun moves.  The gun must be oruchased from the army list."
+      "notes": "Reinforced cover for a single anti-tank gun and crew until the gun moves. The gun must be purchased from the army list."
     },
     {
       "id": "ca-rulebook-def-minefield",
@@ -495,7 +495,7 @@
       "morale": "",
       "specialRules": [],
       "unitComposition": [],
-      "notes": "Reinforced cover for a singe anti-tank gun and crew until the gun moves.  The gun must be oruchased from the army list."
+      "notes": ""
     },
     {
       "id": "ca-rulebook-def-command-bunker",
@@ -506,49 +506,35 @@
       "maxQty": 1,
       "restricted": "yes",
       "morale": "",
-      "specialRules": [{"name": "Senior Officer"},{"name": "Mortar Spotter"},{"name": "Unique"}],
-      "unitComposition": ["qty": 1, "name": "Command Unit (4 Men)", "equipmentId": ""],
-      "notes": "A command post in a wood and earth bunker. Hardened Cover. The cover is lost of teh command unit moves "
-    },
-    {
-      "id": "ca-rulebook-def-command-bunker",
-      "name": "Command Bunker",
-      "category": "Defences",
-      "points": 30,
-      "br": 3,
-      "maxQty": 1,
-      "restricted": "yes",
-      "morale": "",
-      "specialRules": [{"name": "Senior Officer"},{"name": "Mortar Spotter"},{"name": "Unique"}],
-      "unitComposition": ["qty": 1, "name": "Command Unit (4 Men)", "equipmentId": ""],
-      "notes": "A command post in a wood and earth bunker. Hardened Cover. The cover is lost of teh command unit moves "
+      "specialRules": [{"name": "Senior Officer"}, {"name": "Mortar Spotter"}, {"name": "Unique"}],
+      "unitComposition": [
+        {"qty": 1, "name": "Command Unit (4 Men)", "equipmentId": ""}
+      ],
+      "notes": "A command post in a wood and earth bunker. Hardened Cover. The cover is lost if the command unit moves."
     },
     {
       "id": "ca-rulebook-def-artillery-observation-post",
-      "name": "artillery-observation-post",
+      "name": "Artillery Observation Post",
       "category": "Defences",
       "points": 26,
       "br": 1,
       "maxQty": 1,
       "restricted": "yes",
       "morale": "R",
-      "specialRules": [{"name": "Artillery Spotter+"},{"name": "Unique"}],
-      "unitComposition": ["qty": 1, "name": "Forward Observer Team (2 men)", "equipmentId": ""],
-      "notes": "A forward observer team is in reinforced cover. The cover is lost of teh FAO team mov. Incdlues an Forward Observer Team"
+      "specialRules": [{"name": "Artillery Spotter+"}, {"name": "Unique"}],
+      "unitComposition": [
+        {"qty": 1, "name": "Forward Observer Team (2 men)", "equipmentId": ""}
+      ],
+      "notes": "A forward observer team in reinforced cover. The cover is lost if the FO team moves. Includes a Forward Observer Team."
     },
     {
       "id": "ca-rulebook-def-booby-trapped-building",
-      "name": "artillery-observation-post",
+      "name": "Booby-Trapped Building",
       "category": "Defences",
-      "points": 26,
-      "br": 1,
-      "maxQty": 1,
-      "restricted": "yes",
-      "morale": "R",
-      "specialRules": [{"name": "Artillery Spotter+"},{"name": "Unique"}],
-      "unitComposition": ["qty": 1, "name": "Forward Observer Team (2 men)", "equipmentId": ""],
-      "notes": "A forward observer team is in reinforced cover. The cover is lost of teh FAO team mov. Incdlues an Forward Observer Team"
+      "points": 0,
+      "br": 0,
+      "specialRules": [],
+      "notes": ""
     }
-    
   ]
 }

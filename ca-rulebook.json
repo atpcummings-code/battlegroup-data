@@ -253,11 +253,7 @@
       "id": "ca-rulebook-tu-additional-tank",
       "name": "Additional Tank",
       "category": "Tank Units",
-      "unitComposition": [
-        {"qty": 1, "name": "10 Men with a Bren","equipmentId": "" }
-      ],
-      "specialRules": [{"name": "Bren Team"}],
-      "optionGroupLimits": [
+       "optionGroupLimits": [
 { "groupName": "Choose Tank:","options": ["ca-rulebook-tu-additional-tank-1","ca-rulebook-tu-additional-tank-2"], "min": 0, "max": 1 }
       "options": [
       {

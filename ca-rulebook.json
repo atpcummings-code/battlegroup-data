@@ -664,6 +664,59 @@
       ],
       "optionGroupLimits": [],
       "options": []
+    },
+    {
+      "id": "ca-rulebook-rsu-carier-team",
+      "name": "Infantry Foot Patrol",
+      "category": "Reconnaissance",
+      "points": 24,
+      "br": 1,
+      "morale": "R",
+      "unitComposition": [{"qty": 1, "name": "Carrier Rifle Section (3 Men with a Bren)", "equipmentId": ""}, {"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
+      "specialRules": [
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"}
+      ],
+      "optionGroupLimits": [],
+      "options": []
+    },
+    {
+      "id": "ca-rulebook-rsu-recon-platoon-command",
+      "name": "Recon Platoon Command",
+      "category": "Reconnaissance",
+      "points": 28,
+      "br": 2,
+      "morale": "R",
+      "maxQty": 1,
+      "unitComposition": [{"qty": 1, "name": "3 men", "equipmentId": ""}, {"qty": 1, "name": "Jeep", "equipmentId": "ca-jeep"}],
+      "specialRules": [
+        {"name": "Officer"},
+        {"name": "Scout"},
+        {"name": "Artillery Spotter"},
+        {"name": "Unique"}
+      ],
+      "optionGroupLimits": [
+        {"groupName": "Choose armoured car:", "options": ["ca-rulebook-rsu-recon-platoon-command-1","ca-rulebook-rsu-recon-platoon-command-2", "min": 0, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-rsu-recon-platoon-command-1",
+          "name": "Dingo",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Dingo", "mode": "modify", "replaces": "Jeep", "equipmentId": "ca-dingo"}]
+
+        },
+        {
+          "id": "ca-rulebook-rsu-recon-platoon-command-2",
+          "name": "Humber Scout Car",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Humber Scout Car", "mode": "modify", "replaces": "Jeep", "equipmentId": "ca-humber-scout-car"}]
+        }
+      ]
     }
 
 

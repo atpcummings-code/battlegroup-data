@@ -114,6 +114,56 @@
       
       "options": []
     },
+   {
+      "id": "ca-rulebook-fhu-forward-signals-unit",
+      "name": "Forward Signals Unit",
+      "category": "Forward Headquarters Units",
+      "maxQty": 1,
+      "points": 18,
+      "br": 1,
+      "morale": "I",
+      "unitComposition": [
+        {"qty": 1, "name": "3 Men","equipmentId": "" },
+         {"qty": 1, "name": "Radio Medium Truck","equipmentId": "ca-radio-medium-truck"}
+      ],
+      "specialRules": [
+        {"name": "Communications"},{"name": "Unique"}
+      ],
+      
+      "options": []
+    },
+   {
+      "id": "ca-rulebook-fhu-comms-relay-team",
+      "name": "Comms Relay Team",
+      "category": "Forward Headquarters Units",
+      "points": 14,
+      "br": 0,
+      "morale": "I",
+      "unitComposition": [
+        {"qty": 1, "name": "2 Men","equipmentId": "" }
+      ],
+      "specialRules": [
+        {"name": "Communications"}
+      ],
+      
+      "options": []
+    },
+   {
+      "id": "ca-rulebook-fhu-wire-team",
+      "name": "Wire Team",
+      "category": "Forward Headquarters Units",
+      "points": 7,
+      "br": 0,
+      "morale": "I",
+      "unitComposition": [
+        {"qty": 1, "name": "2 Men","equipmentId": "" }
+      ],
+      "specialRules": [
+        {"name": "Wire Communications"}
+      ],
+      
+      "options": []
+    },
     {
       "id": "ca-rulebook-fhu-dismounted-infantry-platoon",
       "name": "Dismounted Infantry Platoon",

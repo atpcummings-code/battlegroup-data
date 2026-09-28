@@ -176,7 +176,7 @@
           "maxQty": 1,
           "specialRules": [{"name": "Medic"}],
           "composition": [ 
-          {"qty": 1, "name": "1 Man", "mode": "append","equipmentId": "ca-combat-medic"}
+          {"qty": 1, "name": "Combat Medic (1 Man)", "mode": "append","equipmentId": "ca-combat-medic"}
           ]
         },
         {

@@ -164,7 +164,7 @@
       "unitComposition": [
         {"qty": 1, "name": "Platoon Command Section (5 Men)","equipmentId": "" },
          {"qty": 3, "name": "Rifle Section (10 Men with a Bren)","equipmentId": "" },
-        {"qty": 1, "name": "Light Mortar Team (2 Men with a 2 Mortar)","equipmentId": "ca-2inch-mortar" }
+        {"qty": 1, "name": "Light Mortar Team (2 Men with a 2\" Mortar)","equipmentId": "ca-2inch-mortar" }
       ],
       "specialRules": [{"name": "Bren Team"}],
       "options": [
@@ -206,7 +206,7 @@
           "br": 1,
           "maxQty": 1,
           "composition": [
-            {"qty": 1, "name": "3 men with 3 Mortar", "mode": "append","equipmentId": "ca-3inch-mortar"}
+            {"qty": 1, "name": "3 men with 3\" Mortar", "mode": "append","equipmentId": "ca-3inch-mortar"}
           ]
         },
         {

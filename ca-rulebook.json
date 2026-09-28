@@ -417,7 +417,7 @@
       "unitComposition": [
         {"qty": 1, "name": "3 men and a Vickers HMG in reinforced cover", "equipmentId": "ca-vickers-hmg"}
       ],
-      "specialRules": [{"name": "Reinforced Cover"}],
+      "specialRules": [],
       "notes": "The cover is lost if the MG team move.",
       "options": []
     },
@@ -431,7 +431,7 @@
       "unitComposition": [
         {"qty": 1, "name": "3 men and  an 3\" mortar", "equipmentId": "ca-3inch-mortar"}
       ],
-      "specialRules": [{"name": "Reinforced Cover"}],
+      "specialRules": [],
       "notes": "The cover is lost if the mortar team move",
       "options": []
     },
@@ -441,7 +441,7 @@
       "category": "Defences",
       "points": 30,
       "br": 0,
-      "specialRules": [{"name": "Reinforced Cover"}],
+      "specialRules": [],
       "notes": "A single chosen building, anywhere on teh table, it counts as reinforced cover rather than hard cover"
     },
 {
@@ -450,8 +450,104 @@
       "category": "Defences",
       "points": 10,
       "br": 0,
-      "specialRules": [{"name": "Reinforced Cover"}],
-      "notes": "Deploy up to 10 infantry in foxhols; they count as reinforced cover until they move."
+      "specialRules": [],
+      "notes": "Deploy up to 10 infantry in foxholes; they count as reinforced cover until they move."
+    },
+    {
+      "id": "ca-rulebook-def-trenches",
+      "name": "Trenches",
+      "category": "Defences",
+      "points": 10,
+      "br": 0,
+      "specialRules": [],
+      "notes": "Up to 10\" of trenches which count as reinforced cover for infantry in them."
+    },
+    {
+      "id": "ca-rulebook-def-sniper-hideout",
+      "name": "Sniper Hideout",
+      "category": "Defences",
+      "points": 15,
+      "br": 0,
+      "morale": "V",
+      "specialRules": [{"name": "Sniper Scout"}],
+      "unitComposition": [
+        {"qty": 1, "name": "Sniper", "equipmentId": ""}
+      ],
+      "notes": "A single sniper in reinforced cover. It can be placed anywhere outside of teh opponents deployment zone. The cover is lost if the sniper moves."
+    },
+     {
+      "id": "ca-rulebook-def-at-gun-dugout",
+      "name": "AT Gun Dugout",
+      "category": "Defences",
+      "points": 20,
+      "br": 0,
+      "morale": "",
+      "specialRules": [],
+      "unitComposition": [],
+      "notes": "Reinforced cover for a singe anti-tank gun and crew until the gun moves.  The gun must be oruchased from the army list."
+    },
+    {
+      "id": "ca-rulebook-def-minefield",
+      "name": "Minefield",
+      "category": "Defences",
+      "points": 20,
+      "br": 0,
+      "morale": "",
+      "specialRules": [],
+      "unitComposition": [],
+      "notes": "Reinforced cover for a singe anti-tank gun and crew until the gun moves.  The gun must be oruchased from the army list."
+    },
+    {
+      "id": "ca-rulebook-def-command-bunker",
+      "name": "Command Bunker",
+      "category": "Defences",
+      "points": 30,
+      "br": 3,
+      "maxQty": 1,
+      "restricted": "yes",
+      "morale": "",
+      "specialRules": [{"name": "Senior Officer"},{"name": "Mortar Spotter"},{"name": "Unique"}],
+      "unitComposition": ["qty": 1, "name": "Command Unit (4 Men)", "equipmentId": ""],
+      "notes": "A command post in a wood and earth bunker. Hardened Cover. The cover is lost of teh command unit moves "
+    },
+    {
+      "id": "ca-rulebook-def-command-bunker",
+      "name": "Command Bunker",
+      "category": "Defences",
+      "points": 30,
+      "br": 3,
+      "maxQty": 1,
+      "restricted": "yes",
+      "morale": "",
+      "specialRules": [{"name": "Senior Officer"},{"name": "Mortar Spotter"},{"name": "Unique"}],
+      "unitComposition": ["qty": 1, "name": "Command Unit (4 Men)", "equipmentId": ""],
+      "notes": "A command post in a wood and earth bunker. Hardened Cover. The cover is lost of teh command unit moves "
+    },
+    {
+      "id": "ca-rulebook-def-artillery-observation-post",
+      "name": "artillery-observation-post",
+      "category": "Defences",
+      "points": 26,
+      "br": 1,
+      "maxQty": 1,
+      "restricted": "yes",
+      "morale": "R",
+      "specialRules": [{"name": "Artillery Spotter+"},{"name": "Unique"}],
+      "unitComposition": ["qty": 1, "name": "Forward Observer Team (2 men)", "equipmentId": ""],
+      "notes": "A forward observer team is in reinforced cover. The cover is lost of teh FAO team mov. Incdlues an Forward Observer Team"
+    },
+    {
+      "id": "ca-rulebook-def-booby-trapped-building",
+      "name": "artillery-observation-post",
+      "category": "Defences",
+      "points": 26,
+      "br": 1,
+      "maxQty": 1,
+      "restricted": "yes",
+      "morale": "R",
+      "specialRules": [{"name": "Artillery Spotter+"},{"name": "Unique"}],
+      "unitComposition": ["qty": 1, "name": "Forward Observer Team (2 men)", "equipmentId": ""],
+      "notes": "A forward observer team is in reinforced cover. The cover is lost of teh FAO team mov. Incdlues an Forward Observer Team"
     }
     
   ]

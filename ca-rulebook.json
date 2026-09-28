@@ -248,6 +248,50 @@
       ],
       "specialRules": [],
       "options": []
+    },
+   {
+      "id": "ca-rulebook-tu-additional-tank",
+      "name": "Additional Tank",
+      "category": "Tank Units",
+      "unitComposition": [
+        {"qty": 1, "name": "10 Men with a Bren","equipmentId": "" }
+      ],
+      "specialRules": [{"name": "Bren Team"}],
+      "optionGroupLimits": [
+{ "groupName": "Choose Tank:","options": ["ca-rulebook-tu-additional-tank-1","ca-rulebook-tu-additional-tank-2"], "min": 0, "max": 1 }
+      "options": [
+      {
+"id": "a-rulebook-tu-additional-tank-1",
+"name": "M4A4 Sherman",
+"points": 48,
+"br": 3,
+"morale": "R"
+"composition": [{"qty": 1,"name": "M4A4 Sherman", "equipmentId": "ca-m4a4-sherman"}],
+"compositionMode": "replace" 
+      },
+        {
+"id": "a-rulebook-tu-additional-tank-2",
+"name": "M4 Sherman",
+"points": 50,
+"br": 3,
+"morale": "R"
+"composition": [{"qty": 1,"name": "M4 Sherman", "equipmentId": "ca-m4-sherman"}],
+"compositionMode": "replace" 
+      }
+      ]
+    },
+   {
+      "id": "ca-rulebook-tu-self-propelled-anti-tank-gun,
+      "name": "Self-propelled Anti-tank Gun",
+      "category": "Tank Units",
+      "points": 34,
+      "br": 2,
+      "morale": "R",
+      "unitComposition": [
+        {"qty": 1, "name": "M10 Wolverine","equipmentId": "ca-m10-wolverine" }
+      ],
+      "specialRules": [],
+      "options": []
     }
  ]
 }

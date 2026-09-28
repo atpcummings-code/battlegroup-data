@@ -546,7 +546,7 @@
       "notes": "Up to 10\" of barbed wire. It is an obstacle for vehicles and infantry."
     },
     {
-      "id": "ca-rulebook-def-improvised-road-block,
+      "id": "ca-rulebook-def-improvised-road-block",
       "name": "Improvised Road Block",
       "category": "Defences",
       "points": 5,
@@ -555,7 +555,7 @@
       "notes": "Something large and heavy across a road. Place on any road or track, anywhere on table. It counts as an obstacle."
     },
     {
-      "id": "ca-rulebook-def-anti-tank-ditch-embankment,
+      "id": "ca-rulebook-def-anti-tank-ditch-embankment",
       "name": "Anti-tank Ditch/Embankment",
       "category": "Defences",
       "points": 20,
@@ -565,7 +565,7 @@
       "notes": "10\" of ditch or embankment, impassable to vehicles without a bridge"
     },
     {
-      "id": "ca-rulebook-def-off-table-17pdr-anti-tank-shot,
+      "id": "ca-rulebook-def-off-table-17pdr-anti-tank-shot",
       "name": "Off-table 17pdr Anti-tank Shot",
       "category": "Defences",
       "points": 5,

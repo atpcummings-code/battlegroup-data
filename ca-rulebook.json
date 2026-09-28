@@ -38,10 +38,10 @@
         },
         {
           "id": "ca-rulebook-fhu-forward-headquarters-2",
-          "name": "Dingo Scout Car",
+          "name": "Dingo",
           "points": 0,
           "br": 0,
-          "composition": [{"qty": 1, "name": "Dingo Scout Car", "equipmentId": "ca-dingo-scout-car"}],
+          "composition": [{"qty": 1, "name": "Dingo Scout Car", "equipmentId": "ca-dingo"}],
           "compositionMode": "replace"
         },
         {
@@ -510,7 +510,7 @@
       "unitComposition": [
         {"qty": 1, "name": "Command Unit (4 Men)", "equipmentId": ""}
       ],
-      "notes": "A command post in a wood and earth bunker. Hardend cover. The cover is lost if the command unit moves."
+      "notes": "A command post in a wood and earth bunker. Hardened cover. The cover is lost if the command unit moves."
     },
     {
       "id": "ca-rulebook-def-artillery-observation-post",
@@ -595,7 +595,7 @@
         }
       ]
     },
-{
+    {
       "id": "ca-rulebook-rsu-armoured-car",
       "name": "Armoured Car",
       "category": "Reconnaissance",
@@ -608,7 +608,7 @@
         {"name": "Mortar Spotter"}
       ],
       "optionGroupLimits": [
-        {"groupName": "Choose armoured car:", "options": ["ca-rulebook-rsu-armoured-car-1","ca-rulebook-rsu-armoured-car-2","ca-rulebook-rsu-armoured-car-3","ca-rulebook-rsu-armoured-car-4"], "min": 0, "max": 1}
+        {"groupName": "Choose armoured car:", "options": ["ca-rulebook-rsu-armoured-car-1", "ca-rulebook-rsu-armoured-car-2", "ca-rulebook-rsu-armoured-car-3", "ca-rulebook-rsu-armoured-car-4"], "min": 1, "max": 1}
       ],
       "options": [
         {
@@ -644,7 +644,7 @@
           "points": 13,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Humber Scout Car", "equipmentId": "ca-morris-light-reconnaissance-car"}],
+          "composition": [{"qty": 1, "name": "Morris Light Reconnaissance Car", "equipmentId": "ca-morris-light-reconnaissance-car"}],
           "compositionMode": "replace"
         }
       ]
@@ -666,13 +666,16 @@
       "options": []
     },
     {
-      "id": "ca-rulebook-rsu-carier-team",
-      "name": "Infantry Foot Patrol",
+      "id": "ca-rulebook-rsu-carrier-team",
+      "name": "Carrier Team",
       "category": "Reconnaissance",
       "points": 24,
       "br": 1,
       "morale": "R",
-      "unitComposition": [{"qty": 1, "name": "Carrier Rifle Section (3 Men with a Bren)", "equipmentId": ""}, {"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
+      "unitComposition": [
+        {"qty": 1, "name": "Carrier Rifle Section (3 Men with a Bren)", "equipmentId": ""},
+        {"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}
+      ],
       "specialRules": [
         {"name": "Scout"},
         {"name": "Mortar Spotter"}
@@ -688,7 +691,10 @@
       "br": 2,
       "morale": "R",
       "maxQty": 1,
-      "unitComposition": [{"qty": 1, "name": "3 men", "equipmentId": ""}, {"qty": 1, "name": "Jeep", "equipmentId": "ca-jeep"}],
+      "unitComposition": [
+        {"qty": 1, "name": "3 men", "equipmentId": ""},
+        {"qty": 1, "name": "Jeep", "equipmentId": "ca-jeep"}
+      ],
       "specialRules": [
         {"name": "Officer"},
         {"name": "Scout"},
@@ -696,7 +702,7 @@
         {"name": "Unique"}
       ],
       "optionGroupLimits": [
-        {"groupName": "Choose armoured car:", "options": ["ca-rulebook-rsu-recon-platoon-command-1","ca-rulebook-rsu-recon-platoon-command-2", "min": 0, "max": 1}
+        {"groupName": "Replace men and jeep:", "options": ["ca-rulebook-rsu-recon-platoon-command-1", "ca-rulebook-rsu-recon-platoon-command-2"], "min": 0, "max": 1}
       ],
       "options": [
         {
@@ -705,8 +711,8 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Dingo", "mode": "modify", "replaces": "Jeep", "equipmentId": "ca-dingo"}]
-
+          "composition": [{"qty": 1, "name": "Dingo", "equipmentId": "ca-dingo"}]
+          "compositionMode": "replace"
         },
         {
           "id": "ca-rulebook-rsu-recon-platoon-command-2",
@@ -714,13 +720,10 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Humber Scout Car", "mode": "modify", "replaces": "Jeep", "equipmentId": "ca-humber-scout-car"}]
+          "composition": [{"qty": 1, "name": "Humber Scout Car", "equipmentId": "ca-humber-scout-car"}]
+          "compositionMode": "replace"
         }
       ]
     }
-
-
-
-    
   ]
 }

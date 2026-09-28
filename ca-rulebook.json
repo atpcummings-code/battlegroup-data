@@ -2,7 +2,7 @@
   "id": "ca-rulebook",
   "equipmentRef": "ca-equipment.json",
   "factionLogo": "",
-  "name": "Canadian 3rd Infantry Division BattElegroup",
+  "name": "Canadian 3rd Infantry Division Battlegroup",
   "group": "Rule Book",
   "year": "1944",
   "colour": "#5C3A2E",
@@ -495,7 +495,7 @@
       "morale": "",
       "specialRules": [],
       "unitComposition": [],
-      "notes": "A single mixed anti-tank and anti-personnel minefield"
+      "notes": "A single mixed anti-tank and anti-personnel minefield."
     },
     {
       "id": "ca-rulebook-def-command-bunker",
@@ -510,7 +510,7 @@
       "unitComposition": [
         {"qty": 1, "name": "Command Unit (4 Men)", "equipmentId": ""}
       ],
-      "notes": "A command post in a wood and earth bunker. Hardened Cover. The cover is lost if the command unit moves."
+      "notes": "A command post in a wood and earth bunker. Hardend cover. The cover is lost if the command unit moves."
     },
     {
       "id": "ca-rulebook-def-artillery-observation-post",
@@ -534,10 +534,10 @@
       "points": 25,
       "br": 0,
       "specialRules": [],
-      "notes": "A chosen building anywhere on teh table has been wired with booby-traps. The first time an enemy unit enter steh building roll a D6. On a 2+ it detonates and the unit take a 3/3+ HE hit. On a 1 there is a fault and teh booby trap fails to go off!"
+      "notes": "A chosen building anywhere on the table has been wired with booby-traps. The first time an enemy unit enters the building roll a D6. On a 2+ it detonates and the unit takes a 3/3+ HE hit. On a 1 there is a fault and the booby trap fails to go off!"
     },
     {
-      "id": "ca-rulebook-def-barbed wire",
+      "id": "ca-rulebook-def-barbed-wire",
       "name": "Barbed Wire",
       "category": "Defences",
       "points": 10,
@@ -560,9 +560,9 @@
       "category": "Defences",
       "points": 20,
       "br": 0,
-      "reestricted": "yes",
+      "restricted": "yes",
       "specialRules": [],
-      "notes": "10\" of ditch or embankment, impassable to vehicles without a bridge"
+      "notes": "10\" of ditch or embankment, impassable to vehicles without a bridge."
     },
     {
       "id": "ca-rulebook-def-off-table-17pdr-anti-tank-shot",
@@ -571,11 +571,11 @@
       "points": 5,
       "br": 0,
       "specialRules": [],
-      "notes": "The positions are covered by 17pdr anti-tank guns well camouflaged behind the lines.  You may take a single 17pdr Aimed Fire - Armour Piercing shot at an enemy vehicle within 30\" of your table edge.  The shot will hit on a dice roll of 6, with a penetration value of 8. This requires no order to use."
+      "notes": "The positions are covered by 17pdr anti-tank guns well camouflaged behind the lines. You may take a single 17pdr Aimed Fire - Armour Piercing shot at an enemy vehicle within 30\" of your table edge. The shot will hit on a dice roll of 6, with a penetration value of 8. This requires no order to use."
     },
     {
-      "id": "ca-rulebook-rsu-Sniper",
-      "name": "Sniper,
+      "id": "ca-rulebook-rsu-sniper",
+      "name": "Sniper",
       "category": "Reconnaissance",
       "points": 10,
       "br": 1,
@@ -584,13 +584,14 @@
       "unitComposition": [
         {"qty": 1, "name": "Sniper", "equipmentId": ""}
       ],
-      "notes": "A Sniper wwth a spotter increases its maximum range from 30\" to 40\", hitting on a 6",
+      "notes": "A Sniper with a spotter increases its maximum range from 30\" to 40\", hitting on a 6.",
       "options": [
         {
-          "id": "ca-rulebook-rsu-Sniper-1",
+          "id": "ca-rulebook-rsu-sniper-1",
           "name": "Spotter (1 man)",
           "points": 5,
-          "composition": [{"qty": 1, "name": "Spotter (1 man)", "mode": "append"}]
+          "br": 0,
+          "composition": [{"qty": 1, "name": "Spotter (1 man)", "mode": "append", "equipmentId": ""}]
         }
       ]
     }

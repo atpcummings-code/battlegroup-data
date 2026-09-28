@@ -387,7 +387,7 @@
 
 "composition": [{"qty": 2,"name": "6\" (naval guns)", "equipmentId": "ca-6inch-naval-guns"}],
 "compositionMode": "replace" 
-      },
+      }
       ]
     }
 

@@ -159,7 +159,7 @@
       "points": 94,
       "br": 11,
       "morale": "R",
-      "optionGroupLimits": [
+      "subUnitsGroupLimit": [
         {
           "groupName": "The platoon may include up to four of the following additional units. No unit may be taken more than once:",
           "options": [
@@ -179,7 +179,7 @@
         {"qty": 1, "name": "Light Mortar Team (2 Men with a 2\" Mortar)", "equipmentId": "ca-2inch-mortar"}
       ],
       "specialRules": [{"name": "Bren Team"}],
-      "options": [
+      "subUnits": [
         {
           "id": "ca-rulebook-iu-infantry-platoon-1",
           "name": "Combat Medic",
@@ -188,7 +188,7 @@
           "maxQty": 1,
           "specialRules": [{"name": "Medic"}],
           "composition": [
-            {"qty": 1, "name": "Combat Medic (1 Man)", "mode": "append", "equipmentId": "ca-combat-medic"}
+            {"qty": 1, "name": "Combat Medic (1 Man)", "equipmentId": "ca-combat-medic"}
           ]
         },
         {
@@ -198,7 +198,7 @@
           "br": 1,
           "maxQty": 1,
           "composition": [
-            {"qty": 1, "name": "3 men with a Vickers HMG", "mode": "append", "equipmentId": "ca-vickers-hmg"}
+            {"qty": 1, "name": "3 men with a Vickers HMG", "equipmentId": "ca-vickers-hmg"}
           ]
         },
         {
@@ -208,7 +208,7 @@
           "br": 1,
           "maxQty": 1,
           "composition": [
-            {"qty": 1, "name": "2 men with a PIAT", "mode": "append", "equipmentId": "ca-piat"}
+            {"qty": 1, "name": "2 men with a PIAT", "mode": "equipmentId": "ca-piat"}
           ]
         },
         {
@@ -218,7 +218,7 @@
           "br": 1,
           "maxQty": 1,
           "composition": [
-            {"qty": 1, "name": "3 men with a 3\" Mortar", "mode": "append", "equipmentId": "ca-3inch-mortar"}
+            {"qty": 1, "name": "3 men with a 3\" Mortar", "equipmentId": "ca-3inch-mortar"}
           ]
         },
         {
@@ -228,7 +228,7 @@
           "br": 2,
           "maxQty": 1,
           "composition": [
-            {"qty": 1, "name": "6pdr gun with 3 crew", "mode": "append", "equipmentId": "ca-6pdr-gun"}
+            {"qty": 1, "name": "6pdr gun with 3 crew",  "equipmentId": "ca-6pdr-gun"}
           ]
         }
       ]
@@ -1028,7 +1028,7 @@
           "id": "ca-rulebook-afs-off-table-artillery-support-request-2",
           "name": "2nd Target Priority (4+)",
           "points": 10,
-          "br": 0,
+          "br": 0,E
           "composition": [{"qty": 1, "name": "2nd Target Priority (4+)",  "equipmentId": "ca-m5-halftrack"}],
           "compositionMode": "replace"
         },
@@ -1073,23 +1073,7 @@
       "notes": "Fired by a battery of four 6\" guns. Before the game, write down the turn the guns will fire on. The points cost includes a pre-registered target as the target point of the barrage.",
       "composition": [{"qty": 4, "name": "6\" naval guns",  "equipmentId": "ca-6inch-naval-guns"}],
           "compositionMode": "replace"
-    },
-    {
-    "id": "combat-engineer-section", 
-  "name": "Combat Engineer Section", 
-  "points": 36, 
-  "br": 2, 
-  "morale": "Regular", 
-  "category": "Engineers", 
-  "categorySlots": 1, 
-  "unitComposition": "1x Combat Engineer Section (10 Men with a Bren)", 
-  "specialRules": ["Engineers"], 
-  "options": [ { "id": "flamethrower", "name": "Flamethrower", "points": 10, "br": 0, "composition": "1x Flamethrower", "compositionMode": "append" } ], 
-  "subUnits": [ 
-    { "id": "bren-team", "name": "Bren Team", "points": 5, "br": 1, "morale": "Regular", "composition": "1x Bren Team (3 Men)", "specialRules": ["Bren Team"], "categorySlots": 0 } ], 
-  "subUnitsGroupLimit": { "ids": ["bren-team"], "min": 0, "max": 1 }
     }
-
 
     
   ]

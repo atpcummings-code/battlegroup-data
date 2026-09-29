@@ -50,7 +50,7 @@
     "armour": [{"Front": "L", "Side": "L", "Rear": "N"}], 
     "weapons": [{"weapon": "MG", "mount": "Bow","range": 30}],
     "specialRules": ["Recovery", "Repair"], 
-    "openTopped": "true"
+    "openTopped": true
   },
   { 
     "equipmentId": "ca-m10-wolverine", 
@@ -60,7 +60,7 @@
     "armour": [{"Front": "M", "Side": "N", "Rear": "O"}], 
     "weapons": [{"weapon": "76mmL53", "mount": "Turret"},{"weapon": "MG", "mount": "Pintle","range": 40}],
     "specialRules": [], 
-    "openTopped": "true"
+    "openTopped": true
   },
   { 
      "equipmentId": "ca-dingo", 
@@ -69,7 +69,7 @@
     "movement": [{"move": "8\"/12\""}], 
     "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
     "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
-    "openTopped": "true" 
+    "openTopped": true 
   },
   { 
      "equipmentId": "ca-humber-scout-car", 
@@ -78,7 +78,7 @@
     "movement": [{"move": "8\"/24\""}], 
     "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
     "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
-    "openTopped": "true" 
+    "openTopped": true 
   },
   { 
     "equipmentId": "ca-auster-iii", 

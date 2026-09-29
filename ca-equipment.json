@@ -67,7 +67,7 @@
     "type": "vehicle", 
     "vehicleName": "Dingo", 
     "movement": [{"move": "8\"/12\""}], 
-    "armour": [{"Front": "N", "Side": "O", "Rear": "O"], 
+    "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
     "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
     "openTopped": "true" 
   },
@@ -76,7 +76,7 @@
     "type": "vehicle", 
     "vehicleName": "Humber Scout Car", 
     "movement": [{"move": "8\"/24\""}], 
-    "armour": [{"Front": "O", "Side": "O", "Rear": "O"], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
     "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
     "openTopped": "true" 
   },
@@ -362,24 +362,18 @@
     "weaponName": "30mm Rarden", 
     "ammo": [{"AP": "2,2,1,1,-"}, {"HE": "Light, 1,1,1,1,-"}] 
   },
-  { 
-    "equipmentId": "ca-northag-76mml23", 
-    "type": "weapon", 
-    "weaponName": "75mmL40", 
-    "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Medium, 3,3,3,3,3,-"}] 
-  },
-  { 
+ { 
     "equipmentId": "ca-75mml40", 
     "type": "weapon", 
-    "weaponName": "120mmL55", 
+    "weaponName": "75mmL40", 
     "heEffect": "4/4+",
     "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Medium, 3,3,3,3,3,-"}]
   },
   { 
-    "equipmentId": "ca-northag-165mml9", 
+    "equipmentId": "ca-17pdr", 
     "type": "weapon", 
-    "weaponName": "165mmL9", 
-    "ammo": [{"HE": "Heavy, 5,5,5,5,5"}] 
+    "weaponName": "17pdr", 
+    "ammo": [{"AP": "Heavy, 11,11,10,9,8,7"}] 
   },
   { 
     "equipmentId": "ca-northag-carl-gustav", 

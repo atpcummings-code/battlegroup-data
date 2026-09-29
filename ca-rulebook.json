@@ -1086,7 +1086,7 @@
   "specialRules": ["Engineers"], 
   "options": [ { "id": "flamethrower", "name": "Flamethrower", "points": 10, "br": 0, "composition": "1x Flamethrower", "compositionMode": "append" } ], 
   "subUnits": [ 
-    { "id": "bren-team", "name": "Bren Team", "points": 5, "br": 1, "morale": "Regular", "unitComposition": "1x Bren Team (3 Men)", "specialRules": ["Bren Team"], "categorySlots": 0 } ], 
+    { "id": "bren-team", "name": "Bren Team", "points": 5, "br": 1, "morale": "Regular", "composition": "1x Bren Team (3 Men)", "specialRules": ["Bren Team"], "categorySlots": 0 } ], 
   "subUnitsGroupLimit": { "ids": ["bren-team"], "min": 0, "max": 1 }
     }
 

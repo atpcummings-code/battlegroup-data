@@ -267,7 +267,7 @@
                     },
                     {
                       "id": "ca-rulebook-iu-infantry-platoon-5b",
-                      "name": Loyd Carrier Tow",
+                      "name": "Loyd Carrier Tow",
                       "points": 5,
                       "br": 0,
                       "composition": [{"qty": 1, "name": "Loyd Carrier Tow", "equipmentId": "ca-loyd-carrier"}],

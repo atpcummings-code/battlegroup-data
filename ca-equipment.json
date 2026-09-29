@@ -125,7 +125,16 @@
     "weapons": [{"weapon": "MG", "mount": "Pintle", "range": 40}],
     "openTopped": true 
   },
-      { 
+  { 
+     "equipmentId": "ca-armoured-bulldozer", 
+    "type": "vehicle", 
+    "vehicleName": "Armoured Bulldozer", 
+    "movement": [{"move": "4\"/6\""}], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [],
+    "specialRules": ["Engineer"]
+  },
+  { 
      "equipmentId": "ca-bren-carrier", 
     "type": "vehicle", 
     "vehicleName": "Bren Carrier", 
@@ -135,13 +144,13 @@
     "openTopped": true 
   },
   { 
-     "equipmentId": "ca-armoured-bulldozer", 
+     "equipmentId": "ca-bren-carrier", 
     "type": "vehicle", 
-    "vehicleName": "Armoured Bulldozer", 
-    "movement": [{"move": "4\"/6\""}], 
+    "vehicleName": "Bren Carrier", 
+    "movement": [{"move": "10\"/15\""}], 
     "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
-    "weapons": [],
-    "specialRules": ["Engineer"]
+    "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
+    "openTopped": true 
   },
   { 
     "equipmentId": "ca-auster-iii", 

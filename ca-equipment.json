@@ -28,7 +28,7 @@
     "vehicleName": "M4A4 Sherman Firefly", 
     "movement": [{"move": "8\"/12\""}], 
     "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
-    "weapons": [{"weapon": "17pdr", "mount": "Turret", "equipmentId": "ca-17pdf"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
+    "weapons": [{"weapon": "17pdr", "mount": "Turret", "equipmentId": "ca-17pdr"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
     "ammoQty": 7,
     "specialRules": [] 
   },
@@ -91,9 +91,9 @@
     "ammoQty": 12
   },
   { 
-     "equipmentId": "ca-humber-light-recconaissance-car", 
+     "equipmentId": "ca-humber-light-reconnaissance-car", 
     "type": "vehicle", 
-    "vehicleName": "Humber Light Recconaissance Car", 
+    "vehicleName": "Humber Light Reconnaissance Car", 
     "movement": [{"move": "8\"/24\""}], 
     "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
     "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}]
@@ -119,7 +119,7 @@
       { 
      "equipmentId": "ca-loyd-carrier", 
     "type": "vehicle", 
-    "vehicleName": "M9 Halftrack", 
+    "vehicleName": "Loyd Carrier", 
     "movement": [{"move": "10\"/15\""}], 
     "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
     "weapons": [{"weapon": "MG", "mount": "Pintle", "range": 40}],
@@ -227,7 +227,7 @@
   { 
      "equipmentId": "ca-austin-k2-ambulance", 
     "type": "vehicle", 
-    "vehicleName": "M1 Wrecker", 
+    "vehicleName": "Austin K2 Ambulance", 
     "movement": [{"move": "6\"/24\""}], 
     "hits": 2,
     "specialRules": ["Medic"],
@@ -245,7 +245,7 @@
     "equipmentId": "ca-typhoon-1", 
     "type": "aircraft", 
     "hits": 4,
-    "aircraftName": "Typhoon", 
+    "aircraftName": "Typhoon (Rockets)", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
     "weapons": ["4 20mm Cannons","8 60lb rockets"] 
   },
@@ -253,7 +253,7 @@
     "equipmentId": "ca-typhoon-2", 
     "type": "aircraft", 
     "hits": 4,
-    "aircraftName": "Typhoon", 
+    "aircraftName": "Typhoon (Medium Bombs)", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
     "weapons": ["4 20mm Cannons","4 medium bombs"] 
   },
@@ -261,7 +261,7 @@
     "equipmentId": "ca-typhoon-3", 
     "type": "aircraft", 
     "hits": 4,
-    "aircraftName": "Typhoon", 
+    "aircraftName": "Typhoon (Large Bombs)", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
     "weapons": ["4 20mm Cannons","2 large bombs"] 
   },
@@ -279,15 +279,15 @@
     "weaponName": "2\" Mortar", 
     "heEffect": "3/5+",
     "ammo": [{"HE": "Very Light, 1,1,1,1,1,1"}],
-    "notes": "A minimum range of 5"
+    "notes": "A minimum range of 5\" and a maximum of 20\2""
   },
     { 
     "equipmentId": "ca-3inch-mortar", 
     "type": "weapon", 
     "weaponName": "3\" Mortar", 
     "heEffect": "4/4+",
-    "ammo": [{"HE": "Light, 2,2,2,2,2,2"}],
-    "notes": "A minimum range of 10"
+    "ammo": [{"HE": "Light, 2,2,-,-,-,-"}],
+    "notes": "A minimum range of 10\" and a maximum of 90\2""
   },
      { 
     "equipmentId": "ca-42inch-mortar", 
@@ -295,7 +295,7 @@
     "weaponName": "4.2\" Mortar", 
     "heEffect": "6/4+",
     "ammo": [{"HE": "Light, 3,3,3,3,3,-"}],
-    "notes": "A minimum range of 15"
+    "notes": "A minimum range of 15\" and a maximum of 240\2""
   },
   { 
     "equipmentId": "ca-20mm-polston-autocannon", 
@@ -325,7 +325,7 @@
     "weaponName": "6pdr", 
     "heEffect": "3/5+",
     "ammo": [{"AP": "7,7,6,5,4,-"}, {"HE": "Very Light, 2,2,2,2,2,-"}],
-    "notes": "Weapon stats to be verified as missing from hardback rulebook"
+    "notes": ""
   },
   { 
     "equipmentId": "ca-75mml40", 

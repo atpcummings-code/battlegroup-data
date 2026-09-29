@@ -987,7 +987,7 @@
       "morale": "I",
       "specialRules": [{"name": "Resupply"},{"name": "Unique"}],
       "unitComposition": [
-        {"qty": 1, "name": "Medium Truck", "equipmentId": "ca-medium-truck"}
+        {"qty": 1, "name": "Medium Truck", "equipmentId": "ca-bedford-oxd"}
       ],
       "notes": "",
       "optionGroupLimits": [
@@ -999,14 +999,14 @@
           "name": "Add 1 Medium Truck",
           "points": 4,
           "br": 0,
-          "composition": [{"qty": 1, "name": "Medium Truck", "mode": "append", "equipmentId": "ca-medium-truck"}]
+          "composition": [{"qty": 1, "name": "Medium Truck", "mode": "append", "equipmentId": "ca-bedford-oxd"}]
         },
         {
           "id": "ca-rulebook-lsu-supply-column-2",
           "name": "Add 2 Medium Truck",
           "points": 8,
           "br": 0,
-          "composition": [{"qty": 2, "name": "Medium Truck", "mode": "append", "equipmentId": "ca-medium-truck"}]
+          "composition": [{"qty": 2, "name": "Medium Truck", "mode": "append", "equipmentId": "ca-bedford-oxd"}]
         }
       ]
     },
@@ -1087,7 +1087,7 @@
           "name": "Medium Truck Tow",
           "points": 4,
           "br": 0,
-          "composition": [{"qty": 1, "name": "Medium Truck Tow",  "equipmentId": "ca-medium-truck"}],
+          "composition": [{"qty": 1, "name": "Medium Truck Tow",  "equipmentId": "ca-bedford-qlt"}],
           "compositionMode": "append"
         },
         {

@@ -270,7 +270,7 @@
       "points": 0,
       "br": 0,
       "optionGroupLimits": [
-        {"groupName": "Choose Tank:", "options": ["ca-rulebook-tu-additional-tank-1", "ca-rulebook-tu-additional-tank-2"], "min": 0, "max": 1}
+        {"groupName": "Choose Tank:", "options": ["ca-rulebook-tu-additional-tank-1", "ca-rulebook-tu-additional-tank-2"], "min": 1, "max": 1}
       ],
       "options": [
         {

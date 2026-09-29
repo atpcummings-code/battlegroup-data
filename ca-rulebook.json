@@ -309,7 +309,7 @@
         {"qty": 1, "name": "Carrier PIAT Team (3 Men with a PIAT)", "equipmentId": "ca-piat"},
         {"qty": 3, "name": "Bren Carriers", "equipmentId": "ca-bren-carrier"}
       ],
-      "specialRules": [],
+      "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
       "options": []
     },
     {
@@ -334,7 +334,7 @@
           "points": 2,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "M4 Sherman", "mode": "modify", "replaces": "M4A4 Sherman", "equipmentId": "ca-m4-sherman"}]
+          "composition": [{"qty": 1, "name": "M4 Sherman", "mode": "modify", "replaces": "M4A4 Sherman", "equipmentId": "ca-m4-sherman"},{"qty": 1, "name": "M4A4 Sherman", "mode": "modify", "append": "M4A4 Sherman", "equipmentId": "ca-m4a4-sherman"}]
         },
         {
           "id": "ca-rulebook-tu-additional-tank-2",

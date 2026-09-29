@@ -805,7 +805,65 @@
           "compositionMode": "replace"
         }
       ]
-    }
+    },
+    {
+      "id": "ca-rulebook-esu-combat-engineer-section",
+      "name": "Combat Engineer Section",
+      "category": "Engineers",
+      "points": 26,
+      "br": 3,
+      "morale": "R",
+      "unitComposition": [
+        {"qty": 1, "name": "Combat Engineer Section (10 Men with a Bren)", "equipmentId": ""}
+      ],
+      "specialRules": [
+        {"name": "Engineers"},
+        {"name": "Bren Team"}
+      ],
+      "optionGroupLimits": [],
+      "options": [
+        {
+          "id": "ca-rulebook-esu-combat-engineer-section-1",
+          "name": "Flamethrower",
+          "points": 10,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Flamethrower", "mode": "append, "equipmentId": ""}]
+        },
+        {
+          "id": "ca-rulebook-esu-combat-engineer-section-2",
+          "name": "Mine Sweeper",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Mine Sweeper", "mode": "append, "equipmentId": ""}]
+        },
+        {
+          "id": "ca-rulebook-esu-combat-engineer-section-3",
+          "name": "Demolition Charge",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Demolition Charger", "mode": "append, "equipmentId": ""}]
+        },
+        {
+          "id": "ca-rulebook-esu-combat-engineer-section-4",
+          "name": "Demolition Charge",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Demolition Charger", "mode": "append, "equipmentId": ""}]
+        },
+        {
+          "id": "ca-rulebook-esu-combat-engineer-section-5",
+          "name": "Demolition Charge",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Demolition Charger", "mode": "append, "equipmentId": ""}]
+        }
+      ]
+    },
 
 
 

@@ -278,42 +278,69 @@
     "type": "weapon", 
     "weaponName": "2\" Mortar", 
     "heEffect": "3/5+",
-    "ammo": [{"HE": "Very Light, 1,1,1,1,1,1"}]
+    "ammo": [{"HE": "Very Light, 1,1,1,1,1,1"}],
+    "notes": "A minimum range of 5"
   },
     { 
     "equipmentId": "ca-3inch-mortar", 
     "type": "weapon", 
     "weaponName": "3\" Mortar", 
     "heEffect": "4/4+",
-    "ammo": [{"HE": "Light, 2,2,2,2,2,2"}]
+    "ammo": [{"HE": "Light, 2,2,2,2,2,2"}],
+    "notes": "A minimum range of 10"
   },
      { 
     "equipmentId": "ca-42inch-mortar", 
     "type": "weapon", 
     "weaponName": "4.2\" Mortar", 
     "heEffect": "6/4+",
-    "ammo": [{"HE": "Light, 3,3,3,3,3,-"}]
+    "ammo": [{"HE": "Light, 3,3,3,3,3,-"}],
+    "notes": "A minimum range of 15"
   },
   { 
     "equipmentId": "ca-20mm-polston-autocannon", 
     "type": "weapon", 
     "weaponName": "20mm Polston Autocannon", 
     "heEffect": "",
-    "ammo": [{"AP": "2,2,1,1,1,1"}, {"HE": "Medium, 1,1,1,1,1,1"}]
+    "ammo": [{"AP": "2,2,1,1,1,-"}, {"HE": "Very Light, 1,1,1,1,1,1"}]
   },
   { 
-    "equipmentId": "ca-20mm-polston-autocannon", 
+    "equipmentId": "ca-40mm-bofors-gun", 
     "type": "weapon", 
-    "weaponName": "20mm Polston Autocannon", 
+    "weaponName": "40mm Bofors Gun", 
     "heEffect": "",
-    "ammo": [{"AP": "2,2,1,1,1,1"}, {"HE": "Medium, 1,1,1,1,1,1"}]
+    "ammo": [{"AP": "3,3,2,2,1,-"}, {"HE": "Very Light, 1,1,1,1,1,1"}]
+  },
+  { 
+    "equipmentId": "ca-37mml53", 
+    "type": "weapon", 
+    "weaponName": "37mmL53", 
+    "heEffect": "2/5+",
+    "ammo": [{"AP": "4,4,3,2,1,-"}, {"HE": "Very Light, 1,1,1,1,1,-"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-6pdr", 
+    "type": "weapon", 
+    "weaponName": "6pdr", 
+    "heEffect": "3/5+",
+    "ammo": [{"AP": "7,7,6,5,4,-"}, {"HE": "Very Light, 2,2,2,2,2,-"}],
+    "notes": "Weapon stats to be verified as missing from hardback rulebook"
+  },
+  { 
+    "equipmentId": "ca-75mml40", 
+    "type": "weapon", 
+    "weaponName": "75mmL40", 
+    "heEffect": "4/4+",
+    "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Light, 3,3,3,3,3,-"}],
+    "notes": ""
   },
   { 
     "equipmentId": "ca-76mml53", 
     "type": "weapon", 
     "weaponName": "76mmL53", 
     "heEffect": "4/4+",
-    "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Medium, 3,3,3,3,3,-"}],
+    "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Light, 3,3,3,3,3,-"}],
     "notes": "Weapon stats to be verified as missing from hardback rulebook"
   },
   { 
@@ -321,6 +348,54 @@
     "type": "weapon", 
     "weaponName": "17pdr", 
     "ammo": [{"AP": "11,11,10,9,8,7"}] 
-  }
+  },
+  { 
+    "equipmentId": "ca-105mml22", 
+    "type": "weapon", 
+    "weaponName": "105mmL22", 
+    "heEffect": "5/3+",
+    "ammo": [{"HE": "Medium, 4,4,4,4,4,-"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-6inch-naval-gun", 
+    "type": "weapon", 
+    "weaponName": "6\" naval gun", 
+    "heEffect": "7/3+",
+    "ammo": [{"HE": "Medium, 6,6,6,6,6,-"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-8inch-naval-gun", 
+    "type": "weapon", 
+    "weaponName": "8\" naval gun", 
+    "heEffect": "7/2+",
+    "ammo": [{"HE": "Heavy, 8,8,8,8,8,8"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-14inch-naval-gun", 
+    "type": "weapon", 
+    "weaponName": "14\" naval gun", 
+    "heEffect": "13/2+",
+    "ammo": [{"HE": "Heavy, 12,12,12,12,12,12"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-piat", 
+    "type": "weapon", 
+    "weaponName": "PIAT", 
+    "heEffect": "",
+    "ammo": [{"AP": "5,-,-,-,-,-"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-60ib-rocket", 
+    "type": "weapon", 
+    "weaponName": "60Ib Rocket", 
+    "heEffect": "5/4+",
+    "ammo": [{"HE": "Medium, -,-,8,-,-,-"}],
+    "notes": ""
+  },
 ] 
 }

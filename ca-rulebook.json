@@ -844,7 +844,8 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Demolition Charger", "mode": "append", "equipmentId": ""}]
+          "composition": [{"qty": 1, "name": "Demolition Charger",  "equipmentId": ""}],
+           "compositionMode": "append"
         },
         {
           "id": "ca-rulebook-esu-combat-engineer-section-4",
@@ -852,7 +853,8 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Demolition Charger", "mode": "append", "equipmentId": ""}]
+          "composition": [{"qty": 1, "name": "Demolition Charger",  "equipmentId": ""}],
+           "compositionMode": "append"
         },
         {
           "id": "ca-rulebook-esu-combat-engineer-section-5",
@@ -860,7 +862,8 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Demolition Charger", "mode": "append", "equipmentId": ""}]
+          "composition": [{"qty": 1, "name": "Demolition Charger",  "equipmentId": ""}],
+           "compositionMode": "append"
         }
       ]
     }

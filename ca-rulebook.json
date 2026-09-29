@@ -457,6 +457,34 @@
       "options": []
     },
     {
+      "id": "ca-rulebook-au-heavy-mortar-team",
+      "name": "Heavy Mortar Team",
+      "category": "Artillery Units",
+      "points": 29,
+      "br": 1,
+      "morale": "R",
+      "unitComposition": [{"qty": 1, "name": "4.2\" mortar and 3 crew", "equipmentId": "ca-42inch-mortar"}],
+      "optionGroupLimits": [],
+      "options": [
+        {
+          "id": "ca-rulebook-au-heavy-mortar-team-1",
+          "name": "3 man loader team",
+          "points": 10,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
+          "compositionMode": "append"
+        },
+        {
+          "id": "ca-rulebook-au-heavy-mortar-team-2",
+          "name": "Mount in Bren Carrier",
+          "points": 6,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
+          "compositionMode": "append"
+        }
+      ]
+    },
+    {
       "id": "ca-rulebook-au-off-table-artillery-fire",
       "name": "Off Table Artillery Fire",
       "category": "Artillery Units",

@@ -9,7 +9,7 @@
     "movement": [{"move": "9\"/14\""}], 
     "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
     "weapons": [{"weapon": "75mmL40", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
-    "ammo": 9,
+    "ammoQty": 9,
     "specialRules": [] 
   }, 
   { 
@@ -19,7 +19,7 @@
     "movement": [{"move": "8\"/12\""}], 
     "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
     "weapons": [{"weapon": "75mmL40", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
-    "ammo": 9,
+    "ammoQty": 9,
     "specialRules": [] 
   }, 
   { 
@@ -29,7 +29,7 @@
     "movement": [{"move": "8\"/12\""}], 
     "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
     "weapons": [{"weapon": "17pdr", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
-    "ammo": 7,
+    "ammoQty": 7,
     "specialRules": [] 
   },
    { 
@@ -39,7 +39,7 @@
     "movement": [{"move": "9\"/14\""}], 
     "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
     "weapons": [{"weapon": "75mmL40", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
-    "ammo": 9,
+    "ammoQty": 9,
     "specialRules": ["Engineer"] 
   },
   { 
@@ -59,6 +59,7 @@
     "movement": [{"move": "9\"/14\""}], 
     "armour": [{"Front": "M", "Side": "N", "Rear": "O"}], 
     "weapons": [{"weapon": "76mmL53", "mount": "Turret"},{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "ammoQty": 6,
     "specialRules": [], 
     "openTopped": true
   },
@@ -94,7 +95,7 @@
     "hits": 4,
     "aircraftName": "Typhoon", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
-    "weapons": [{"4 20mm Cannons"},{"8 60lbs rockets"}] 
+    "weapons": ["4 20mm Cannons","8 60lbs rockets"] 
   },
    { 
     "equipmentId": "ca-typhoon-2", 
@@ -102,7 +103,7 @@
     "hits": 4,
     "aircraftName": "Typhoon", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
-    "weapons": [{"4 20mm Cannons"},{"4 medium bombs"}] 
+    "weapons": ["4 20mm Cannons","4 medium bombs"] 
   },
   { 
     "equipmentId": "ca-typhoon-3", 
@@ -110,7 +111,7 @@
     "hits": 4,
     "aircraftName": "Typhoon", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
-    "weapons": [{"4 20mm Cannons"},{"2 large bombs"}] 
+    "weapons": ["4 20mm Cannons","2 large bombs"] 
   },
   { 
     "equipmentId": "ca-spitfire", 
@@ -118,7 +119,7 @@
     "hits": 3,
     "aircraftName": "Spitfire", 
     "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
-    "weapons": [{"2 20mm Cannons"},{"2 small bombs"}] 
+    "weapons": ["2 20mm Cannons","2 small bombs"] 
   },
   { 
     "equipmentId": "ca-75mml40", 
@@ -131,7 +132,7 @@
     "equipmentId": "ca-17pdr", 
     "type": "weapon", 
     "weaponName": "17pdr", 
-    "ammo": [{"AP": "Heavy, 11,11,10,9,8,7"}] 
+    "ammo": [{"AP": "11,11,10,9,8,7"}] 
   }
 ] 
 }

@@ -101,11 +101,47 @@
   { 
      "equipmentId": "ca-m5-halftrack", 
     "type": "vehicle", 
-    "vehicleName": "Humber IV", 
-    "movement": [{"move": "8\"/24\""}], 
-    "armour": [{"Front": "M", "Side": "O", "Rear": "O"}], 
-    "weapons": [{"weapon": "37mmL53", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial", "range": 30}],
-    "ammoQty": 12
+    "vehicleName": "M5 Halftrack", 
+    "movement": [{"move": "12\"/24\""}], 
+    "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "MG", "mount": "Pintle", "range": 40}],
+    "openTopped": true 
+  },
+    { 
+     "equipmentId": "ca-m9-halftrack", 
+    "type": "vehicle", 
+    "vehicleName": "M9 Halftrack", 
+    "movement": [{"move": "12\"/24\""}], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [],
+    "openTopped": true 
+  },
+      { 
+     "equipmentId": "ca-loyd-carrier", 
+    "type": "vehicle", 
+    "vehicleName": "M9 Halftrack", 
+    "movement": [{"move": "10\"/15\""}], 
+    "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "MG", "mount": "Pintle", "range": 40}],
+    "openTopped": true 
+  },
+      { 
+     "equipmentId": "ca-bren-carrier", 
+    "type": "vehicle", 
+    "vehicleName": "Bren Carrier", 
+    "movement": [{"move": "10\"/15\""}], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
+    "openTopped": true 
+  },
+  { 
+     "equipmentId": "ca-armoured-bulldozer", 
+    "type": "vehicle", 
+    "vehicleName": "Armoured Bulldozer", 
+    "movement": [{"move": "4\"/6\""}], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [],
+    "specialRules": ["Engineer"]
   },
   { 
     "equipmentId": "ca-auster-iii", 

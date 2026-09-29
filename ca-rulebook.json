@@ -778,10 +778,7 @@
       "br": 0,
       "morale": "R",
       "unitComposition": [],
-      "specialRules": [
-        {"name": "Vehicle Recovery"},
-        {"name": "Vehicle Repair"}
-      ],
+      "specialRules": [],
       "optionGroupLimits": [
         {"groupName": "Choose vehicle:", "options": ["ca-rulebook-esu-armoured-engineering-vehicle-1", "ca-rulebook-esu-armoured-engineering-vehicle-2"], "min": 1, "max": 1}
       ],
@@ -892,7 +889,7 @@
           "composition": [{"qty": 1, "name": "Medium Truck", "mode": "modify", "equipmentId": "ca-medium-truck"}]
         },
         {
-          "id": "ca-rulebook-lsu-supply-column-1",
+          "id": "ca-rulebook-lsu-supply-column-2",
           "name": "Add 3 Medium Truck",
           "points": 8,
           "br": 0,
@@ -945,8 +942,8 @@
       "id": "ca-rulebook-lsu-stretcher-party",
       "name": "Stretcher Party",
       "category": "Logistics",
-      "points": 20,
-      "br": 5,
+      "points": 10,
+      "br": 1,
       "morale": "I",
       "restricted": "yes",
       "specialRules": [{"name": "Medic"}],

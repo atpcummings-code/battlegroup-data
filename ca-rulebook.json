@@ -1028,7 +1028,7 @@
           "id": "ca-rulebook-afs-off-table-artillery-support-request-2",
           "name": "2nd Target Priority (4+)",
           "points": 10,
-          "br": 0,E
+          "br": 0,
           "composition": [{"qty": 1, "name": "2nd Target Priority (4+)",  "equipmentId": "ca-m5-halftrack"}],
           "compositionMode": "replace"
         },

@@ -1045,7 +1045,7 @@
       "morale": "I",
       "maxQty": 1,
       "restricted": "yes",
-      "specialRules": [{"name": "Unique"}],
+      "specialRules": [{"name": "Medic"},{"name": "Unique"}],
       "unitComposition": [{"qty": 1, "name": "4 men with a tent",  "equipmentId": ""}],
       "notes": "",
       "optionGroupLimits": [],

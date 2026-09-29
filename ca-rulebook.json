@@ -886,14 +886,14 @@
           "name": "Add 1 Medium Truck",
           "points": 4,
           "br": 0,
-          "composition": [{"qty": 1, "name": "Medium Truck", "mode": "modify", "equipmentId": "ca-medium-truck"}]
+          "composition": [{"qty": 1, "name": "Medium Truck", "mode": "append", "equipmentId": "ca-medium-truck"}]
         },
         {
           "id": "ca-rulebook-lsu-supply-column-2",
           "name": "Add 2 Medium Truck",
           "points": 8,
           "br": 0,
-          "composition": [{"qty": 2, "name": "Medium Truck", "mode": "modify", "equipmentId": "ca-medium-truck"}]
+          "composition": [{"qty": 2, "name": "Medium Truck", "mode": "append", "equipmentId": "ca-medium-truck"}]
         }
       ]
     },
@@ -951,6 +951,41 @@
       "notes": "",
       "optionGroupLimits": [],
       "options": []
+    },
+    {
+      "id": "ca-rulebook-ssu-heavy-anti-tank-gun",
+      "name": "Heavy Anti-tank Gun",
+      "category": "Specialist Units",
+      "points": 50,
+      "br": 3,
+      "restricted": "yes",
+      "morale": "R",
+      "specialRules": [],
+      "unitComposition": [
+        {"qty": 1, "name": "17pdr anti-tank gun with 3 crew", "equipmentId": "ca-17pdr"}
+      ],
+      "notes": "",
+      "optionGroupLimits": [
+        {"groupName": "Add tow vehicle:", "options": ["ca-rulebook-ssu-heavy-anti-tank-gun-1","ca-rulebook-ssu-heavy-anti-tank-gun-2"], "min": 0, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-ssu-heavy-anti-tank-gun-1",
+          "name": "Medium Truck Tow",
+          "points": 4,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "Medium Truck Tow",  "equipmentId": "ca-medium-truck"}],
+          "compositionMode": "append"
+        },
+        {
+          "id": "ca-rulebook-ssu-heavy-anti-tank-gun-2",
+          "name": "M5 Halftrack Tow",
+          "points": 8,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "M5 Halftrack Tow",  "equipmentId": "ca-m5-halftrack"}],
+          "compositionMode": "append"
+        }
+      ]
     }
 
 

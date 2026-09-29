@@ -187,9 +187,7 @@
           "br": 0,
           "maxQty": 1,
           "specialRules": [{"name": "Medic"}],
-          "composition": [
-            {"qty": 1, "name": "Combat Medic (1 Man)", "equipmentId": "ca-combat-medic"}
-          ]
+          "composition": [{"qty": 1, "name": "Combat Medic (1 Man)", "equipmentId": "ca-combat-medic"}]
         },
         {
           "id": "ca-rulebook-iu-infantry-platoon-2",
@@ -197,9 +195,25 @@
           "points": 22,
           "br": 1,
           "maxQty": 1,
-          "composition": [
-            {"qty": 1, "name": "3 men with a Vickers HMG", "equipmentId": "ca-vickers-hmg"}
-          ]
+          "composition": [{"qty": 1, "name": "3 men with a Vickers HMG", "equipmentId": "ca-vickers-hmg"}],
+          "options": [
+                    {
+                      "id": "ca-rulebook-iu-infantry-platoon-2a",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    },
+                    {
+                      "id": "ca-rulebook-iu-infantry-platoon-2b",
+                      "name": "Mount in a Bren Carrier",
+                      "points": 6,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
+                      "compositionMode": "append"
+                    }
+      ]
         },
         {
           "id": "ca-rulebook-iu-infantry-platoon-3",
@@ -207,9 +221,7 @@
           "points": 14,
           "br": 1,
           "maxQty": 1,
-          "composition": [
-            {"qty": 1, "name": "2 men with a PIAT", "equipmentId": "ca-piat"}
-          ]
+          "composition": [{"qty": 1, "name": "2 men with a PIAT", "equipmentId": "ca-piat"}]
         },
         {
           "id": "ca-rulebook-iu-infantry-platoon-4",
@@ -217,9 +229,25 @@
           "points": 24,
           "br": 1,
           "maxQty": 1,
-          "composition": [
-            {"qty": 1, "name": "3 men with a 3\" Mortar", "equipmentId": "ca-3inch-mortar"}
-          ]
+          "composition": [{"qty": 1, "name": "3 men with a 3\" Mortar", "equipmentId": "ca-3inch-mortar"}],
+          "options": [
+                    {
+                      "id": "ca-rulebook-iu-infantry-platoon-4a",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    },
+                    {
+                      "id": "ca-rulebook-iu-infantry-platoon-4b",
+                      "name": "Mount in a Bren Carrier",
+                      "points": 6,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
+                      "compositionMode": "append"
+                    }
+      ]
         },
         {
           "id": "ca-rulebook-iu-infantry-platoon-5",
@@ -227,9 +255,25 @@
           "points": 34,
           "br": 2,
           "maxQty": 1,
-          "composition": [
-            {"qty": 1, "name": "6pdr gun with 3 crew",  "equipmentId": "ca-6pdr-gun"}
-          ]
+          "composition": [{"qty": 1, "name": "6pdr gun with 3 crew",  "equipmentId": "ca-6pdr-gun"}],
+          "options": [
+                    {
+                      "id": "ca-rulebook-iu-infantry-platoon-5a",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    },
+                    {
+                      "id": "ca-rulebook-iu-infantry-platoon-5b",
+                      "name": Loyd Carrier Tow",
+                      "points": 5,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Loyd Carrier Tow", "equipmentId": "ca-loyd-carrier"}],
+                      "compositionMode": "append"
+                    }
+      ]
         }
       ]
     },

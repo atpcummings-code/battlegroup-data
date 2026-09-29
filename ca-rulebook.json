@@ -1012,7 +1012,8 @@
       "br": 0,
       "specialRules": [],
       "notes": "",
-   {"groupName": "Add tow vehicle:", "options": ["ca-rulebook-afs-off-table-artillery-support-request-1","ca-rulebook-afs-off-table-artillery-support-request-2","ca-rulebook-afs-off-table-artillery-support-request-3"], "min": 0, "max": 1}
+   "optionGroupLimits": [
+     {"groupName": "Add tow vehicle:", "options": ["ca-rulebook-afs-off-table-artillery-support-request-1","ca-rulebook-afs-off-table-artillery-support-request-2","ca-rulebook-afs-off-table-artillery-support-request-3"], "min": 0, "max": 1}
       ],
       "options": [
         {

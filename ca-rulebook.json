@@ -890,7 +890,7 @@
         },
         {
           "id": "ca-rulebook-lsu-supply-column-2",
-          "name": "Add 3 Medium Truck",
+          "name": "Add 2 Medium Truck",
           "points": 8,
           "br": 0,
           "composition": [{"qty": 2, "name": "Medium Truck", "mode": "modify", "equipmentId": "ca-medium-truck"}]

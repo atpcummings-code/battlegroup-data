@@ -208,7 +208,7 @@
           "br": 1,
           "maxQty": 1,
           "composition": [
-            {"qty": 1, "name": "2 men with a PIAT", "mode": "equipmentId": "ca-piat"}
+            {"qty": 1, "name": "2 men with a PIAT", "equipmentId": "ca-piat"}
           ]
         },
         {

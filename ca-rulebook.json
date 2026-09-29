@@ -724,6 +724,55 @@
           "compositionMode": "replace"
         }
       ]
+    },
+    {
+      "id": "ca-rulebook-esu-recovery-vehicle",
+      "name": "Recovery Vehicle",
+      "category": "Engineers",
+      "points": 0,
+      "br": 0,
+      "morale": "R",
+      "unitComposition": [],
+      "specialRules": [
+        {"name": "Vehicle Recovery"},
+        {"name": "Vehicle Repair"}
+      ],
+      "optionGroupLimits": [
+        {"groupName": "Choose vehicle:", "options": ["ca-rulebook-esu-recovery-vehicle-1", "ca-rulebook-esu-recovery-vehicle-2", ca-rulebook-esu-recovery-vehicle-3"], "min": 1, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-esu-recovery-vehicle-1",
+          "name": "M4 Sherman ARV",
+          "points": 22,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "M4 Sherman ARV", "equipmentId": "ca-m4-sherman-arv"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-esu-recovery-vehicle-2",
+          "name": "Scammel Pioneer",
+          "points": 16,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Scammel Pioneer", "equipmentId": "ca-scammel-pioneer"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-esu-recovery-vehicle-3",
+          "name": "M1 Wrecker Heavy Truck",
+          "points": 16,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "M1 Wrecker Heavy Truck", "equipmentId": "ca-m1-wrecker-heavy-truck"}],
+          "compositionMode": "replace"
+        }
+      ]
     }
+
+
+
+    
   ]
 }

@@ -325,7 +325,7 @@
         {"qty": 1, "name": "M4A4 Sherman Firefly", "equipmentId": "ca-m4a4-sherman-firefly"}
        ],
       "optionGroupLimits": [
-        {"groupName": "Upgrade to M4 Sherman:", "options": ["ca-rulebook-tu-sherman-tank-troop-1", "ca-rulebook-tu-sherman-tank-troop-2"], "min": 0, "max": 2}
+        {"groupName": "Upgrade to M4 Sherman:", "options": ["ca-rulebook-tu-sherman-tank-troop-1", "ca-rulebook-tu-sherman-tank-troop-2"], "min": 0, "max": 1}
       ],
       "options": [
         {
@@ -334,17 +334,15 @@
           "points": 2,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "M4 Sherman", "mode": "modify", "replaces": "M4A4 Sherman Firefly", "equipmentId": "ca-m4-sherman"}],
-          "compositionMode": "replace"
+          "composition": [{"qty": 1, "name": "M4 Sherman", "mode": "modify", "replaces": "M4A4 Sherman", "equipmentId": "ca-m4-sherman"}]
         },
         {
           "id": "ca-rulebook-tu-additional-tank-2",
           "name": "M4 Sherman",
-          "points": 50,
-          "br": 3,
+          "points": 4,
+          "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "M4 Sherman", "equipmentId": "ca-m4-sherman"}],
-          "compositionMode": "replace"
+          "composition": [{"qty": 2, "name": "M4 Sherman", "mode": "modify", "replaces": "M4A4 Sherman", "equipmentId": "ca-m4-sherman"}]
         }
       ]
     },

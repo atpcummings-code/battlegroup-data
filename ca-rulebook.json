@@ -1041,7 +1041,39 @@
           "compositionMode": "replace"
         }
       ]
-    }
+    },
+    {
+      "id": "ca-rulebook-afs-timed-typhoon-air-strike",
+      "name": "Timed Typhoon Air Strike",
+      "category": "Additional Fire Support",
+      "points": 25,
+      "notes": "An air strike by a Typhoon carrying 4 mediumbombs. Before the game, write down which turn the aircraft will arrive on.  The points cost includes a pre-registered target as the target point of the air strike."
+    },
+     {
+      "id": "ca-rulebook-afs-counter-battery-fire-mission",
+      "name": "Counter Battery Fire Mission",
+      "category": "Additional Fire Support",
+      "points": 10,
+      "notes": "The counter battery fire mission is effective on a 5+."
+    },
+    {
+      "id": "ca-rulebook-afs-timed-105mm-barrage",
+      "name": "Timed 105mm Barrage",
+      "category": "Additional Fire Support",
+      "points": 20,
+      "notes": "Fired by a battery of four 105mmL22 guns. Before the game, write down the turn the guns will fire on. The points cost includes a pre-registered target as the target point of the barrage.",
+      "composition": [{"qty": 4, "name": "105mmL22",  "equipmentId": "ca-105mml22"}],
+          "compositionMode": "replace"
+    },
+    {
+      "id": "ca-rulebook-afs-timed-6inch-barrage",
+      "name": "Timed 6\" Barrage",
+      "category": "Additional Fire Support",
+      "points": 30,
+      "notes": "Fired by a battery of four 6\" guns. Before the game, write down the turn the guns will fire on. The points cost includes a pre-registered target as the target point of the barrage.",
+      "composition": [{"qty": 4, "name": "6\" naval guns",  "equipmentId": "ca-6inch-naval-guns"}],
+          "compositionMode": "replace"
+    },
 
 
     

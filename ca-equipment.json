@@ -80,17 +80,6 @@
     "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
     "openTopped": "true" 
   },
-  
-  { 
-    "equipmentId": "ca-northag-puma", 
-    "type": "helicopter", 
-    "helicopterName": "Puma", 
-    "movement": [{"cat": "Helo", "move": "60\"/60\""}],
-    "armour": "Soft Skin", 
-    "weapons": [{"weapon": "MG", "mount": "Door", "rof": "Medium", "range": 30}], 
-    "specialRules": ["Capacity 4", "Helicopter"] 
-  },
-  
   { 
     "equipmentId": "ca-auster-iii", 
     "type": "aircraft", 
@@ -124,7 +113,7 @@
     "weapons": [{"4 20mm Cannons"},{"2 large bombs"}] 
   },
   { 
-    "equipmentId": "ca-nspitfire", 
+    "equipmentId": "ca-spitfire", 
     "type": "aircraft", 
     "hits": 3,
     "aircraftName": "Spitfire", 
@@ -143,162 +132,6 @@
     "type": "weapon", 
     "weaponName": "17pdr", 
     "ammo": [{"AP": "Heavy, 11,11,10,9,8,7"}] 
-  },
-  { 
-    "equipmentId": "ca-northag-carl-gustav", 
-    "type": "weapon", 
-    "weaponName": "Carl Gustav", 
-    "ammo": [{"AP": "3,3,3,-,-"}, {"HE": "Light, 1,1,1,-,-"}] 
-  },
-  { 
-    "equipmentId": "ca-northag-m72-law-66", 
-    "type": "weapon", 
-    "weaponName": "M72 Law '66'", 
-    "ammo": [{"AP": "4,-,-,-,-"}] 
-  },
-  { 
-    "equipmentId": "ca-northag-swingfire", 
-    "type": "weapon", 
-    "weaponName": "Swingfire", 
-    "ammo": [{"AP": "9,9,9,9,9"}],
-    "notes": "Under 10\" the missile has no effect"
-  },
-  { 
-    "equipmentId": "ca-northag-milan", 
-    "type": "weapon", 
-    "weaponName": "Milan", 
-    "ammo": [{"AP": "7,7,7,7,7"}],
-     "notes": "Under 10\" the missile has no effect"
-  },
-  { 
-    "equipmentId": "ca-northag-tow", 
-    "type": "weapon", 
-    "weaponName": "TOW", 
-    "ammo": [{"AP": "8,8,8,8,8"}],
-     "notes": "Under 10\" the missile has no effect"
-  },
-  { 
-    "equipmentId": "ca-northag-matra-68mm", 
-    "type": "weapon", 
-    "weaponName": "Matra (68mm)", 
-    "ammo": [{"HE": "Various, 2,2,2,2,2"}] 
-  },
-  { 
-    "equipmentId": "ca-northag-blowpipe", 
-    "type": "weapon", 
-    "weaponName": "Blowpipe", 
-    "ammo": [{"HE": "Light, 2,2,2,2,2"}] 
-  },
-  { 
-    "equipmentId": "ca-northag-rapier", 
-    "type": "weapon", 
-    "weaponName": "Rapier", 
-    "ammo": [{"HE": "Heavy, 5,5,5,5,5"}] 
-  },
-  { 
-    "equipmentId": "ca-northag-81mm-mortar", 
-    "type": "weapon", 
-    "weaponName": "81mm Mortar", 
-    "ammo": [{"HE": "Light, 1,1,1,1,1"}] 
-  },
-  { 
-    "equipmentId": "ca-northag-105mm", 
-    "type": "weapon", 
-    "weaponName": "105mm", 
-    "ammo": [{"HE": "Medium, 3,3,3,3,3"}] 
-  },
-  { 
-    "equipmentId": "ca-northag-155mm", 
-    "type": "weapon", 
-    "weaponName": "155mm", 
-    "ammo": [{"HE": "Heavy, 5,5,5,5,5"}] 
-  },
-  { 
-    "equipmentId": "ca-northag-175mm", 
-    "type": "weapon", 
-    "weaponName": "175mm", 
-    "ammo": [{"HE": "Heavy, 6,6,6,6,6"}] 
-  },
-  { 
-    "equipmentId": "ca-northag-203mm", 
-    "type": "weapon", 
-    "weaponName": "203mm", 
-    "ammo": [{"HE": "Very Heavy, 7,7,7,7,7"}] 
-  },
-
-  { 
-    "equipmentId": "ca-northag-infantry-fire-team", 
-    "type": "infantry", 
-    "infantryName": "Infantry Fire Team", 
-    "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
-    "weapons": [{"rof": "Medium", "range": 30}] 
-  },
-  { 
-    "equipmentId": "ca-northag-infantry-command-team", 
-    "type": "infantry", 
-    "infantryName": "Infantry Command Team", 
-    "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
-    "weapons": [{"rof": "Low", "range": 20}] 
-  },
-  { 
-    "equipmentId": "ca-northag-infantry-Weapons-team", 
-    "type": "infantry", 
-    "infantryName": "Infantry Command Team (without wepaon)", 
-    "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
-    "weapons": [{"rof": "Low", "range": 20}] 
-  },
-  { 
-    "equipmentId": "ca-northag-infantry-sgpmg-team", 
-    "type": "infantry", 
-    "infantryName": "Infantry sGPMG Team", 
-    "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
-    "weapons": [{"rof": "High", "range": 40}] 
-  },
-  { 
-    "equipmentId": "ca-northag-infantry-sniper-team", 
-    "type": "infantry", 
-    "infantryName": "Infantry Sniper Team", 
-    "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
-    "weapons": [{"rof": "Low", "range": 30}] 
-  },
-  { 
-    "equipmentId": "ca-northag-vehicle-mg", 
-    "type": "infantry", 
-    "infantryName": "Vehicle MG", 
-    "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
-    "weapons": [{"rof": "Low", "range": 30}] 
-  },
-  { 
-    "equipmentId": "ca-northag-land-rover", 
-    "type": "vehicle", 
-    "vehicleName": "Land Rover", 
-    "movement": [{"move": "8\"/16\""}], 
-    "armour": "Soft Skin", 
-    "specialRules": ["Capacity 1"] 
-  },
-  { 
-    "equipmentId": "ca-northag-land-rover-1-tonne", 
-    "type": "vehicle", 
-    "vehicleName": "Land Rover (1 tonne)", 
-    "movement": [{"move": "8\"/16\""}], 
-    "armour": "Soft Skin", 
-    "specialRules": ["Capacity 1 + 1 towed gun"] 
-  },
-  { 
-    "equipmentId": "ca-northag-bedford-mk4-truck", 
-    "type": "vehicle", 
-    "vehicleName": "Bedford Mk4 Truck", 
-    "movement": [{"cat": "Wheel Roadster", "move": "4\"/20\""}], 
-    "armour": "Soft Skin", 
-    "specialRules": ["Capacity 4"] 
-  },
-  { 
-    "equipmentId": "ca-northag-stalwart-truck", 
-    "type": "vehicle", 
-    "vehicleName": "Stalwart Truck", 
-    "movement": [{"move": "8\"/16\""}], 
-    "armour": "Soft Skin", 
-    "specialRules": ["Capacity 2","Amphibious"] 
-  } 
+  }
 ] 
 }

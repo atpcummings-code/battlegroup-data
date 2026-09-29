@@ -1031,7 +1031,7 @@
           "name": "Ambulance Medium Truck",
           "points": 2,
           "br": 0,
-          "composition": [{"qty": 1, "name": "Ambulance Medium Truck",  "equipmentId": "ca-medium-truck"}],
+          "composition": [{"qty": 1, "name": "Ambulance Medium Truck",  "equipmentId": "ca-austin-k2-ambulance"}],
           "compositionMode": "replace"
         }
       ]

@@ -295,10 +295,17 @@
     "ammo": [{"HE": "Light, 3,3,3,3,3,-"}]
   },
   { 
-    "equipmentId": "ca-20mm", 
+    "equipmentId": "ca-20mm-polston-autocannon", 
     "type": "weapon", 
-    "weaponName": "20mm Autocannon", 
-    "heEffect": "4/4+",
+    "weaponName": "20mm Polston Autocannon", 
+    "heEffect": "",
+    "ammo": [{"AP": "2,2,1,1,1,1"}, {"HE": "Medium, 1,1,1,1,1,1"}]
+  },
+  { 
+    "equipmentId": "ca-20mm-polston-autocannon", 
+    "type": "weapon", 
+    "weaponName": "20mm Polston Autocannon", 
+    "heEffect": "",
     "ammo": [{"AP": "2,2,1,1,1,1"}, {"HE": "Medium, 1,1,1,1,1,1"}]
   },
   { 

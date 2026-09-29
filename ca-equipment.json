@@ -356,14 +356,15 @@
   { 
     "equipmentId": "ca-northag-76mml23", 
     "type": "weapon", 
-    "weaponName": "76mmL23", 
-    "ammo": [{"AP": "2,2,1,1,1"}, {"HE": "Light, 1,1,1,1,1"}] 
+    "weaponName": "75mmL40", 
+    "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Medium, 3,3,3,3,3,-"}] 
   },
   { 
-    "equipmentId": "ca-northag-120mml55", 
+    "equipmentId": "ca-75mml40", 
     "type": "weapon", 
     "weaponName": "120mmL55", 
-    "ammo": [{"AP": "9,9,8,7,6"}, {"HE": "Medium, 4,4,4,4,4"}] 
+    "heEffect": "4/4+",
+    "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Medium, 3,3,3,3,3,-"}]
   },
   { 
     "equipmentId": "ca-northag-165mml9", 

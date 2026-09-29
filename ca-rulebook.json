@@ -505,7 +505,7 @@
       "br": 3,
       "maxQty": 1,
       "restricted": "yes",
-      "morale": "",
+      "morale": "R",
       "specialRules": [{"name": "Senior Officer"}, {"name": "Mortar Spotter"}, {"name": "Unique"}],
       "unitComposition": [
         {"qty": 1, "name": "Command Unit (4 Men)", "equipmentId": ""}
@@ -1013,7 +1013,7 @@
       "specialRules": [],
       "notes": "",
    "optionGroupLimits": [
-     {"groupName": "Add tow vehicle:", "options": ["ca-rulebook-afs-off-table-artillery-support-request-1","ca-rulebook-afs-off-table-artillery-support-request-2","ca-rulebook-afs-off-table-artillery-support-request-3"], "min": 1, "max": 1}
+     {"groupName": "Choose target priority:", "options": ["ca-rulebook-afs-off-table-artillery-support-request-1","ca-rulebook-afs-off-table-artillery-support-request-2","ca-rulebook-afs-off-table-artillery-support-request-3"], "min": 1, "max": 1}
       ],
       "options": [
         {
@@ -1047,7 +1047,7 @@
       "name": "Timed Typhoon Air Strike",
       "category": "Additional Fire Support",
       "points": 25,
-      "notes": "An air strike by a Typhoon carrying 4 mediumbombs. Before the game, write down which turn the aircraft will arrive on.  The points cost includes a pre-registered target as the target point of the air strike."
+      "notes": "An air strike by a Typhoon carrying 4 medium bombs. Before the game, write down which turn the aircraft will arrive on.  The points cost includes a pre-registered target as the target point of the air strike."
     },
      {
       "id": "ca-rulebook-afs-counter-battery-fire-mission",

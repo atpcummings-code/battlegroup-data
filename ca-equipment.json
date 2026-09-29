@@ -198,6 +198,15 @@
     "notes": ""
   },
   { 
+     "equipmentId": "ca-radio-medium-truck", 
+    "type": "vehicle", 
+    "vehicleName": "Radio Medium Truck", 
+    "movement": [{"move": "6\"/24\""}], 
+    "hits": 3,
+    "specialRules": [],
+    "notes": "Most Likely the Bedford QLR"
+  },
+  { 
      "equipmentId": "ca-scammel-pioneer", 
     "type": "vehicle", 
     "vehicleName": "Scammel Pioneer", 

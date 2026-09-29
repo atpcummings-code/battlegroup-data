@@ -325,7 +325,7 @@
         {"qty": 1, "name": "M4A4 Sherman Firefly", "equipmentId": "ca-m4a4-sherman-firefly"}
        ],
       "optionGroupLimits": [
-        {"groupName": Upgrade to M4 Sherman:", "options": ["ca-rulebook-tu-sherman-tank-troop-1", "ca-rulebook-tu-sherman-tank-troop-2"], "min": 0, "max": 2}
+        {"groupName": "Upgrade to M4 Sherman:", "options": ["ca-rulebook-tu-sherman-tank-troop-1", "ca-rulebook-tu-sherman-tank-troop-2"], "min": 0, "max": 2}
       ],
       "options": [
         {

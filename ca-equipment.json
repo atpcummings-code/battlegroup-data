@@ -274,11 +274,32 @@
     "weapons": ["2 20mm Cannons","2 small bombs"] 
   },
   { 
-    "equipmentId": "ca-75mml40", 
+    "equipmentId": "ca-2inch-mortar", 
     "type": "weapon", 
-    "weaponName": "75mmL40", 
+    "weaponName": "2\" Mortar", 
+    "heEffect": "3/5+",
+    "ammo": [{"HE": "Very Light, 1,1,1,1,1,1"}]
+  },
+    { 
+    "equipmentId": "ca-3inch-mortar", 
+    "type": "weapon", 
+    "weaponName": "3\" Mortar", 
     "heEffect": "4/4+",
-    "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Medium, 3,3,3,3,3,-"}]
+    "ammo": [{"HE": "Light, 2,2,2,2,2,2"}]
+  },
+     { 
+    "equipmentId": "ca-42inch-mortar", 
+    "type": "weapon", 
+    "weaponName": "4.2\" Mortar", 
+    "heEffect": "6/4+",
+    "ammo": [{"HE": "Light, 3,3,3,3,3,-"}]
+  },
+  { 
+    "equipmentId": "ca-20mm", 
+    "type": "weapon", 
+    "weaponName": "20mm Autocannon", 
+    "heEffect": "4/4+",
+    "ammo": [{"AP": "2,2,1,1,1,1"}, {"HE": "Medium, 1,1,1,1,1,1"}]
   },
   { 
     "equipmentId": "ca-76mml53", 

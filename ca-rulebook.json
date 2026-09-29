@@ -204,7 +204,7 @@
                       "name": "Include a 3 man loader team",
                       "points": 10,
                       "br": 0,
-                      "composition": [{"qty": 1, "name": "3 man Loader Team", "equipmentId": ""}],
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
                       "compositionMode": "append"
                     },
                     {
@@ -240,7 +240,7 @@
                       "name": "Include a 3 man loader team",
                       "points": 10,
                       "br": 0,
-                      "composition": [{"qty": 1, "name": "3 man Loader Team", "equipmentId": ""}],
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
                       "compositionMode": "append"
                     },
                     {
@@ -267,7 +267,7 @@
                       "name": "Include a 3 man loader team",
                       "points": 10,
                       "br": 0,
-                      "composition": [{"qty": 1, "name": "3 man Loader Team", "equipmentId": ""}],
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
                       "compositionMode": "append"
                     },
                     {
@@ -330,8 +330,8 @@
       ],
       "options": [
         {
-          "id": "ca-rulebook-tu-additional-tank-1",
-          "name": "M4 Sherman",
+          "id": "ca-rulebook-tu-sherman-tank-troop-1",
+          "name": "Upgrade 1 M4A4 to M4 Shermans",
           "points": 2,
           "br": 0,
           "morale": "R",
@@ -339,8 +339,8 @@
           "compositionMode": "replace"
         },
         {
-          "id": "ca-rulebook-tu-additional-tank-2",
-          "name": "M4 Sherman",
+          "id": "ca-rulebook-tu-sherman-tank-troop-2",
+          "name": "Upgrade 2 M4A4 to M4 Shermans",
           "points": 4,
           "br": 0,
           "morale": "R",
@@ -1100,16 +1100,16 @@
         },
         {
           "id": "ca-rulebook-ssu-heavy-anti-tank-gun-3",
-          "name": "3 man Loader Team",
+          "name": "3 Man Loader Team",
           "points": 10,
           "br": 0,
-          "composition": [{"qty": 1, "name": "3 man Loader Team",  "equipmentId": ""}],
+          "composition": [{"qty": 1, "name": "3 Man Loader Team",  "equipmentId": ""}],
           "compositionMode": "append"
         }
       ]
     },
     {
-      "id": "ca-rulebook-suu-towed-anti-aircraft-gun",
+      "id": "ca-rulebook-ssu-towed-anti-aircraft-gun",
       "name": "Towed Anti-aircraft Gun",
       "category": "Specialist Units",
       "points": 0,
@@ -1119,7 +1119,7 @@
           "groupName": "Choose anti-aircraft gun:",
           "options": [
             "ca-rulebook-suu-towed-anti-aircraft-gun-1",
-            "ca-rulebook-suu-towed-anti-aircraft-gun-2",
+            "ca-rulebook-suu-towed-anti-aircraft-gun-2"
 
           ],
           "min": 0,
@@ -1130,7 +1130,7 @@
       "specialRules": [],
       "subUnits": [
         {
-          "id": "ca-rulebook-suu-towed-anti-aircraft-gun-1",
+          "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-1",
           "name": "40mm Bofors AA gun with 3 crew",
           "points": 36,
           "br": 1,
@@ -1140,15 +1140,15 @@
           "composition": [{"qty": 1, "name": "40mm Bofors AA gun with 3 crew", "equipmentId": "ca-40mm-bofors-gun"}],
           "options": [
                     {
-                      "id": "ca-rulebook-suu-towed-anti-aircraft-gun-1a",
+                      "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-1a",
                       "name": "Include a 3 man loader team",
                       "points": 10,
                       "br": 0,
-                      "composition": [{"qty": 1, "name": "3 man Loader Team", "equipmentId": ""}],
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
                       "compositionMode": "append"
                     },
                     {
-                      "id": "ca-rulebook-suu-towed-anti-aircraft-gun-1b",
+                      "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-1b",
                       "name": "Medium Tow Truck",
                       "points": 4,
                       "br": 0,
@@ -1158,7 +1158,7 @@
       ]
         },
         {
-          "id": "ca-rulebook-suu-towed-anti-aircraft-gun-2",
+          "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-2",
           "name": "20mm Polston AA gun with 3 crew",
           "points": 28,
           "br": 1,
@@ -1168,15 +1168,15 @@
           "composition": [{"qty": 1, "name": "20mm Polston AA gun with 3 crew", "equipmentId": "ca-20mm-polston-gun"}],
           "options": [
                     {
-                      "id": "ca-rulebook-suu-towed-anti-aircraft-gun-1a",
+                      "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-2a",
                       "name": "Include a 3 man loader team",
                       "points": 10,
                       "br": 0,
-                      "composition": [{"qty": 1, "name": "3 man Loader Team", "equipmentId": ""}],
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
                       "compositionMode": "append"
                     },
                     {
-                      "id": "ca-rulebook-suu-towed-anti-aircraft-gun-1b",
+                      "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-2b",
                       "name": "Jeep tow",
                       "points": 2,
                       "br": 0,
@@ -1184,7 +1184,7 @@
                       "compositionMode": "append"
                     }
       ]
-        },
+        }
       ]
     },
     {
@@ -1213,7 +1213,7 @@
           "name": "3rd Target Priority (5+)",
           "points": 5,
           "br": 0,
-          "composition": [{"qty": 1, "name": "3rd Target Priority (5+)",  "equipmentId": "ca-m5-halftrack"}],
+          "composition": [{"qty": 1, "name": "3rd Target Priority (5+)",  "equipmentId": ""}],
           "compositionMode": "replace"
         },
         {
@@ -1221,7 +1221,7 @@
           "name": "2nd Target Priority (4+)",
           "points": 10,
           "br": 0,
-          "composition": [{"qty": 1, "name": "2nd Target Priority (4+)",  "equipmentId": "ca-m5-halftrack"}],
+          "composition": [{"qty": 1, "name": "2nd Target Priority (4+)",  "equipmentId": ""}],
           "compositionMode": "replace"
         },
         {
@@ -1229,7 +1229,7 @@
           "name": "1st Target Priority (2+)",
           "points": 20,
           "br": 0,
-          "composition": [{"qty": 1, "name": "1st Target Priority (2+)",  "equipmentId": "ca-m5-halftrack"}],
+          "composition": [{"qty": 1, "name": "1st Target Priority (2+)",  "equipmentId": ""}],
           "compositionMode": "replace"
         }
       ]

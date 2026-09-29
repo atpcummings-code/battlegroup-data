@@ -1240,6 +1240,7 @@
       "name": "Timed Typhoon Air Strike",
       "category": "Additional Fire Support",
       "points": 25,
+      "composition": [{"qty": 1, "name": "Typhoon (Medium Bombs)",  "equipmentId": "ca-typhoon-2"}],
       "notes": "An air strike by a Typhoon carrying 4 medium bombs. Before the game, write down which turn the aircraft will arrive on.  The points cost includes a pre-registered target as the target point of the air strike."
     },
      {

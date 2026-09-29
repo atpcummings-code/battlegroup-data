@@ -82,6 +82,32 @@
     "openTopped": true 
   },
   { 
+     "equipmentId": "ca-humber-iv", 
+    "type": "vehicle", 
+    "vehicleName": "Humber IV", 
+    "movement": [{"move": "8\"/24\""}], 
+    "armour": [{"Front": "M", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "37mmL53", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial", "range": 30}],
+    "ammoQty": 12
+  },
+  { 
+     "equipmentId": "ca-humber-light-recconaissance-car", 
+    "type": "vehicle", 
+    "vehicleName": "Humber Light Recconaissance Car", 
+    "movement": [{"move": "8\"/24\""}], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}]
+  },
+  { 
+     "equipmentId": "ca-m5-halftrack", 
+    "type": "vehicle", 
+    "vehicleName": "Humber IV", 
+    "movement": [{"move": "8\"/24\""}], 
+    "armour": [{"Front": "M", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "37mmL53", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial", "range": 30}],
+    "ammoQty": 12
+  },
+  { 
     "equipmentId": "ca-auster-iii", 
     "type": "aircraft", 
     "hits": 2,
@@ -127,6 +153,14 @@
     "weaponName": "75mmL40", 
     "heEffect": "4/4+",
     "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Medium, 3,3,3,3,3,-"}]
+  },
+  { 
+    "equipmentId": "ca-76mml53", 
+    "type": "weapon", 
+    "weaponName": "76mmL53", 
+    "heEffect": "4/4+",
+    "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Medium, 3,3,3,3,3,-"}],
+    "notes": "Weapon stats to be verified as missing from hardback rulebook"
   },
   { 
     "equipmentId": "ca-17pdr", 

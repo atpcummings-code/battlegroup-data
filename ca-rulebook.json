@@ -1109,6 +1109,85 @@
       ]
     },
     {
+      "id": "ca-rulebook-suu-towed-anti-aircraft-gun",
+      "name": "Towed Anti-aircraft Gun",
+      "category": "Specialist Units",
+      "points": 0,
+      "br": 0,
+      "subUnitsGroupLimit": [
+        {
+          "groupName": "Choose anti-aircraft gun:",
+          "options": [
+            "ca-rulebook-suu-towed-anti-aircraft-gun-1",
+            "ca-rulebook-suu-towed-anti-aircraft-gun-2",
+
+          ],
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "unitComposition": [],
+      "specialRules": [],
+      "subUnits": [
+        {
+          "id": "ca-rulebook-suu-towed-anti-aircraft-gun-1",
+          "name": "40mm Bofors AA gun with 3 crew",
+          "points": 36,
+          "br": 1,
+          "maxQty": 1,
+          "morale": "R",
+          "specialRules": [],
+          "composition": [{"qty": 1, "name": "40mm Bofors AA gun with 3 crew", "equipmentId": "ca-40mm-bofors-gun"}],
+          "options": [
+                    {
+                      "id": "ca-rulebook-suu-towed-anti-aircraft-gun-1a",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    },
+                    {
+                      "id": "ca-rulebook-suu-towed-anti-aircraft-gun-1b",
+                      "name": "Medium Tow Truck",
+                      "points": 4,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Medium Tow Truck", "equipmentId": "ca-medium-truck"}],
+                      "compositionMode": "append"
+                    }
+      ]
+        },
+        {
+          "id": "ca-rulebook-suu-towed-anti-aircraft-gun-2",
+          "name": "20mm Polston AA gun with 3 crew",
+          "points": 28,
+          "br": 1,
+          "maxQty": 1,
+          "morale": "R",
+          "specialRules": [],
+          "composition": [{"qty": 1, "name": "20mm Polston AA gun with 3 crew", "equipmentId": "ca-20mm-polston-gun"}],
+          "options": [
+                    {
+                      "id": "ca-rulebook-suu-towed-anti-aircraft-gun-1a",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    },
+                    {
+                      "id": "ca-rulebook-suu-towed-anti-aircraft-gun-1b",
+                      "name": "Jeep tow",
+                      "points": 2,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Jeep Tow", "equipmentId": "ca-jeep"}],
+                      "compositionMode": "append"
+                    }
+      ]
+        },
+      ]
+    },
+    {
       "id": "ca-rulebook-afs-pre-registered-target-point",
       "name": "Pre-registered Target Point",
       "category": "Additional Fire Support",

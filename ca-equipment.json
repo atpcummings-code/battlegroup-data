@@ -8,7 +8,7 @@
     "vehicleName": "M4 Sherman (A1,A2 and A3)", 
     "movement": [{"move": "9\"/14\""}], 
     "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
-    "weapons": [{"weapon": "75mmL40", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
+    "weapons": [{"weapon": "75mmL40", "mount": "Turret", "equipmentId": "ca-75mml40"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
     "ammoQty": 9,
     "specialRules": [] 
   }, 
@@ -18,7 +18,7 @@
     "vehicleName": "M4A4 Sherman", 
     "movement": [{"move": "8\"/12\""}], 
     "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
-    "weapons": [{"weapon": "75mmL40", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
+    "weapons": [{"weapon": "75mmL40", "mount": "Turret", "equipmentId": "ca-75mml40"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
     "ammoQty": 9,
     "specialRules": [] 
   }, 
@@ -28,7 +28,7 @@
     "vehicleName": "M4A4 Sherman Firefly", 
     "movement": [{"move": "8\"/12\""}], 
     "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
-    "weapons": [{"weapon": "17pdr", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
+    "weapons": [{"weapon": "17pdr", "mount": "Turret", "equipmentId": "ca-17pdf"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
     "ammoQty": 7,
     "specialRules": [] 
   },
@@ -38,7 +38,7 @@
     "vehicleName": "M4 Sherman Crab", 
     "movement": [{"move": "9\"/14\""}], 
     "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
-    "weapons": [{"weapon": "75mmL40", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
+    "weapons": [{"weapon": "75mmL40", "mount": "Turret", "equipmentId": "ca-75mml40"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
     "ammoQty": 9,
     "specialRules": ["Engineer"] 
   },
@@ -58,7 +58,7 @@
     "vehicleName": "M10 Wolverine", 
     "movement": [{"move": "9\"/14\""}], 
     "armour": [{"Front": "M", "Side": "N", "Rear": "O"}], 
-    "weapons": [{"weapon": "76mmL53", "mount": "Turret"},{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "weapons": [{"weapon": "76mmL53", "mount": "Turret", "equipmentId": "ca-76mml53"},{"weapon": "MG", "mount": "Pintle","range": 40}],
     "ammoQty": 6,
     "specialRules": [], 
     "openTopped": true
@@ -87,7 +87,7 @@
     "vehicleName": "Humber IV", 
     "movement": [{"move": "8\"/24\""}], 
     "armour": [{"Front": "M", "Side": "O", "Rear": "O"}], 
-    "weapons": [{"weapon": "37mmL53", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial", "range": 30}],
+    "weapons": [{"weapon": "37mmL53", "mount": "Turret", "equipmentId": "ca-37mml53"},{"weapon": "MG", "mount": "Co-axial", "range": 30}],
     "ammoQty": 12
   },
   { 

@@ -950,7 +950,7 @@
       "morale": "I",
       "restricted": "yes",
       "specialRules": [{"name": "Medic"}],
-      "unitComposition": [{"qty": 1, "name": "2 men",  "equipmentId": ""],
+      "unitComposition": [{"qty": 1, "name": "2 men",  "equipmentId": ""}],
       "notes": "",
       "optionGroupLimits": [],
       "options": []

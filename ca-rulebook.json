@@ -844,7 +844,7 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Demolition Charger",  "equipmentId": ""}],
+          "composition": [{"qty": 1, "name": "Demolition Charge",  "equipmentId": ""}],
            "compositionMode": "append"
         },
         {
@@ -853,7 +853,7 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Demolition Charger",  "equipmentId": ""}],
+          "composition": [{"qty": 1, "name": "Demolition Charge",  "equipmentId": ""}],
            "compositionMode": "append"
         },
         {
@@ -862,7 +862,7 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Demolition Charger",  "equipmentId": ""}],
+          "composition": [{"qty": 1, "name": "Demolition Charge",  "equipmentId": ""}],
            "compositionMode": "append"
         }
       ]

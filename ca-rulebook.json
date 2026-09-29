@@ -1165,7 +1165,7 @@
           "maxQty": 1,
           "morale": "R",
           "specialRules": [],
-          "composition": [{"qty": 1, "name": "20mm Polston AA gun with 3 crew", "equipmentId": "ca-20mm-polston-gun"}],
+          "composition": [{"qty": 1, "name": "20mm Polston AA gun with 3 crew", "equipmentId": "ca-20mm-polston-autocannon"}],
           "options": [
                     {
                       "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-2a",

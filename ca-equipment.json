@@ -247,7 +247,7 @@
     "hits": 4,
     "aircraftName": "Typhoon", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
-    "weapons": ["4 20mm Cannons","8 60lbs rockets"] 
+    "weapons": ["4 20mm Cannons","8 60lb rockets"] 
   },
    { 
     "equipmentId": "ca-typhoon-2", 

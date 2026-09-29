@@ -1118,8 +1118,8 @@
         {
           "groupName": "Choose anti-aircraft gun:",
           "options": [
-            "ca-rulebook-suu-towed-anti-aircraft-gun-1",
-            "ca-rulebook-suu-towed-anti-aircraft-gun-2"
+            "ca-rulebook-ssu-towed-anti-aircraft-gun-1",
+            "ca-rulebook-ssu-towed-anti-aircraft-gun-2"
 
           ],
           "min": 0,

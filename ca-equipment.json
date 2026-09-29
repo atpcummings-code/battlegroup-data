@@ -144,13 +144,85 @@
     "openTopped": true 
   },
   { 
-     "equipmentId": "ca-bren-carrier", 
+     "equipmentId": "ca-motorcycle", 
     "type": "vehicle", 
-    "vehicleName": "Bren Carrier", 
-    "movement": [{"move": "10\"/15\""}], 
-    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
-    "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
-    "openTopped": true 
+    "vehicleName": "Motorcycle", 
+    "movement": [{"move": "6\"/24\""}], 
+    "hits": 1,
+    "specialRules": ["Transport Capacity 1"],
+    "notes": "Do not draw a BR counter if destroyed"
+  },
+  { 
+     "equipmentId": "ca-jeep", 
+    "type": "vehicle", 
+    "vehicleName": "Jeep", 
+    "movement": [{"move": "6\"/24\""}], 
+    "hits": 2,
+    "specialRules": ["Transport Capacity 3"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "ca-bedford-mwd", 
+    "type": "vehicle", 
+    "vehicleName": "Bedford MWD", 
+    "movement": [{"move": "6\"/24\""}], 
+    "hits": 2,
+    "specialRules": ["Transport Capacity 8"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "ca-bedford-oxd", 
+    "type": "vehicle", 
+    "vehicleName": "Bedford OXD", 
+    "movement": [{"move": "6\"/24\""}], 
+    "hits": 3,
+    "specialRules": ["Transport Capacity 12"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "ca-bedford-oyd", 
+    "type": "vehicle", 
+    "vehicleName": "Bedford OYD", 
+    "movement": [{"move": "6\"/24\""}], 
+    "hits": 3,
+    "specialRules": ["Transport Capacity 14"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "ca-bedford-qlt-qld", 
+    "type": "vehicle", 
+    "vehicleName": "Bedford QLT/QLD", 
+    "movement": [{"move": "6\"/24\""}], 
+    "hits": 3,
+    "specialRules": ["Transport Capacity 22"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "ca-scammel-pioneer", 
+    "type": "vehicle", 
+    "vehicleName": "Scammel Pioneer", 
+    "movement": [{"move": "6\"/24\""}], 
+    "hits": 4,
+    "specialRules": ["1 Vehicle Recovery"],
+    "notes": ""
+  },
+    { 
+     "equipmentId": "ca-m1-wrecker", 
+    "type": "vehicle", 
+    "vehicleName": "M1 Wrecker", 
+    "movement": [{"move": "6\"/24\""}], 
+    "hits": 4,
+    "specialRules": ["1 Vehicle Recovery"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "ca-austin-k2-ambulance", 
+    "type": "vehicle", 
+    "vehicleName": "M1 Wrecker", 
+    "movement": [{"move": "6\"/24\""}], 
+    "hits": 2,
+    "specialRules": ["Medic"],
+    "notes": ""
   },
   { 
     "equipmentId": "ca-auster-iii", 

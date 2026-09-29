@@ -508,7 +508,7 @@
           "name": "2 6\" (naval guns)",
           "points": 140,
           "br": 0,
-          "composition": [{"qty": 2, "name": "6\" (naval guns)", "equipmentId": "ca-6inch-naval-guns"}],
+          "composition": [{"qty": 2, "name": "6\" (naval guns)", "equipmentId": "ca-6inch-naval-gun"}],
           "compositionMode": "replace"
         }
       ]
@@ -1264,7 +1264,7 @@
       "category": "Additional Fire Support",
       "points": 30,
       "notes": "Fired by a battery of four 6\" guns. Before the game, write down the turn the guns will fire on. The points cost includes a pre-registered target as the target point of the barrage.",
-      "composition": [{"qty": 4, "name": "6\" naval guns",  "equipmentId": "ca-6inch-naval-guns"}],
+      "composition": [{"qty": 4, "name": "6\" naval guns",  "equipmentId": "ca-6inch-naval-gun"}],
           "compositionMode": "replace"
     }
 

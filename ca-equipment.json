@@ -279,7 +279,7 @@
     "weaponName": "2\" Mortar", 
     "heEffect": "3/5+",
     "ammo": [{"HE": "Very Light, 1,1,1,1,1,1"}],
-    "notes": "A minimum range of 5\" and a maximum of 20\2""
+    "notes": "A minimum range of 5\" and a maximum of 20\""
   },
     { 
     "equipmentId": "ca-3inch-mortar", 
@@ -287,7 +287,7 @@
     "weaponName": "3\" Mortar", 
     "heEffect": "4/4+",
     "ammo": [{"HE": "Light, 2,2,-,-,-,-"}],
-    "notes": "A minimum range of 10\" and a maximum of 90\2""
+    "notes": "A minimum range of 10\" and a maximum of 90\""
   },
      { 
     "equipmentId": "ca-42inch-mortar", 
@@ -295,7 +295,7 @@
     "weaponName": "4.2\" Mortar", 
     "heEffect": "6/4+",
     "ammo": [{"HE": "Light, 3,3,3,3,3,-"}],
-    "notes": "A minimum range of 15\" and a maximum of 240\2""
+    "notes": "A minimum range of 15\" and a maximum of 240\""
   },
   { 
     "equipmentId": "ca-20mm-polston-autocannon", 

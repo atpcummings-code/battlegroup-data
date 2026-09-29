@@ -186,6 +186,7 @@
           "points": 8,
           "br": 0,
           "maxQty": 1,
+          "morale": "R",
           "specialRules": [{"name": "Medic"}],
           "composition": [{"qty": 1, "name": "Combat Medic (1 Man)", "equipmentId": "ca-combat-medic"}]
         },
@@ -195,6 +196,7 @@
           "points": 22,
           "br": 1,
           "maxQty": 1,
+          "morale": "R",
           "composition": [{"qty": 1, "name": "3 men with a Vickers HMG", "equipmentId": "ca-vickers-hmg"}],
           "options": [
                     {
@@ -221,6 +223,7 @@
           "points": 14,
           "br": 1,
           "maxQty": 1,
+          "morale": "R",
           "composition": [{"qty": 1, "name": "2 men with a PIAT", "equipmentId": "ca-piat"}]
         },
         {
@@ -229,6 +232,7 @@
           "points": 24,
           "br": 1,
           "maxQty": 1,
+          "morale": "R",
           "composition": [{"qty": 1, "name": "3 men with a 3\" Mortar", "equipmentId": "ca-3inch-mortar"}],
           "options": [
                     {
@@ -255,6 +259,7 @@
           "points": 34,
           "br": 2,
           "maxQty": 1,
+          "morale": "R",
           "composition": [{"qty": 1, "name": "6pdr gun with 3 crew",  "equipmentId": "ca-6pdr-gun"}],
           "options": [
                     {

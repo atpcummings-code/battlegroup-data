@@ -320,6 +320,7 @@
       "br": 9,
       "morale": "R",
       "categorySlots": 3,
+      "notes": "Choose tank type.",
       "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
        "unitComposition": [
         {"qty": 2, "name": "M4A4 Sherman", "equipmentId": "ca-m4a4-sherman"},

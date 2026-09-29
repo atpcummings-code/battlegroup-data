@@ -828,7 +828,7 @@
           "points": 10,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Flamethrower", "mode": "append, "equipmentId": ""}]
+          "composition": [{"qty": 1, "name": "Flamethrower", "mode": "append", "equipmentId": ""}]
         },
         {
           "id": "ca-rulebook-esu-combat-engineer-section-2",
@@ -836,7 +836,7 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Mine Sweeper", "mode": "append, "equipmentId": ""}]
+          "composition": [{"qty": 1, "name": "Mine Sweeper", "mode": "append", "equipmentId": ""}]
         },
         {
           "id": "ca-rulebook-esu-combat-engineer-section-3",
@@ -844,7 +844,7 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Demolition Charger", "mode": "append, "equipmentId": ""}]
+          "composition": [{"qty": 1, "name": "Demolition Charger", "mode": "append", "equipmentId": ""}]
         },
         {
           "id": "ca-rulebook-esu-combat-engineer-section-4",
@@ -852,7 +852,7 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Demolition Charger", "mode": "append, "equipmentId": ""}]
+          "composition": [{"qty": 1, "name": "Demolition Charger", "mode": "append", "equipmentId": ""}]
         },
         {
           "id": "ca-rulebook-esu-combat-engineer-section-5",
@@ -860,7 +860,7 @@
           "points": 5,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Demolition Charger", "mode": "append, "equipmentId": ""}]
+          "composition": [{"qty": 1, "name": "Demolition Charger", "mode": "append", "equipmentId": ""}]
         }
       ]
     },

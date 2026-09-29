@@ -984,6 +984,14 @@
           "br": 0,
           "composition": [{"qty": 1, "name": "M5 Halftrack Tow",  "equipmentId": "ca-m5-halftrack"}],
           "compositionMode": "append"
+        },
+        {
+          "id": "ca-rulebook-ssu-heavy-anti-tank-gun-3",
+          "name": "3 man Loader Team",
+          "points": 10,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "3 man Loader Team",  "equipmentId": ""}],
+          "compositionMode": "append"
         }
       ]
     }

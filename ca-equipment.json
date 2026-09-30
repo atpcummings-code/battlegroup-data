@@ -278,8 +278,8 @@
     "type": "weapon", 
     "weaponName": "2\" Mortar", 
     "heEffect": "3/5+",
-    "ammo": [{"HE": "Very Light, 1,1,-,-,-,-"}],
-    "notes": "A minimum range of 5\" and a maximum of 20\""
+    "ammo": [{"HE": "Very Light, 1,1,1,-,-,-"}],
+    "notes": "A minimum range of 5\" and a maximum of 30\""
   },
     { 
     "equipmentId": "ca-3inch-mortar", 

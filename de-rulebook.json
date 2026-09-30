@@ -1,5 +1,5 @@
 {
-  "id": "rulebook-german",
+  "id": "de-rulebook",
   "equipmentRef": "de-equipment.json",
   "gameLevel": [ 
 { "maxPoints": 350, "label": "Squad", "squad": { "min": 1, "max": null }, "platoon": { "min": 0, "max": 1 } }, 
@@ -8,11 +8,11 @@
 { "maxPoints": 9999, "label": "Battalion", "squad": { "min": 0, "max": null }, "platoon": { "min": 3, "max": 6 } } 
 ],
   "factionLogo": "",
-  "name": "12th SS Panzer Division Battlegroup",
+  "name": "Canadian 3rd Infantry Division Battlegroup",
   "group": "Rule Book",
   "year": "1944",
   "colour": "#5C3A2E",
- "units": [
+  "units": [
     {
       "id": "ca-rulebook-fhu-forward-headquarters",
       "name": "Forward Headquarters",
@@ -44,10 +44,10 @@
         },
         {
           "id": "ca-rulebook-fhu-forward-headquarters-2",
-          "name": "Dingo Scout Car",
+          "name": "Dingo",
           "points": 0,
           "br": 0,
-          "composition": [{"qty": 1, "name": "Dingo Scout Car", "equipmentId": "ca-dingo-scout-car"}],
+          "composition": [{"qty": 1, "name": "Dingo Scout Car", "equipmentId": "ca-dingo"}],
           "compositionMode": "replace"
         },
         {
@@ -161,11 +161,12 @@
       "id": "ca-rulebook-iu-infantry-platoon",
       "name": "Infantry Platoon",
       "category": "Infantry Units",
+      "unitType": { "type": "platoon", "count": 1 },
       "categorySlots": 4,
       "points": 94,
       "br": 11,
       "morale": "R",
-      "optionGroupLimits": [
+      "subUnitsGroupLimit": [
         {
           "groupName": "The platoon may include up to four of the following additional units. No unit may be taken more than once:",
           "options": [
@@ -184,18 +185,17 @@
         {"qty": 3, "name": "Rifle Section (10 Men with a Bren)", "equipmentId": ""},
         {"qty": 1, "name": "Light Mortar Team (2 Men with a 2\" Mortar)", "equipmentId": "ca-2inch-mortar"}
       ],
-      "specialRules": [{"name": "Bren Team"}],
-      "options": [
+      "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"},{"name": "Bren Team"}],
+      "subUnits": [
         {
           "id": "ca-rulebook-iu-infantry-platoon-1",
           "name": "Combat Medic",
           "points": 8,
           "br": 0,
           "maxQty": 1,
+          "morale": "R",
           "specialRules": [{"name": "Medic"}],
-          "composition": [
-            {"qty": 1, "name": "Combat Medic (1 Man)", "mode": "append", "equipmentId": "ca-combat-medic"}
-          ]
+          "composition": [{"qty": 1, "name": "Combat Medic (1 Man)", "equipmentId": "ca-combat-medic"}]
         },
         {
           "id": "ca-rulebook-iu-infantry-platoon-2",
@@ -203,9 +203,26 @@
           "points": 22,
           "br": 1,
           "maxQty": 1,
-          "composition": [
-            {"qty": 1, "name": "3 men with a Vickers HMG", "mode": "append", "equipmentId": "ca-vickers-hmg"}
-          ]
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "3 men with a Vickers HMG", "equipmentId": "ca-vickers-hmg"}],
+          "options": [
+                    {
+                      "id": "ca-rulebook-iu-infantry-platoon-2a",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    },
+                    {
+                      "id": "ca-rulebook-iu-infantry-platoon-2b",
+                      "name": "Mount in a Bren Carrier",
+                      "points": 6,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
+                      "compositionMode": "append"
+                    }
+      ]
         },
         {
           "id": "ca-rulebook-iu-infantry-platoon-3",
@@ -213,9 +230,8 @@
           "points": 14,
           "br": 1,
           "maxQty": 1,
-          "composition": [
-            {"qty": 1, "name": "2 men with a PIAT", "mode": "append", "equipmentId": "ca-piat"}
-          ]
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "2 men with a PIAT", "equipmentId": "ca-piat"}]
         },
         {
           "id": "ca-rulebook-iu-infantry-platoon-4",
@@ -223,9 +239,26 @@
           "points": 24,
           "br": 1,
           "maxQty": 1,
-          "composition": [
-            {"qty": 1, "name": "3 men with a 3\" Mortar", "mode": "append", "equipmentId": "ca-3inch-mortar"}
-          ]
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "3 men with a 3\" Mortar", "equipmentId": "ca-3inch-mortar"}],
+          "options": [
+                    {
+                      "id": "ca-rulebook-iu-infantry-platoon-4a",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    },
+                    {
+                      "id": "ca-rulebook-iu-infantry-platoon-4b",
+                      "name": "Mount in a Bren Carrier",
+                      "points": 6,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
+                      "compositionMode": "append"
+                    }
+      ]
         },
         {
           "id": "ca-rulebook-iu-infantry-platoon-5",
@@ -233,9 +266,26 @@
           "points": 34,
           "br": 2,
           "maxQty": 1,
-          "composition": [
-            {"qty": 1, "name": "6pdr gun with 3 crew", "mode": "append", "equipmentId": "ca-6pdr-gun"}
-          ]
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "6pdr gun with 3 crew",  "equipmentId": "ca-6pdr-gun"}],
+          "options": [
+                    {
+                      "id": "ca-rulebook-iu-infantry-platoon-5a",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    },
+                    {
+                      "id": "ca-rulebook-iu-infantry-platoon-5b",
+                      "name": "Loyd Carrier Tow",
+                      "points": 5,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Loyd Carrier Tow", "equipmentId": "ca-loyd-carrier"}],
+                      "compositionMode": "append"
+                    }
+      ]
         }
       ]
     },
@@ -244,6 +294,7 @@
       "name": "Rifle Section",
       "category": "Infantry Units",
       "points": 21,
+      "unitType": { "type": "squad", "count": 1 },
       "br": 2,
       "morale": "R",
       "unitComposition": [
@@ -257,6 +308,7 @@
       "name": "Carrier Section",
       "category": "Infantry Units",
       "points": 54,
+      "unitType": { "type": "squad", "count": 1 },
       "br": 6,
       "restricted": "yes",
       "morale": "R",
@@ -270,13 +322,49 @@
       "options": []
     },
     {
+      "id": "ca-rulebook-tu-sherman-tank-troop",
+      "name": "Sherman Tank Troop",
+      "category": "Tank Units",
+      "points": 146,
+      "br": 9,
+      "morale": "R",
+      "notes": "Choose tank type.",
+      "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
+       "unitComposition": [
+        {"qty": 2, "name": "M4A4 Sherman", "equipmentId": "ca-m4a4-sherman"},
+        {"qty": 1, "name": "M4A4 Sherman Firefly", "equipmentId": "ca-m4a4-sherman-firefly"}
+       ],
+      "optionGroupLimits": [
+        {"groupName": "Upgrade to M4 Sherman:", "options": ["ca-rulebook-tu-sherman-tank-troop-1", "ca-rulebook-tu-sherman-tank-troop-2"], "min": 0, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-tu-sherman-tank-troop-1",
+          "name": "Upgrade 1 M4A4 to M4 Shermans",
+          "points": 2,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "M4 Sherman", "equipmentId": "ca-m4-sherman"},{"qty": 1, "name": "M4A4 Sherman","equipmentId": "ca-m4a4-sherman"},{"qty": 1, "name": "M4A4 Sherman Firefly", "equipmentId": "ca-m4a4-sherman-firefly"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-tu-sherman-tank-troop-2",
+          "name": "Upgrade 2 M4A4 to M4 Shermans",
+          "points": 4,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 2, "name": "M4 Sherman", "mode": "modify", "replaces": "M4A4 Sherman", "equipmentId": "ca-m4-sherman"}]
+        }
+      ]
+    },
+    {
       "id": "ca-rulebook-tu-additional-tank",
       "name": "Additional Tank",
       "category": "Tank Units",
       "points": 0,
       "br": 0,
       "optionGroupLimits": [
-        {"groupName": "Choose Tank:", "options": ["ca-rulebook-tu-additional-tank-1", "ca-rulebook-tu-additional-tank-2"], "min": 0, "max": 1}
+        {"groupName": "Choose Tank:", "options": ["ca-rulebook-tu-additional-tank-1", "ca-rulebook-tu-additional-tank-2"], "min": 1, "max": 1}
       ],
       "options": [
         {
@@ -378,6 +466,34 @@
       "options": []
     },
     {
+      "id": "ca-rulebook-au-heavy-mortar-team",
+      "name": "Heavy Mortar Team",
+      "category": "Artillery Units",
+      "points": 29,
+      "br": 1,
+      "morale": "R",
+      "unitComposition": [{"qty": 1, "name": "4.2\" mortar and 3 crew", "equipmentId": "ca-42inch-mortar"}],
+      "optionGroupLimits": [],
+      "options": [
+        {
+          "id": "ca-rulebook-au-heavy-mortar-team-1",
+          "name": "3 man loader team",
+          "points": 10,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
+          "compositionMode": "append"
+        },
+        {
+          "id": "ca-rulebook-au-heavy-mortar-team-2",
+          "name": "Mount in Bren Carrier",
+          "points": 6,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
+          "compositionMode": "append"
+        }
+      ]
+    },
+    {
       "id": "ca-rulebook-au-off-table-artillery-fire",
       "name": "Off Table Artillery Fire",
       "category": "Artillery Units",
@@ -400,7 +516,7 @@
           "name": "2 6\" (naval guns)",
           "points": 140,
           "br": 0,
-          "composition": [{"qty": 2, "name": "6\" (naval guns)", "equipmentId": "ca-6inch-naval-guns"}],
+          "composition": [{"qty": 2, "name": "6\" (naval guns)", "equipmentId": "ca-6inch-naval-gun"}],
           "compositionMode": "replace"
         }
       ]
@@ -477,7 +593,7 @@
       "morale": "V",
       "specialRules": [{"name": "Sniper Scout"}],
       "unitComposition": [
-        {"qty": 1, "name": "Sniper", "equipmentId": ""}
+        {"qty": 1, "name": "Sniper (1 man)", "equipmentId": ""}
       ],
       "notes": "A single sniper in reinforced cover. It can be placed anywhere outside of the opponent's deployment zone. The cover is lost if the sniper moves."
     },
@@ -501,7 +617,7 @@
       "morale": "",
       "specialRules": [],
       "unitComposition": [],
-      "notes": ""
+      "notes": "A single mixed anti-tank and anti-personnel minefield."
     },
     {
       "id": "ca-rulebook-def-command-bunker",
@@ -511,12 +627,12 @@
       "br": 3,
       "maxQty": 1,
       "restricted": "yes",
-      "morale": "",
+      "morale": "R",
       "specialRules": [{"name": "Senior Officer"}, {"name": "Mortar Spotter"}, {"name": "Unique"}],
       "unitComposition": [
         {"qty": 1, "name": "Command Unit (4 Men)", "equipmentId": ""}
       ],
-      "notes": "A command post in a wood and earth bunker. Hardened Cover. The cover is lost if the command unit moves."
+      "notes": "A command post in a wood and earth bunker. Hardened cover. The cover is lost if the command unit moves."
     },
     {
       "id": "ca-rulebook-def-artillery-observation-post",
@@ -537,10 +653,630 @@
       "id": "ca-rulebook-def-booby-trapped-building",
       "name": "Booby-Trapped Building",
       "category": "Defences",
+      "points": 25,
+      "br": 0,
+      "specialRules": [],
+      "notes": "A chosen building anywhere on the table has been wired with booby-traps. The first time an enemy unit enters the building roll a D6. On a 2+ it detonates and the unit takes a 3/3+ HE hit. On a 1 there is a fault and the booby trap fails to go off!"
+    },
+    {
+      "id": "ca-rulebook-def-barbed-wire",
+      "name": "Barbed Wire",
+      "category": "Defences",
+      "points": 10,
+      "br": 0,
+      "specialRules": [],
+      "notes": "Up to 10\" of barbed wire. It is an obstacle for vehicles and infantry."
+    },
+    {
+      "id": "ca-rulebook-def-improvised-road-block",
+      "name": "Improvised Road Block",
+      "category": "Defences",
+      "points": 5,
+      "br": 0,
+      "specialRules": [],
+      "notes": "Something large and heavy across a road. Place on any road or track, anywhere on table. It counts as an obstacle."
+    },
+    {
+      "id": "ca-rulebook-def-anti-tank-ditch-embankment",
+      "name": "Anti-tank Ditch/Embankment",
+      "category": "Defences",
+      "points": 20,
+      "br": 0,
+      "restricted": "yes",
+      "specialRules": [],
+      "notes": "10\" of ditch or embankment, impassable to vehicles without a bridge."
+    },
+    {
+      "id": "ca-rulebook-def-off-table-17pdr-anti-tank-shot",
+      "name": "Off-table 17pdr Anti-tank Shot",
+      "category": "Defences",
+      "points": 5,
+      "br": 0,
+      "specialRules": [],
+      "notes": "The positions are covered by 17pdr anti-tank guns well camouflaged behind the lines. You may take a single 17pdr Aimed Fire - Armour Piercing shot at an enemy vehicle within 30\" of your table edge. The shot will hit on a dice roll of 6, with a penetration value of 8. This requires no order to use."
+    },
+    {
+      "id": "ca-rulebook-rsu-sniper",
+      "name": "Sniper",
+      "category": "Reconnaissance",
+      "points": 10,
+      "br": 1,
+      "morale": "V",
+      "specialRules": [{"name": "Sniper Scout"}],
+      "unitComposition": [
+        {"qty": 1, "name": "Sniper (1 man)", "equipmentId": ""}
+      ],
+      "notes": "A Sniper with a spotter increases its maximum range from 30\" to 40\", hitting on a 6.",
+      "options": [
+        {
+          "id": "ca-rulebook-rsu-sniper-1",
+          "name": "Spotter (1 man)",
+          "points": 5,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "Spotter (1 man)", "mode": "append", "equipmentId": ""}]
+        }
+      ]
+    },
+    {
+      "id": "ca-rulebook-rsu-armoured-car",
+      "name": "Armoured Car",
+      "category": "Reconnaissance",
       "points": 0,
+      "br": 0,
+      "morale": "R",
+      "unitComposition": [],
+      "specialRules": [
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"}
+      ],
+      "optionGroupLimits": [
+        {"groupName": "Choose armoured car:", "options": ["ca-rulebook-rsu-armoured-car-1", "ca-rulebook-rsu-armoured-car-2", "ca-rulebook-rsu-armoured-car-3", "ca-rulebook-rsu-armoured-car-4"], "min": 1, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-rsu-armoured-car-1",
+          "name": "Humber Scout Car",
+          "points": 13,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Humber Scout Car", "equipmentId": "ca-humber-scout-car"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-rsu-armoured-car-2",
+          "name": "Humber IV Armoured Car",
+          "points": 28,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Humber IV Armoured Car", "equipmentId": "ca-humber-iv-armoured-car"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-rsu-armoured-car-3",
+          "name": "Dingo",
+          "points": 13,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Dingo", "equipmentId": "ca-dingo"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-rsu-armoured-car-4",
+          "name": "Morris Light Reconnaissance Car",
+          "points": 13,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Morris Light Reconnaissance Car", "equipmentId": "ca-morris-light-reconnaissance-car"}],
+          "compositionMode": "replace"
+        }
+      ]
+    },
+    {
+      "id": "ca-rulebook-rsu-infantry-foot-patrol",
+      "name": "Infantry Foot Patrol",
+      "category": "Reconnaissance",
+      "points": 31,
+      "br": 2,
+      "morale": "R",
+      "unitComposition": [{"qty": 1, "name": "Rifle Section (10 Men with a Bren)", "equipmentId": ""}],
+      "specialRules": [
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"},
+        {"name": "Bren Team"}
+      ],
+      "optionGroupLimits": [],
+      "options": []
+    },
+    {
+      "id": "ca-rulebook-rsu-carrier-team",
+      "name": "Carrier Team",
+      "category": "Reconnaissance",
+      "points": 24,
+      "br": 1,
+      "morale": "R",
+      "unitComposition": [
+        {"qty": 1, "name": "Carrier Rifle Section (3 Men with a Bren)", "equipmentId": ""},
+        {"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}
+      ],
+      "specialRules": [
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"}
+      ],
+      "optionGroupLimits": [],
+      "options": []
+    },
+    {
+      "id": "ca-rulebook-rsu-recon-platoon-command",
+      "name": "Recon Platoon Command",
+      "category": "Reconnaissance",
+      "points": 28,
+      "br": 2,
+      "morale": "R",
+      "maxQty": 1,
+      "unitComposition": [
+        {"qty": 1, "name": "3 men", "equipmentId": ""},
+        {"qty": 1, "name": "Jeep", "equipmentId": "ca-jeep"}
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+        {"name": "Scout"},
+        {"name": "Artillery Spotter"},
+        {"name": "Unique"}
+      ],
+      "optionGroupLimits": [
+        {"groupName": "Replace men and jeep:", "options": ["ca-rulebook-rsu-recon-platoon-command-1", "ca-rulebook-rsu-recon-platoon-command-2"], "min": 0, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-rsu-recon-platoon-command-1",
+          "name": "Dingo",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Dingo", "equipmentId": "ca-dingo"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-rsu-recon-platoon-command-2",
+          "name": "Humber Scout Car",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Humber Scout Car", "equipmentId": "ca-humber-scout-car"}],
+          "compositionMode": "replace"
+        }
+      ]
+    },
+    {
+      "id": "ca-rulebook-esu-recovery-vehicle",
+      "name": "Recovery Vehicle",
+      "category": "Engineers",
+      "points": 0,
+      "br": 0,
+      "morale": "R",
+      "unitComposition": [],
+      "specialRules": [
+        {"name": "Vehicle Recovery"},
+        {"name": "Vehicle Repair"}
+      ],
+      "optionGroupLimits": [
+        {"groupName": "Choose vehicle:", "options": ["ca-rulebook-esu-recovery-vehicle-1", "ca-rulebook-esu-recovery-vehicle-2", "ca-rulebook-esu-recovery-vehicle-3"], "min": 1, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-esu-recovery-vehicle-1",
+          "name": "M4 Sherman ARV",
+          "points": 22,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "M4 Sherman ARV", "equipmentId": "ca-m4-sherman-arv"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-esu-recovery-vehicle-2",
+          "name": "Scammel Pioneer",
+          "points": 16,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Scammel Pioneer", "equipmentId": "ca-scammel-pioneer"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-esu-recovery-vehicle-3",
+          "name": "M1 Wrecker Heavy Truck",
+          "points": 16,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "M1 Wrecker Heavy Truck", "equipmentId": "ca-m1-wrecker"}],
+          "compositionMode": "replace"
+        }
+      ]
+    },
+    {
+      "id": "ca-rulebook-esu-armoured-engineering-vehicle",
+      "name": "Armoured Engineering Vehicle",
+      "category": "Engineers",
+      "points": 0,
+      "br": 0,
+      "morale": "R",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionGroupLimits": [
+        {"groupName": "Choose vehicle:", "options": ["ca-rulebook-esu-armoured-engineering-vehicle-1", "ca-rulebook-esu-armoured-engineering-vehicle-2"], "min": 1, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-esu-armoured-engineering-vehicle-1",
+          "name": "M4 Sherman Crab",
+          "points": 54,
+          "br": 3,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "M4 Sherman Crab", "equipmentId": "ca-m4-sherman-crab"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-esu-armoured-engineering-vehicle-2",
+          "name": "Armoured Bulldozer",
+          "points": 12,
+          "br": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Armoured Bulldozer", "equipmentId": "ca-armoured-bulldozer"}],
+          "compositionMode": "replace"
+        }
+      ]
+    },
+    {
+      "id": "ca-rulebook-esu-combat-engineer-section",
+      "name": "Combat Engineer Section",
+      "category": "Engineers",
+      "points": 26,
+      "br": 3,
+      "morale": "R",
+      "unitComposition": [
+        {"qty": 1, "name": "Combat Engineer Section (10 Men with a Bren)", "equipmentId": ""}
+      ],
+      "specialRules": [
+        {"name": "Engineers"},
+        {"name": "Bren Team"}
+      ],
+      "optionGroupLimits": [],
+      "options": [
+        {
+          "id": "ca-rulebook-esu-combat-engineer-section-1",
+          "name": "Flamethrower",
+          "points": 10,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Flamethrower", "mode": "append", "equipmentId": ""}]
+        },
+        {
+          "id": "ca-rulebook-esu-combat-engineer-section-2",
+          "name": "Mine Sweeper",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Mine Sweeper", "mode": "append", "equipmentId": ""}]
+        },
+        {
+          "id": "ca-rulebook-esu-combat-engineer-section-3",
+          "name": "Demolition Charge",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Demolition Charge",  "equipmentId": ""}],
+           "compositionMode": "append"
+        },
+        {
+          "id": "ca-rulebook-esu-combat-engineer-section-4",
+          "name": "Demolition Charge",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Demolition Charge",  "equipmentId": ""}],
+           "compositionMode": "append"
+        },
+        {
+          "id": "ca-rulebook-esu-combat-engineer-section-5",
+          "name": "Demolition Charge",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Demolition Charge",  "equipmentId": ""}],
+           "compositionMode": "append"
+        }
+      ]
+    },
+    {
+      "id": "ca-rulebook-lsu-supply-column",
+      "name": "Supply Column",
+      "category": "Logistics",
+      "points": 8,
+      "br": 1,
+      "maxQty": 1,
+      "morale": "I",
+      "specialRules": [{"name": "Resupply"},{"name": "Unique"}],
+      "unitComposition": [
+        {"qty": 1, "name": "Medium Truck", "equipmentId": "ca-bedford-oxd"}
+      ],
+      "notes": "",
+      "optionGroupLimits": [
+        {"groupName": "Add extra supply trucks:", "options": ["ca-rulebook-lsu-supply-column-1", "ca-rulebook-lsu-supply-column-2"], "min": 0, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-lsu-supply-column-1",
+          "name": "Add 1 Medium Truck",
+          "points": 4,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "Medium Truck", "mode": "append", "equipmentId": "ca-bedford-oxd"}]
+        },
+        {
+          "id": "ca-rulebook-lsu-supply-column-2",
+          "name": "Add 2 Medium Truck",
+          "points": 8,
+          "br": 0,
+          "composition": [{"qty": 2, "name": "Medium Truck", "mode": "append", "equipmentId": "ca-bedford-oxd"}]
+        }
+      ]
+    },
+    {
+      "id": "ca-rulebook-lsu-ambulance",
+      "name": "Ambulance",
+      "category": "Logistics",
+      "points": 8,
+      "br": 2,
+      "morale": "I",
+      "specialRules": [{"name": "Medic"}],
+      "unitComposition": [
+        {"qty": 1, "name": "Jeep Ambulance", "equipmentId": "ca-jeep"}
+      ],
+      "notes": "",
+      "optionGroupLimits": [
+        {"groupName": "Upgrade Jeep Ambulance to:", "options": ["ca-rulebook-lsu-ambulance-1"], "min": 0, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-lsu-ambulance-1",
+          "name": "Ambulance Medium Truck",
+          "points": 2,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "Ambulance Medium Truck",  "equipmentId": "ca-austin-k2-ambulance"}],
+          "compositionMode": "replace"
+        }
+      ]
+    },
+    {
+      "id": "ca-rulebook-lsu-forward-aid-post",
+      "name": "Forward Aid Post",
+      "category": "Logistics",
+      "points": 20,
+      "br": 5,
+      "morale": "I",
+      "maxQty": 1,
+      "restricted": "yes",
+      "specialRules": [{"name": "Medic"},{"name": "Unique"}],
+      "unitComposition": [{"qty": 1, "name": "4 men with a tent",  "equipmentId": ""}],
+      "notes": "",
+      "optionGroupLimits": [],
+      "options": []
+    },
+      {
+      "id": "ca-rulebook-lsu-stretcher-party",
+      "name": "Stretcher Party",
+      "category": "Logistics",
+      "points": 10,
+      "br": 1,
+      "morale": "I",
+      "restricted": "yes",
+      "specialRules": [{"name": "Medic"}],
+      "unitComposition": [{"qty": 1, "name": "2 men",  "equipmentId": ""}],
+      "notes": "",
+      "optionGroupLimits": [],
+      "options": []
+    },
+    {
+      "id": "ca-rulebook-ssu-heavy-anti-tank-gun",
+      "name": "Heavy Anti-tank Gun",
+      "category": "Specialist Units",
+      "points": 50,
+      "br": 3,
+      "restricted": "yes",
+      "morale": "R",
+      "specialRules": [],
+      "unitComposition": [
+        {"qty": 1, "name": "17pdr anti-tank gun with 3 crew", "equipmentId": "ca-17pdr"}
+      ],
+      "notes": "",
+      "optionGroupLimits": [
+        {"groupName": "Add tow vehicle:", "options": ["ca-rulebook-ssu-heavy-anti-tank-gun-1","ca-rulebook-ssu-heavy-anti-tank-gun-2"], "min": 0, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-ssu-heavy-anti-tank-gun-1",
+          "name": "Medium Truck Tow",
+          "points": 4,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "Medium Truck Tow",  "equipmentId": "ca-bedford-qlt"}],
+          "compositionMode": "append"
+        },
+        {
+          "id": "ca-rulebook-ssu-heavy-anti-tank-gun-2",
+          "name": "M5 Halftrack Tow",
+          "points": 8,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "M5 Halftrack Tow",  "equipmentId": "ca-m5-halftrack"}],
+          "compositionMode": "append"
+        },
+        {
+          "id": "ca-rulebook-ssu-heavy-anti-tank-gun-3",
+          "name": "3 Man Loader Team",
+          "points": 10,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "3 Man Loader Team",  "equipmentId": ""}],
+          "compositionMode": "append"
+        }
+      ]
+    },
+    {
+      "id": "ca-rulebook-ssu-towed-anti-aircraft-gun",
+      "name": "Towed Anti-aircraft Gun",
+      "category": "Specialist Units",
+      "points": 0,
+      "br": 0,
+      "subUnitsGroupLimit": [
+        {
+          "groupName": "Choose anti-aircraft gun:",
+          "options": [
+            "ca-rulebook-ssu-towed-anti-aircraft-gun-1",
+            "ca-rulebook-ssu-towed-anti-aircraft-gun-2"
+
+          ],
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "unitComposition": [],
+      "specialRules": [],
+      "subUnits": [
+        {
+          "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-1",
+          "name": "40mm Bofors AA gun with 3 crew",
+          "points": 36,
+          "br": 1,
+          "maxQty": 1,
+          "morale": "R",
+          "specialRules": [],
+          "composition": [{"qty": 1, "name": "40mm Bofors AA gun with 3 crew", "equipmentId": "ca-40mm-bofors-gun"}],
+          "options": [
+                    {
+                      "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-1a",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    },
+                    {
+                      "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-1b",
+                      "name": "Medium Tow Truck",
+                      "points": 4,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Medium Tow Truck", "equipmentId": "ca-medium-truck"}],
+                      "compositionMode": "append"
+                    }
+      ]
+        },
+        {
+          "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-2",
+          "name": "20mm Polston AA gun with 3 crew",
+          "points": 28,
+          "br": 1,
+          "maxQty": 1,
+          "morale": "R",
+          "specialRules": [],
+          "composition": [{"qty": 1, "name": "20mm Polston AA gun with 3 crew", "equipmentId": "ca-20mm-polston-autocannon"}],
+          "options": [
+                    {
+                      "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-2a",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    },
+                    {
+                      "id": "ca-rulebook-ssu-towed-anti-aircraft-gun-2b",
+                      "name": "Jeep tow",
+                      "points": 2,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Jeep Tow", "equipmentId": "ca-jeep"}],
+                      "compositionMode": "append"
+                    }
+      ]
+        }
+      ]
+    },
+    {
+      "id": "ca-rulebook-afs-pre-registered-target-point",
+      "name": "Pre-registered Target Point",
+      "category": "Additional Fire Support",
+      "points": 15,
       "br": 0,
       "specialRules": [],
       "notes": ""
+    },
+{
+      "id": "ca-rulebook-afs-off-table-artillery-support-request",
+      "name": "Off Table Artillery Support Request",
+      "category": "Additional Fire Support",
+      "points": 0,
+      "br": 0,
+      "specialRules": [],
+      "notes": "",
+   "optionGroupLimits": [
+     {"groupName": "Choose target priority:", "options": ["ca-rulebook-afs-off-table-artillery-support-request-1","ca-rulebook-afs-off-table-artillery-support-request-2","ca-rulebook-afs-off-table-artillery-support-request-3"], "min": 1, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "ca-rulebook-afs-off-table-artillery-support-request-1",
+          "name": "3rd Target Priority (5+)",
+          "points": 5,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "3rd Target Priority (5+)",  "equipmentId": ""}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "ca-rulebook-afs-off-table-artillery-support-request-2",
+          "name": "2nd Target Priority (4+)",
+          "points": 10,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "2nd Target Priority (4+)",  "equipmentId": ""}],
+          "compositionMode": "replace"
+        },
+        {
+        "id": "ca-rulebook-afs-off-table-artillery-support-request-3",
+          "name": "1st Target Priority (2+)",
+          "points": 20,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "1st Target Priority (2+)",  "equipmentId": ""}],
+          "compositionMode": "replace"
+        }
+      ]
+    },
+    {
+      "id": "ca-rulebook-afs-timed-typhoon-air-strike",
+      "name": "Timed Typhoon Air Strike",
+      "category": "Additional Fire Support",
+      "points": 25,
+      "composition": [{"qty": 1, "name": "Typhoon (Medium Bombs)",  "equipmentId": "ca-typhoon-2"}],
+      "notes": "An air strike by a Typhoon carrying 4 medium bombs. Before the game, write down which turn the aircraft will arrive on.  The points cost includes a pre-registered target as the target point of the air strike."
+    },
+     {
+      "id": "ca-rulebook-afs-counter-battery-fire-mission",
+      "name": "Counter Battery Fire Mission",
+      "category": "Additional Fire Support",
+      "points": 10,
+      "notes": "The counter battery fire mission is effective on a 5+."
+    },
+    {
+      "id": "ca-rulebook-afs-timed-105mm-barrage",
+      "name": "Timed 105mm Barrage",
+      "category": "Additional Fire Support",
+      "points": 20,
+      "notes": "Fired by a battery of four 105mmL22 guns. Before the game, write down the turn the guns will fire on. The points cost includes a pre-registered target as the target point of the barrage.",
+      "composition": [{"qty": 4, "name": "105mmL22",  "equipmentId": "ca-105mml22"}],
+          "compositionMode": "replace"
+    },
+    {
+      "id": "ca-rulebook-afs-timed-6inch-barrage",
+      "name": "Timed 6\" Barrage",
+      "category": "Additional Fire Support",
+      "points": 30,
+      "notes": "Fired by a battery of four 6\" guns. Before the game, write down the turn the guns will fire on. The points cost includes a pre-registered target as the target point of the barrage.",
+      "composition": [{"qty": 4, "name": "6\" naval guns",  "equipmentId": "ca-6inch-naval-gun"}],
+          "compositionMode": "replace"
     }
+
+    
   ]
 }

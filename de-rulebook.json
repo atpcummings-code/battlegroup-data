@@ -8,7 +8,7 @@
 { "maxPoints": 9999, "label": "Battalion", "squad": { "min": 0, "max": null }, "platoon": { "min": 3, "max": 6 } } 
 ],
   "factionLogo": "",
-  "name": "Canadian 3rd Infantry Division Battlegroup",
+  "name": "12th SS Panzer Division Battlegroup",
   "group": "Rule Book",
   "year": "1944",
   "colour": "#5C3A2E",

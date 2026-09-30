@@ -1,5 +1,12 @@
 {
   "id": "rulebook-german",
+  "equipmentRef": "de-equipment.json",
+  "gameLevel": [ 
+{ "maxPoints": 350, "label": "Squad", "squad": { "min": 1, "max": null }, "platoon": { "min": 0, "max": 1 } }, 
+{ "maxPoints": 750, "label": "Platoon", "squad": { "min": 0, "max": null }, "platoon": { "min": 1, "max": 2 } }, 
+{ "maxPoints": 1500, "label": "Company", "squad": { "min": 0, "max": null }, "platoon": { "min": 2, "max": 3 } }, 
+{ "maxPoints": 9999, "label": "Battalion", "squad": { "min": 0, "max": null }, "platoon": { "min": 3, "max": 6 } } 
+],
   "factionLogo": "",
   "name": "12th SS Panzer Division Battlegroup",
   "group": "Rule Book",

@@ -302,7 +302,7 @@
     "type": "weapon", 
     "weaponName": "20mm Polston Autocannon", 
     "heEffect": "",
-    "ammo": [{"AP": "2,2,1,1,1,-"}, {"HE": "Very Light, 1,1,1,1,1,1"}]
+    "ammo": [{"AP": "2,2,1,1,1,-"}, {"HE": "Very Light, 1,1,1,1,1,-"}]
   },
   { 
     "equipmentId": "ca-40mm-bofors-gun", 

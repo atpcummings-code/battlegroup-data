@@ -888,7 +888,7 @@
           "points": 16,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "M1 Wrecker Heavy Truck", "equipmentId": "ca-m1-wrecker-heavy-truck"}],
+          "composition": [{"qty": 1, "name": "M1 Wrecker Heavy Truck", "equipmentId": "ca-m1-wrecker"}],
           "compositionMode": "replace"
         }
       ]

@@ -82,9 +82,9 @@
     "openTopped": true 
   },
   { 
-     "equipmentId": "ca-humber-iv", 
+     "equipmentId": "ca-humber-iv-armoured-car", 
     "type": "vehicle", 
-    "vehicleName": "Humber IV", 
+    "vehicleName": "Humber IV Armoured Car", 
     "movement": [{ "offroad": 8, "road": 24 }], 
     "armour": [{"Front": "M", "Side": "O", "Rear": "O"}], 
     "weapons": [{"weapon": "37mmL53", "mount": "Turret", "equipmentId": "ca-37mml53"},{"weapon": "MG", "mount": "Co-axial", "range": 30}],

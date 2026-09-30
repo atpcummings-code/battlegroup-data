@@ -340,8 +340,8 @@
     "type": "weapon", 
     "weaponName": "76mmL53", 
     "heEffect": "4/4+",
-    "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Light, 3,3,3,3,3,-"}],
-    "notes": "Weapon stats to be verified as missing from hardback rulebook"
+    "ammo": [{"AP": "7,7,6,5,4,-"}, {"HE": "Light, 3,3,3,3,3,-"}],
+    "notes": ""
   },
   { 
     "equipmentId": "ca-17pdr", 

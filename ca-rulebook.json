@@ -155,6 +155,7 @@
       "id": "ca-rulebook-iu-infantry-platoon",
       "name": "Infantry Platoon",
       "category": "Infantry Units",
+      "unitType": { "type": "platoon", "count": 1 },
       "categorySlots": 4,
       "points": 94,
       "br": 11,
@@ -287,6 +288,7 @@
       "name": "Rifle Section",
       "category": "Infantry Units",
       "points": 21,
+      "unitType": { "type": "squad", "count": 1 },
       "br": 2,
       "morale": "R",
       "unitComposition": [
@@ -300,6 +302,7 @@
       "name": "Carrier Section",
       "category": "Infantry Units",
       "points": 54,
+      "unitType": { "type": "squad", "count": 1 },
       "br": 6,
       "restricted": "yes",
       "morale": "R",

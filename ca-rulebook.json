@@ -328,7 +328,6 @@
       "points": 146,
       "br": 9,
       "morale": "R",
-      "categorySlots": 3,
       "notes": "Choose tank type.",
       "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
        "unitComposition": [

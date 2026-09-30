@@ -1,1 +1,401 @@
-
+{ 
+  "nationality": "German", 
+  "version": "1.0",
+"equipment": [ 
+  { 
+    "equipmentId": "ca-m4-sherman", 
+    "type": "vehicle", 
+    "vehicleName": "M4 Sherman (A1,A2 and A3)", 
+    "movement": [{ "offroad": 9, "road": 14 }], 
+    "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
+    "weapons": [{"weapon": "75mmL40", "mount": "Turret", "equipmentId": "ca-75mml40"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
+    "ammoQty": 9,
+    "specialRules": [] 
+  }, 
+  { 
+    "equipmentId": "ca-m4a4-sherman", 
+    "type": "vehicle", 
+    "vehicleName": "M4A4 Sherman", 
+    "movement": [{ "offroad": 8, "road": 12 }], 
+    "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
+    "weapons": [{"weapon": "75mmL40", "mount": "Turret", "equipmentId": "ca-75mml40"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
+    "ammoQty": 9,
+    "specialRules": [] 
+  }, 
+  { 
+    "equipmentId": "ca-m4a4-sherman-firefly", 
+    "type": "vehicle", 
+    "vehicleName": "M4A4 Sherman Firefly", 
+    "movement": [{ "offroad": 8, "road": 12 }], 
+    "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
+    "weapons": [{"weapon": "17pdr", "mount": "Turret", "equipmentId": "ca-17pdr"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
+    "ammoQty": 7,
+    "specialRules": [] 
+  },
+   { 
+    "equipmentId": "ca-m4-sherman-crab", 
+    "type": "vehicle", 
+    "vehicleName": "M4 Sherman Crab", 
+    "movement": [{ "offroad": 9, "road": 14 }], 
+    "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
+    "weapons": [{"weapon": "75mmL40", "mount": "Turret", "equipmentId": "ca-75mml40"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
+    "ammoQty": 9,
+    "specialRules": ["Engineer"] 
+  },
+  { 
+    "equipmentId": "ca-m4-sherman-arv", 
+    "type": "vehicle", 
+    "vehicleName": "M4 Sherman ARV", 
+    "movement": [{ "offroad": 9, "road": 14 }], 
+    "armour": [{"Front": "L", "Side": "L", "Rear": "N"}], 
+    "weapons": [{"weapon": "MG", "mount": "Bow","range": 30}],
+    "specialRules": ["Recovery", "Repair"], 
+    "openTopped": true
+  },
+  { 
+    "equipmentId": "ca-m10-wolverine", 
+    "type": "vehicle", 
+    "vehicleName": "M10 Wolverine", 
+    "movement": [{ "offroad": 9, "road": 14 }], 
+    "armour": [{"Front": "M", "Side": "N", "Rear": "O"}], 
+    "weapons": [{"weapon": "76mmL53", "mount": "Turret", "equipmentId": "ca-76mml53"},{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "ammoQty": 6,
+    "specialRules": [], 
+    "openTopped": true
+  },
+  { 
+     "equipmentId": "ca-dingo", 
+    "type": "vehicle", 
+    "vehicleName": "Dingo", 
+    "movement": [{ "offroad": 8, "road": 12 }], 
+    "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
+    "openTopped": true 
+  },
+  { 
+     "equipmentId": "ca-humber-scout-car", 
+    "type": "vehicle", 
+    "vehicleName": "Humber Scout Car", 
+    "movement": [{ "offroad": 8, "road": 24 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
+    "openTopped": true 
+  },
+  { 
+     "equipmentId": "ca-humber-iv-armoured-car", 
+    "type": "vehicle", 
+    "vehicleName": "Humber IV Armoured Car", 
+    "movement": [{ "offroad": 8, "road": 24 }], 
+    "armour": [{"Front": "M", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "37mmL53", "mount": "Turret", "equipmentId": "ca-37mml53"},{"weapon": "MG", "mount": "Co-axial", "range": 30}],
+    "ammoQty": 12
+  },
+  { 
+     "equipmentId": "ca-humber-light-reconnaissance-car", 
+    "type": "vehicle", 
+    "vehicleName": "Humber Light Reconnaissance Car", 
+    "movement": [{ "offroad": 8, "road": 24 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}]
+  },
+  { 
+     "equipmentId": "ca-m5-halftrack", 
+    "type": "vehicle", 
+    "vehicleName": "M5 Halftrack", 
+    "movement": [{ "offroad": 12, "road": 24 }], 
+    "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "MG", "mount": "Pintle", "range": 40}],
+    "openTopped": true 
+  },
+    { 
+     "equipmentId": "ca-m9-halftrack", 
+    "type": "vehicle", 
+    "vehicleName": "M9 Halftrack", 
+    "movement": [{ "offroad": 12, "road": 24 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [],
+    "openTopped": true 
+  },
+      { 
+     "equipmentId": "ca-loyd-carrier", 
+    "type": "vehicle", 
+    "vehicleName": "Loyd Carrier", 
+    "movement": [{ "offroad": 10, "road": 15 }], 
+    "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "MG", "mount": "Pintle", "range": 40}],
+    "openTopped": true 
+  },
+  { 
+     "equipmentId": "ca-armoured-bulldozer", 
+    "type": "vehicle", 
+    "vehicleName": "Armoured Bulldozer", 
+    "movement": [{ "offroad": 4, "road": 6 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [],
+    "specialRules": ["Engineer"]
+  },
+  { 
+     "equipmentId": "ca-bren-carrier", 
+    "type": "vehicle", 
+    "vehicleName": "Bren Carrier", 
+    "movement": [{ "offroad": 10, "road": 15 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
+    "openTopped": true 
+  },
+  { 
+     "equipmentId": "ca-motorcycle", 
+    "type": "vehicle", 
+    "vehicleName": "Motorcycle", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 1,
+    "specialRules": ["Transport Capacity 1"],
+    "notes": "Do not draw a BR counter if destroyed"
+  },
+  { 
+     "equipmentId": "ca-jeep", 
+    "type": "vehicle", 
+    "vehicleName": "Jeep", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 2,
+    "specialRules": ["Transport Capacity 3"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "ca-bedford-mwd", 
+    "type": "vehicle", 
+    "vehicleName": "Bedford MWD", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 2,
+    "specialRules": ["Transport Capacity 8"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "ca-bedford-oxd", 
+    "type": "vehicle", 
+    "vehicleName": "Bedford OXD", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 3,
+    "specialRules": ["Transport Capacity 12"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "ca-bedford-oyd", 
+    "type": "vehicle", 
+    "vehicleName": "Bedford OYD", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 3,
+    "specialRules": ["Transport Capacity 14"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "ca-bedford-qlt-qld", 
+    "type": "vehicle", 
+    "vehicleName": "Bedford QLT/QLD", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 3,
+    "specialRules": ["Transport Capacity 22"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "ca-radio-medium-truck", 
+    "type": "vehicle", 
+    "vehicleName": "Radio Medium Truck", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 3,
+    "specialRules": [],
+    "notes": "Most Likely the Bedford QLR"
+  },
+  { 
+     "equipmentId": "ca-scammel-pioneer", 
+    "type": "vehicle", 
+    "vehicleName": "Scammel Pioneer", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 4,
+    "specialRules": ["1 Vehicle Recovery"],
+    "notes": ""
+  },
+    { 
+     "equipmentId": "ca-m1-wrecker", 
+    "type": "vehicle", 
+    "vehicleName": "M1 Wrecker", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 4,
+    "specialRules": ["1 Vehicle Recovery"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "ca-austin-k2-ambulance", 
+    "type": "vehicle", 
+    "vehicleName": "Austin K2 Ambulance", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 2,
+    "specialRules": ["Medic"],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-auster-iii", 
+    "type": "aircraft", 
+    "hits": 2,
+    "aircraftName": "Auster III", 
+    "movement": [{"cat": "Spotter Plane", "move": "Unlimited"}], 
+    "weapons": [] 
+  },
+  { 
+    "equipmentId": "ca-typhoon-1", 
+    "type": "aircraft", 
+    "hits": 4,
+    "aircraftName": "Typhoon (Rockets)", 
+    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
+    "weapons": ["4 20mm Cannons","8 60lb rockets"] 
+  },
+   { 
+    "equipmentId": "ca-typhoon-2", 
+    "type": "aircraft", 
+    "hits": 4,
+    "aircraftName": "Typhoon (Medium Bombs)", 
+    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
+    "weapons": ["4 20mm Cannons","4 medium bombs"] 
+  },
+  { 
+    "equipmentId": "ca-typhoon-3", 
+    "type": "aircraft", 
+    "hits": 4,
+    "aircraftName": "Typhoon (Large Bombs)", 
+    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
+    "weapons": ["4 20mm Cannons","2 large bombs"] 
+  },
+  { 
+    "equipmentId": "ca-spitfire", 
+    "type": "aircraft", 
+    "hits": 3,
+    "aircraftName": "Spitfire", 
+    "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
+    "weapons": ["2 20mm Cannons","2 small bombs"] 
+  },
+  { 
+    "equipmentId": "ca-2inch-mortar", 
+    "type": "weapon", 
+    "weaponName": "2\" Mortar", 
+    "heEffect": "3/5+",
+    "ammo": [{"HE": "Very Light, 1,1,1,-,-,-"}],
+    "notes": "A minimum range of 5\" and a maximum of 30\""
+  },
+    { 
+    "equipmentId": "ca-3inch-mortar", 
+    "type": "weapon", 
+    "weaponName": "3\" Mortar", 
+    "heEffect": "4/4+",
+    "ammo": [{"HE": "Light, -,2,2,2,2,2"}],
+    "notes": "A minimum range of 10\" and a maximum of 90\""
+  },
+     { 
+    "equipmentId": "ca-42inch-mortar", 
+    "type": "weapon", 
+    "weaponName": "4.2\" Mortar", 
+    "heEffect": "6/4+",
+    "ammo": [{"HE": "Light, -,3,3,3,3,3"}],
+    "notes": "A minimum range of 15\" and a maximum of 240\""
+  },
+  { 
+    "equipmentId": "ca-20mm-polston-autocannon", 
+    "type": "weapon", 
+    "weaponName": "20mm Polston Autocannon", 
+    "heEffect": "",
+    "ammo": [{"AP": "2,2,1,1,1,-"}, {"HE": "Very Light, 1,1,1,1,1,-"}]
+  },
+  { 
+    "equipmentId": "ca-40mm-bofors-gun", 
+    "type": "weapon", 
+    "weaponName": "40mm Bofors Gun", 
+    "heEffect": "",
+    "ammo": [{"AP": "3,3,2,2,1,-"}, {"HE": "Very Light, 1,1,1,1,1,1"}]
+  },
+  { 
+    "equipmentId": "ca-37mml53", 
+    "type": "weapon", 
+    "weaponName": "37mmL53", 
+    "heEffect": "2/5+",
+    "ammo": [{"AP": "4,4,3,2,1,-"}, {"HE": "Very Light, 1,1,1,1,1,-"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-6pdr", 
+    "type": "weapon", 
+    "weaponName": "6pdr", 
+    "heEffect": "3/5+",
+    "ammo": [{"AP": "7,7,6,5,4,-"}, {"HE": "Very Light, 2,2,2,2,2,-"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-75mml40", 
+    "type": "weapon", 
+    "weaponName": "75mmL40", 
+    "heEffect": "4/4+",
+    "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Light, 3,3,3,3,3,-"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-76mml53", 
+    "type": "weapon", 
+    "weaponName": "76mmL53", 
+    "heEffect": "4/4+",
+    "ammo": [{"AP": "7,7,6,5,4,-"}, {"HE": "Light, 3,3,3,3,3,-"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-17pdr", 
+    "type": "weapon", 
+    "weaponName": "17pdr", 
+    "ammo": [{"AP": "11,11,10,9,8,7"}] 
+  },
+  { 
+    "equipmentId": "ca-105mml22", 
+    "type": "weapon", 
+    "weaponName": "105mmL22", 
+    "heEffect": "5/3+",
+    "ammo": [{"HE": "Medium, 4,4,4,4,4,-"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-6inch-naval-gun", 
+    "type": "weapon", 
+    "weaponName": "6\" naval gun", 
+    "heEffect": "7/3+",
+    "ammo": [{"HE": "Medium, 6,6,6,6,6,-"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-8inch-naval-gun", 
+    "type": "weapon", 
+    "weaponName": "8\" naval gun", 
+    "heEffect": "7/2+",
+    "ammo": [{"HE": "Heavy, 8,8,8,8,8,8"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-14inch-naval-gun", 
+    "type": "weapon", 
+    "weaponName": "14\" naval gun", 
+    "heEffect": "13/2+",
+    "ammo": [{"HE": "Heavy, 12,12,12,12,12,12"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-piat", 
+    "type": "weapon", 
+    "weaponName": "PIAT", 
+    "heEffect": "",
+    "ammo": [{"AP": "5,-,-,-,-,-"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "ca-60ib-rocket", 
+    "type": "weapon", 
+    "weaponName": "60Ib Rocket", 
+    "heEffect": "5/4+",
+    "ammo": [{"HE": "Medium, -,-,8,-,-,-"}],
+    "notes": ""
+  }
+] 
+}

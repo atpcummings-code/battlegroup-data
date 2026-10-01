@@ -5,7 +5,7 @@
   { 
     "equipmentId": "ca-m4-sherman", 
     "type": "vehicle", 
-    "vehicleName": "M4 Sherman (A1,A2 and A3)", 
+    "vehicleName": "M4 Sherman (A1,A2, A3)", 
     "movement": [{ "offroad": 9, "road": 14 }], 
     "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
     "weapons": [{"weapon": "75mmL40", "mount": "Turret", "equipmentId": "ca-75mml40"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],

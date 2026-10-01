@@ -149,7 +149,7 @@
     "vehicleName": "Motorcycle", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 1,
-    "softskin", true,
+    "softskin":  true,
     "specialRules": ["Transport Capacity 1"],
     "notes": "Do not draw a BR counter if destroyed"
   },
@@ -159,7 +159,7 @@
     "vehicleName": "Jeep", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 2,
-    "softskin", true,
+    "softskin":  true,
     "specialRules": ["Transport Capacity 3"],
     "notes": ""
   },
@@ -169,7 +169,7 @@
     "vehicleName": "Bedford MWD", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 2,
-    "softskin", true,
+    "softskin":  true,
     "specialRules": ["Transport Capacity 8"],
     "notes": ""
   },
@@ -179,7 +179,7 @@
     "vehicleName": "Bedford OXD", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 3,
-    "softskin", true,
+    "softskin":  true,
     "specialRules": ["Transport Capacity 12"],
     "notes": ""
   },
@@ -189,7 +189,7 @@
     "vehicleName": "Bedford OYD", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 3,
-    "softskin", true,
+    "softskin":  true,
     "specialRules": ["Transport Capacity 14"],
     "notes": ""
   },
@@ -199,7 +199,7 @@
     "vehicleName": "Bedford QLT/QLD", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 3,
-    "softskin", true,
+    "softskin":  true,
     "specialRules": ["Transport Capacity 22"],
     "notes": ""
   },
@@ -209,7 +209,7 @@
     "vehicleName": "Radio Medium Truck", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 3,
-    "softskin", true,
+    "softskin":  true,
     "specialRules": [],
     "notes": "Most Likely the Bedford QLR"
   },
@@ -219,7 +219,7 @@
     "vehicleName": "Scammel Pioneer", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 4,
-    "softskin", true,
+    "softskin":  true,
     "specialRules": ["1 Vehicle Recovery"],
     "notes": ""
   },
@@ -229,7 +229,7 @@
     "vehicleName": "M1 Wrecker", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 4,
-      "softskin", true,
+      "softskin":  true,
     "specialRules": ["1 Vehicle Recovery"],
     "notes": ""
   },
@@ -239,7 +239,7 @@
     "vehicleName": "Austin K2 Ambulance", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 2,
-    "softskin", true,
+    "softskin":  true,
     "specialRules": ["Medic"],
     "notes": ""
   },

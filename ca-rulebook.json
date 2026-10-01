@@ -762,11 +762,11 @@
         },
         {
           "id": "ca-rulebook-rsu-armoured-car-4",
-          "name": "Morris Light Reconnaissance Car",
+          "name": "Humber Light Reconnaissance Car",
           "points": 13,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Morris Light Reconnaissance Car", "equipmentId": "ca-morris-light-reconnaissance-car"}],
+          "composition": [{"qty": 1, "name": "Humber Light Reconnaissance Car", "equipmentId": "ca-humber-light-reconnaissance-car"}],
           "compositionMode": "replace"
         }
       ]

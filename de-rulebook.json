@@ -38,8 +38,8 @@
           "name": "Panzer IV H",
           "points": 2,
           "br": 0,
-          "composition": [{"qty": 1, "name": "Jeep", "equipmentId": "de-panzeriv-h"}],
-          "compositionMode": "append"
+          "composition": [{"qty": 1, "name": "Panzer IV H", "equipmentId": "de-m4-panzer-iv-h"}],
+          "compositionMode": "replace"
         },
         {
           "id": "de-rulebook-fhu-forward-headquarters-2",

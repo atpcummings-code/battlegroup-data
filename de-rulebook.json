@@ -56,7 +56,7 @@
           "br": 0,
           "composition": [{"qty": 1, "name": "Panther G", "equipmentId": "de-panther-G"}],
           "compositionMode": "replace"
-        },
+        }
       ]
     },
     {

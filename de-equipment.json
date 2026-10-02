@@ -23,9 +23,19 @@
     "specialRules": [] 
   },
   { 
-    "equipmentId": "de-panther", 
+    "equipmentId": "de-panther-a", 
     "type": "vehicle", 
-    "vehicleName": "Panther", 
+    "vehicleName": "Panther A", 
+    "movement": [{ "offroad": 10, "road": 14 }], 
+    "armour": [{"Front": "H", "Side": "K", "Rear": "L"}], 
+    "weapons": [{"weapon": "75mmL70", "mount": "Turret", "equipmentId": "de-75mml70"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
+    "ammoQty": 8,
+    "specialRules": [] 
+  }, 
+   { 
+    "equipmentId": "de-panther-g", 
+    "type": "vehicle", 
+    "vehicleName": "Panther G", 
     "movement": [{ "offroad": 10, "road": 14 }], 
     "armour": [{"Front": "H", "Side": "K", "Rear": "L"}], 
     "weapons": [{"weapon": "75mmL70", "mount": "Turret", "equipmentId": "de-75mml70"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],

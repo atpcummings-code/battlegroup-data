@@ -438,7 +438,7 @@
    { 
     "equipmentId": "de-80mm-mortar", 
     "type": "weapon", 
-    "weaponName": 120mm Mortar", 
+    "weaponName": "80mm Mortar", 
     "heEffect": "4/4+",
     "ammo": [{"HE": "Light, -,2,2,2,2,2"}],
     "notes": "A minimum range of 10\" and a maximum of 90\""
@@ -446,7 +446,7 @@
      { 
     "equipmentId": "de-120mm-mortar", 
     "type": "weapon", 
-    "weaponName": "4.2\" Mortar", 
+    "weaponName": "120mm Mortar", 
     "heEffect": "6/4+",
     "ammo": [{"HE": "Light, -,3,3,3,3,3"}],
     "notes": "A minimum range of 15\" and a maximum of 240\""

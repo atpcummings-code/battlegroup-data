@@ -30,33 +30,33 @@
         {"name": "Unique"}
       ],
       "optionGroupLimits": [
-        {"groupName": "Replace 3 men  and SdKfz 251/1 with:", "options": ["de-rulebook-fhu-forward-headquarters-1", "de-rulebook-fhu-forward-headquarters-2"], "min": 0, "max": 1}
+        {"groupName": "Replace 3 men  and SdKfz 251/1 with:", "options": ["de-rulebook-fhu-forward-headquarters-1", "de-rulebook-fhu-forward-headquarters-2", "de-rulebook-fhu-forward-headquarters-3"],  "min": 0, "max": 1}
       ],
       "options": [
         {
           "id": "de-rulebook-fhu-forward-headquarters-1",
           "name": "Panzer IV H",
-          "points": 2,
+          "points": 28,
           "br": 0,
           "composition": [{"qty": 1, "name": "Panzer IV H", "equipmentId": "de-m4-panzer-iv-h"}],
           "compositionMode": "replace"
         },
         {
           "id": "de-rulebook-fhu-forward-headquarters-2",
-          "name": "Dingo",
-          "points": 0,
+          "name": "Panther A",
+          "points": 62,
           "br": 0,
-          "composition": [{"qty": 1, "name": "Dingo Scout Car", "equipmentId": "de-dingo"}],
+          "composition": [{"qty": 1, "name": "Panther A", "equipmentId": "de-panther-a"}],
           "compositionMode": "replace"
         },
-        {
+       {
           "id": "de-rulebook-fhu-forward-headquarters-3",
-          "name": "M4A4 Sherman Tank",
-          "points": 44,
+          "name": "Panther G",
+          "points": 62,
           "br": 0,
-          "composition": [{"qty": 1, "name": "M4A4 Sherman Tank", "equipmentId": "de-m4a4-sherman"}],
+          "composition": [{"qty": 1, "name": "Panther G", "equipmentId": "de-panther-G"}],
           "compositionMode": "replace"
-        }
+        },
       ]
     },
     {

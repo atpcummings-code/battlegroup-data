@@ -3,148 +3,279 @@
   "version": "1.0",
 "equipment": [ 
   { 
-    "equipmentId": "ca-m4-sherman", 
+    "equipmentId": "de-m4-panzer-iv-h", 
     "type": "vehicle", 
-    "vehicleName": "M4 Sherman (A1,A2 and A3)", 
-    "movement": [{ "offroad": 9, "road": 14 }], 
-    "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
-    "weapons": [{"weapon": "75mmL40", "mount": "Turret", "equipmentId": "ca-75mml40"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
+    "vehicleName": "Panzer IV H", 
+    "movement": [{ "offroad": 8, "road": 12 }], 
+    "armour": [{"Front": "K", "Side": "N(M)", "Rear": "N"}], 
+    "weapons": [{"weapon": "75mmL48", "mount": "Turret", "equipmentId": "de-75mml48"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
     "ammoQty": 9,
     "specialRules": [] 
   }, 
-  { 
-    "equipmentId": "ca-m4a4-sherman", 
-    "type": "vehicle", 
-    "vehicleName": "M4A4 Sherman", 
-    "movement": [{ "offroad": 8, "road": 12 }], 
-    "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
-    "weapons": [{"weapon": "75mmL40", "mount": "Turret", "equipmentId": "ca-75mml40"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
-    "ammoQty": 9,
-    "specialRules": [] 
-  }, 
-  { 
-    "equipmentId": "ca-m4a4-sherman-firefly", 
-    "type": "vehicle", 
-    "vehicleName": "M4A4 Sherman Firefly", 
-    "movement": [{ "offroad": 8, "road": 12 }], 
-    "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
-    "weapons": [{"weapon": "17pdr", "mount": "Turret", "equipmentId": "ca-17pdr"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
-    "ammoQty": 7,
-    "specialRules": [] 
-  },
    { 
-    "equipmentId": "ca-m4-sherman-crab", 
+    "equipmentId": "de-m4-panzer-iv-j", 
     "type": "vehicle", 
-    "vehicleName": "M4 Sherman Crab", 
-    "movement": [{ "offroad": 9, "road": 14 }], 
-    "armour": [{"Front": "K", "Side": "L", "Rear": "N"}], 
-    "weapons": [{"weapon": "75mmL40", "mount": "Turret", "equipmentId": "ca-75mml40"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
-    "ammoQty": 9,
-    "specialRules": ["Engineer"] 
-  },
-  { 
-    "equipmentId": "ca-m4-sherman-arv", 
-    "type": "vehicle", 
-    "vehicleName": "M4 Sherman ARV", 
-    "movement": [{ "offroad": 9, "road": 14 }], 
-    "armour": [{"Front": "L", "Side": "L", "Rear": "N"}], 
-    "weapons": [{"weapon": "MG", "mount": "Bow","range": 30}],
-    "specialRules": ["Recovery", "Repair"], 
-    "openTopped": true
-  },
-  { 
-    "equipmentId": "ca-m10-wolverine", 
-    "type": "vehicle", 
-    "vehicleName": "M10 Wolverine", 
-    "movement": [{ "offroad": 9, "road": 14 }], 
-    "armour": [{"Front": "M", "Side": "N", "Rear": "O"}], 
-    "weapons": [{"weapon": "76mmL53", "mount": "Turret", "equipmentId": "ca-76mml53"},{"weapon": "MG", "mount": "Pintle","range": 40}],
-    "ammoQty": 6,
-    "specialRules": [], 
-    "openTopped": true
-  },
-  { 
-     "equipmentId": "ca-dingo", 
-    "type": "vehicle", 
-    "vehicleName": "Dingo", 
+    "vehicleName": "Panzer IV J", 
     "movement": [{ "offroad": 8, "road": 12 }], 
-    "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
-    "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
-    "openTopped": true 
+    "armour": [{"Front": "K", "Side": "N(M)", "Rear": "N"}], 
+    "weapons": [{"weapon": "75mmL48", "mount": "Turret", "equipmentId": "de-75mml48"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
+    "ammoQty": 9,
+    "specialRules": [] 
   },
   { 
-     "equipmentId": "ca-humber-scout-car", 
+    "equipmentId": "de-panther", 
     "type": "vehicle", 
-    "vehicleName": "Humber Scout Car", 
-    "movement": [{ "offroad": 8, "road": 24 }], 
+    "vehicleName": "Panther", 
+    "movement": [{ "offroad": 10, "road": 14 }], 
+    "armour": [{"Front": "H", "Side": "K", "Rear": "L"}], 
+    "weapons": [{"weapon": "75mmL70", "mount": "Turret", "equipmentId": "de-75mml70"},{"weapon": "MG", "mount": "Co-axial","range": 30},{"weapon": "MG", "mount": "Bow","range": 30}],
+    "ammoQty": 8,
+    "specialRules": [] 
+  }, 
+  { 
+    "equipmentId": "de-bergpanther", 
+    "type": "vehicle", 
+    "vehicleName": "Bergpanther", 
+    "movement": [{ "offroad": 10, "road": 14 }], 
+    "armour": [{"Front": "I", "Side": "K", "Rear": "L"}], 
+    "weapons": [{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "specialRules": ["Recovery","Repair"] 
+  },
+  { 
+    "equipmentId": "de-sdkfz251-1", 
+    "type": "vehicle", 
+    "vehicleName": "SdKfz 251/1", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
     "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
-    "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
-    "openTopped": true 
+    "weapons": [{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "specialRules": [],
+    "ammoQty": 6,
+    "openTopped": true
   },
   { 
-     "equipmentId": "ca-humber-iv-armoured-car", 
+    "equipmentId": "de-sdkfz251-2", 
     "type": "vehicle", 
-    "vehicleName": "Humber IV Armoured Car", 
-    "movement": [{ "offroad": 8, "road": 24 }], 
-    "armour": [{"Front": "M", "Side": "O", "Rear": "O"}], 
-    "weapons": [{"weapon": "37mmL53", "mount": "Turret", "equipmentId": "ca-37mml53"},{"weapon": "MG", "mount": "Co-axial", "range": 30}],
-    "ammoQty": 12
-  },
-  { 
-     "equipmentId": "ca-humber-light-reconnaissance-car", 
-    "type": "vehicle", 
-    "vehicleName": "Humber Light Reconnaissance Car", 
-    "movement": [{ "offroad": 8, "road": 24 }], 
+    "vehicleName": "SdKfz 251/2", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
     "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
-    "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}]
+    "weapons": [{"weapon": "80mm Mortar", "mount": "Hull", "equipmentId": "de-80mm-mortar"}],
+    "specialRules": [],
+    "openTopped": true
   },
   { 
-     "equipmentId": "ca-m5-halftrack", 
+    "equipmentId": "de-sdkfz251-3", 
     "type": "vehicle", 
-    "vehicleName": "M5 Halftrack", 
-    "movement": [{ "offroad": 12, "road": 24 }], 
-    "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "range": 40}],
-    "openTopped": true 
+    "vehicleName": "SdKfz 251/3", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "specialRules": [],
+    "ammoQty": 6,
+    "openTopped": true
   },
     { 
-     "equipmentId": "ca-m9-halftrack", 
+    "equipmentId": "de-sdkfz251-18", 
     "type": "vehicle", 
-    "vehicleName": "M9 Halftrack", 
-    "movement": [{ "offroad": 12, "road": 24 }], 
+    "vehicleName": "SdKfz 251/18", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "specialRules": [],
+    "ammoQty": 6,
+    "openTopped": true
+  },
+  { 
+    "equipmentId": "de-sdkfz251-7", 
+    "type": "vehicle", 
+    "vehicleName": "SdKfz 251/7", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "specialRules": ["Bridging"],
+    "openTopped": true
+  },
+  { 
+    "equipmentId": "de-sdkfz251-8", 
+    "type": "vehicle", 
+    "vehicleName": "SdKfz 251/8", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
     "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
     "weapons": [],
-    "openTopped": true 
+    "specialRules": ["Medic"],
+    "openTopped": true
   },
-      { 
-     "equipmentId": "ca-loyd-carrier", 
+   { 
+    "equipmentId": "de-sdkfz251-9", 
     "type": "vehicle", 
-    "vehicleName": "Loyd Carrier", 
-    "movement": [{ "offroad": 10, "road": 15 }], 
+    "vehicleName": "SdKfz 251/9", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "75mmL24", "mount": "Hull", "equipmentId": "de-75mml24"},{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "specialRules": ["Medic"],
+     "ammoQty": 12,
+    "openTopped": true
+  },
+  { 
+    "equipmentId": "de-sdkfz251-10", 
+    "type": "vehicle", 
+    "vehicleName": "SdKfz 251/10", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "37mmL43", "mount": "Hull", "equipmentId": "de-37mml43"},{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "specialRules": ["Medic"],
+     "ammoQty": 13,
+    "openTopped": true
+  },
+  { 
+    "equipmentId": "de-sdkfz250-1", 
+    "type": "vehicle", 
+    "vehicleName": "SdKfz 250/1", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "specialRules": ["Medic"],
+    "openTopped": true
+  },
+  { 
+    "equipmentId": "de-sdkfz250-3", 
+    "type": "vehicle", 
+    "vehicleName": "SdKfz 250/3", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "specialRules": ["Medic"],
+    "openTopped": true
+  },
+  { 
+    "equipmentId": "de-sdkfz250-7", 
+    "type": "vehicle", 
+    "vehicleName": "SdKfz 250/7", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "80mm Mortar", "mount": "Hull", "equipmentId": "de-80mm-mortar"},{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "specialRules": [""],
+     "ammoQty": 4,
+    "openTopped": true
+  },
+    { 
+    "equipmentId": "de-sdkfz250-8", 
+    "type": "vehicle", 
+    "vehicleName": "SdKfz 250/8", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "75mmL24", "mount": "Hull", "equipmentId": "de-75mml24"},{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "specialRules": [""],
+     "ammoQty": 7,
+    "openTopped": true
+  },
+     { 
+    "equipmentId": "de-sdkfz250-9", 
+    "type": "vehicle", 
+    "vehicleName": "SdKfz 250/9", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "20mmL55", "mount": "Turret", "equipmentId": "de-20mml55"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
+    "specialRules": [""],
+     "ammoQty": 10,
+    "openTopped": true
+  },
+   { 
+    "equipmentId": "de-sdkfz250-10", 
+    "type": "vehicle", 
+    "vehicleName": "SdKfz 250/10", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "37mmL43", "mount": "Hull", "equipmentId": "de-37mml43"},{"weapon": "MG", "mount": "Pintle","range": 40}],
+    "specialRules": [""],
+     "ammoQty": 10,
+    "openTopped": true
+  },
+{ 
+    "equipmentId": "de-sdkfz222", 
+    "type": "vehicle", 
+    "vehicleName": "SdKfz 222", 
+    "movement": [{ "offroad": 8, "road": 24 }], 
+    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "20mmL55", "mount": "Turret", "equipmentId": "de-20mml55"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
+    "specialRules": [""],
+     "ammoQty": 18
+  },
+  { 
+    "equipmentId": "de-sdkfz234-1", 
+    "type": "vehicle", 
+    "vehicleName": "SdKfz 234/1", 
+    "movement": [{ "offroad": 8, "road": 24 }], 
     "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "range": 40}],
-    "openTopped": true 
+    "weapons": [{"weapon": "20mmL55", "mount": "Turret", "equipmentId": "de-20mml55"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
+    "specialRules": [""],
+     "ammoQty": 18
   },
   { 
-     "equipmentId": "ca-armoured-bulldozer", 
+    "equipmentId": "de-sdkfz234-2", 
     "type": "vehicle", 
-    "vehicleName": "Armoured Bulldozer", 
-    "movement": [{ "offroad": 4, "road": 6 }], 
-    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
-    "weapons": [],
-    "specialRules": ["Engineer"]
+    "vehicleName": "SdKfz 234/2", 
+    "movement": [{ "offroad": 8, "road": 24 }], 
+    "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "50mmL60", "mount": "Turret", "equipmentId": "de-50mml60"},{"weapon": "MG", "mount": "Co-axial","range": 30}],
+    "specialRules": [""],
+     "ammoQty": 6
   },
   { 
-     "equipmentId": "ca-bren-carrier", 
+    "equipmentId": "de-sdkfz234-3", 
     "type": "vehicle", 
-    "vehicleName": "Bren Carrier", 
-    "movement": [{ "offroad": 10, "road": 15 }], 
-    "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
-    "weapons": [{"weapon": "LMG", "mount": "Hull", "range": 30}],
-    "openTopped": true 
+    "vehicleName": "SdKfz 234/3", 
+    "movement": [{ "offroad": 8, "road": 24 }], 
+    "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "75mmL24", "mount": "Hull", "equipmentId": "de-75mml24"}],
+    "specialRules": [""],
+     "ammoQty": 6,
+    "openTopped": true
+  },
+   { 
+    "equipmentId": "de-flakpanzer-38t", 
+    "type": "vehicle", 
+    "vehicleName": "Flakpanzer 38(t)", 
+    "movement": [{ "offroad": 9, "road": 13 }], 
+    "armour": [{"Front": "M", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "20mmL55", "mount": "Turret", "equipmentId": "de-20mml55"}],
+    "specialRules": [""] 
   },
   { 
-     "equipmentId": "ca-motorcycle", 
+    "equipmentId": "de-wespe", 
+    "type": "vehicle", 
+    "vehicleName": "Wespe", 
+    "movement": [{ "offroad": 8, "road": 12 }], 
+    "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "105mmL28", "mount": "Hull", "equipmentId": "de-105mml28"}],
+    "specialRules": [""],
+     "ammoQty": 3,
+    "openTopped": true
+  },
+  { 
+    "equipmentId": "de-hummel", 
+    "type": "vehicle", 
+    "vehicleName": "Hummel", 
+    "movement": [{ "offroad": 8, "road": 12 }], 
+    "armour": [{"Front": "N", "Side": "O", "Rear": "O"}], 
+    "weapons": [{"weapon": "150mmL30", "mount": "Hull", "equipmentId": "de-150mml30"}],
+    "specialRules": [""],
+     "ammoQty": 2,
+    "openTopped": true
+  },
+  { 
+    "equipmentId": "de-wirbelwind", 
+    "type": "vehicle", 
+    "vehicleName": "Wirbelwind", 
+    "movement": [{ "offroad": 8, "road": 12 }], 
+    "armour": [{"Front": "L", "Side": "N", "Rear": "O"}], 
+    "weapons": [{"weapon": "Quad 20mmL55", "mount": "Turret", "equipmentId": "de-20mml55"},{"weapon": "MG", "mount": "Hull","range": 30}],
+    "specialRules": [""],
+     "ammoQty": 2,
+    "openTopped": true
+  },
+  
+  { 
+     "equipmentId": "de-motorcycle", 
     "type": "vehicle", 
     "vehicleName": "Motorcycle", 
     "movement": [{ "offroad": 6, "road": 24 }], 
@@ -153,144 +284,167 @@
     "notes": "Do not draw a BR counter if destroyed"
   },
   { 
-     "equipmentId": "ca-jeep", 
+     "equipmentId": "de-motorcycle-sidecar", 
     "type": "vehicle", 
-    "vehicleName": "Jeep", 
+    "vehicleName": "Motorcycle and Sidecar", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 1,
+    "specialRules": ["Transport Capacity 2"],
+    "notes": "Do not draw a BR counter if destroyed"
+  },
+  { 
+     "equipmentId": "de-staff-car", 
+    "type": "vehicle", 
+    "vehicleName": "Staff Car", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 2,
     "specialRules": ["Transport Capacity 3"],
     "notes": ""
   },
   { 
-     "equipmentId": "ca-bedford-mwd", 
+     "equipmentId": "de-kubelwagon", 
     "type": "vehicle", 
-    "vehicleName": "Bedford MWD", 
+    "vehicleName": "Kubelwagon", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 2,
-    "specialRules": ["Transport Capacity 8"],
+    "specialRules": ["Transport Capacity 3"],
+    "notes": ""
+  },
+    { 
+     "equipmentId": "de-schwimmwagon", 
+    "type": "vehicle", 
+    "vehicleName": "Schwimmwagon", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 2,
+    "specialRules": ["Transport Capacity 3"],
+    "notes": "Amphibious"
+  },
+     { 
+     "equipmentId": "de-steyr-horch-heavy-car", 
+    "type": "vehicle", 
+    "vehicleName": "Steyr/Horch Heavy Car", 
+    "movement": [{ "offroad": 6, "road": 24 }], 
+    "hits": 2,
+    "specialRules": ["Transport Capacity 5"],
     "notes": ""
   },
   { 
-     "equipmentId": "ca-bedford-oxd", 
+     "equipmentId": "de-opel-blitz", 
     "type": "vehicle", 
-    "vehicleName": "Bedford OXD", 
+    "vehicleName": "Opel Blitz (medium truck)", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 3,
     "specialRules": ["Transport Capacity 12"],
     "notes": ""
   },
   { 
-     "equipmentId": "ca-bedford-oyd", 
+     "equipmentId": "de-opel-maultier", 
     "type": "vehicle", 
-    "vehicleName": "Bedford OYD", 
-    "movement": [{ "offroad": 6, "road": 24 }], 
+    "vehicleName": "Opel Maultier", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
     "hits": 3,
-    "specialRules": ["Transport Capacity 14"],
+    "specialRules": ["Transport Capacity 12"],
     "notes": ""
   },
   { 
-     "equipmentId": "ca-bedford-qlt-qld", 
+     "equipmentId": "de-heavy-truck", 
     "type": "vehicle", 
-    "vehicleName": "Bedford QLT/QLD", 
-    "movement": [{ "offroad": 6, "road": 24 }], 
-    "hits": 3,
-    "specialRules": ["Transport Capacity 22"],
-    "notes": ""
-  },
-  { 
-     "equipmentId": "ca-radio-medium-truck", 
-    "type": "vehicle", 
-    "vehicleName": "Radio Medium Truck", 
-    "movement": [{ "offroad": 6, "road": 24 }], 
-    "hits": 3,
-    "specialRules": [],
-    "notes": "Most Likely the Bedford QLR"
-  },
-  { 
-     "equipmentId": "ca-scammel-pioneer", 
-    "type": "vehicle", 
-    "vehicleName": "Scammel Pioneer", 
+    "vehicleName": "Heavy Truck", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 4,
-    "specialRules": ["1 Vehicle Recovery"],
-    "notes": ""
-  },
-    { 
-     "equipmentId": "ca-m1-wrecker", 
-    "type": "vehicle", 
-    "vehicleName": "M1 Wrecker", 
-    "movement": [{ "offroad": 6, "road": 24 }], 
-    "hits": 4,
-    "specialRules": ["1 Vehicle Recovery"],
+    "specialRules": ["Transport Capacity 24"],
     "notes": ""
   },
   { 
-     "equipmentId": "ca-austin-k2-ambulance", 
+     "equipmentId": "de-1-tonne-sdkfz-10", 
     "type": "vehicle", 
-    "vehicleName": "Austin K2 Ambulance", 
-    "movement": [{ "offroad": 6, "road": 24 }], 
+    "vehicleName": "1 Tonne-SdFfz 10", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
     "hits": 2,
-    "specialRules": ["Medic"],
+    "specialRules": ["Transport Capacity 5"],
     "notes": ""
-  },
-  { 
-    "equipmentId": "ca-auster-iii", 
-    "type": "aircraft", 
-    "hits": 2,
-    "aircraftName": "Auster III", 
-    "movement": [{"cat": "Spotter Plane", "move": "Unlimited"}], 
-    "weapons": [] 
-  },
-  { 
-    "equipmentId": "ca-typhoon-1", 
-    "type": "aircraft", 
-    "hits": 4,
-    "aircraftName": "Typhoon (Rockets)", 
-    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
-    "weapons": ["4 20mm Cannons","8 60lb rockets"] 
   },
    { 
-    "equipmentId": "ca-typhoon-2", 
-    "type": "aircraft", 
-    "hits": 4,
-    "aircraftName": "Typhoon (Medium Bombs)", 
-    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
-    "weapons": ["4 20mm Cannons","4 medium bombs"] 
-  },
-  { 
-    "equipmentId": "ca-typhoon-3", 
-    "type": "aircraft", 
-    "hits": 4,
-    "aircraftName": "Typhoon (Large Bombs)", 
-    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
-    "weapons": ["4 20mm Cannons","2 large bombs"] 
-  },
-  { 
-    "equipmentId": "ca-spitfire", 
-    "type": "aircraft", 
+     "equipmentId": "de-3-tonne-sdkfz-11", 
+    "type": "vehicle", 
+    "vehicleName": "3 Tonne-SdFfz 11", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
     "hits": 3,
-    "aircraftName": "Spitfire", 
-    "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
-    "weapons": ["2 20mm Cannons","2 small bombs"] 
+    "specialRules": ["Transport Capacity 8"],
+    "notes": ""
   },
   { 
-    "equipmentId": "ca-2inch-mortar", 
-    "type": "weapon", 
-    "weaponName": "2\" Mortar", 
-    "heEffect": "3/5+",
-    "ammo": [{"HE": "Very Light, 1,1,1,-,-,-"}],
-    "notes": "A minimum range of 5\" and a maximum of 30\""
+     "equipmentId": "de-3-tonne-sdkfz-6", 
+    "type": "vehicle", 
+    "vehicleName": "5 Tonne-SdFfz 6", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "hits": 3,
+    "specialRules": ["Transport Capacity 10"],
+    "notes": ""
   },
     { 
-    "equipmentId": "ca-3inch-mortar", 
+     "equipmentId": "de-3-tonne-sdkfz-7", 
+    "type": "vehicle", 
+    "vehicleName": "8 Tonne-SdFfz 7", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "hits": 4,
+    "specialRules": ["Transport Capacity 12"],
+    "notes": ""
+  },
+  { 
+     "equipmentId": "de-3-tonne-sdkfz-8", 
+    "type": "vehicle", 
+    "vehicleName": "12 Tonne-SdFfz 8", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "hits": 4,
+    "specialRules": ["Transport Capacity 15"],
+    "notes": ""
+  },
+   { 
+     "equipmentId": "de-3-tonne-sdkfz-9-famo", 
+    "type": "vehicle", 
+    "vehicleName": "18 Tonne-SdFfz 9 FAMO", 
+    "movement": [{ "offroad": 12, "road": 16 }], 
+    "hits": 5,
+    "specialRules": ["Repair", "Recovery"],
+    "notes": ""
+  },
+  
+  { 
+    "equipmentId": "de-fw-190g-1", 
+    "type": "aircraft", 
+    "hits": 3,
+    "aircraftName": "FW-190G (4 small bombs)", 
+    "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
+    "weapons": ["2 20mm Cannons","8 Small Bombs"] 
+  },
+  { 
+    "equipmentId": "de-fw-190g-2", 
+    "type": "aircraft", 
+    "hits": 3,
+    "aircraftName": "FW-190G (4 large bomb)", 
+    "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
+    "weapons": ["2 20mm Cannons","1 Large Bomb","4 Small Bombs"] 
+  },
+  { 
+    "equipmentId": "de-me-bf109g", 
+    "type": "aircraft", 
+    "hits": 4,
+    "aircraftName": "Me Bf109G", 
+    "movement": [{"cat": "Fighter", "move": "Unlimited"}],  
+    "weapons": ["4 MGs","1 x30mm cannon (as 37mm)"," 2 Small Bombs"] 
+  },
+   
+   { 
+    "equipmentId": "de-80mm-mortar", 
     "type": "weapon", 
-    "weaponName": "3\" Mortar", 
+    "weaponName": 120mm Mortar", 
     "heEffect": "4/4+",
     "ammo": [{"HE": "Light, -,2,2,2,2,2"}],
     "notes": "A minimum range of 10\" and a maximum of 90\""
   },
      { 
-    "equipmentId": "ca-42inch-mortar", 
+    "equipmentId": "de-120mm-mortar", 
     "type": "weapon", 
     "weaponName": "4.2\" Mortar", 
     "heEffect": "6/4+",
@@ -298,103 +452,105 @@
     "notes": "A minimum range of 15\" and a maximum of 240\""
   },
   { 
-    "equipmentId": "ca-20mm-polston-autocannon", 
+    "equipmentId": "de-20mml55", 
     "type": "weapon", 
-    "weaponName": "20mm Polston Autocannon", 
+    "weaponName": "20mmL55", 
     "heEffect": "",
     "ammo": [{"AP": "2,2,1,1,1,-"}, {"HE": "Very Light, 1,1,1,1,1,-"}]
   },
-  { 
-    "equipmentId": "ca-40mm-bofors-gun", 
+    { 
+    "equipmentId": "de-37mml57", 
     "type": "weapon", 
-    "weaponName": "40mm Bofors Gun", 
+    "weaponName": "37mmL57", 
     "heEffect": "",
-    "ammo": [{"AP": "3,3,2,2,1,-"}, {"HE": "Very Light, 1,1,1,1,1,1"}]
+    "ammo": [{"AP": "3,3,2,2,1,-"}, {"HE": "Very Light, 2,2,2,2,2,-"}]
   },
   { 
-    "equipmentId": "ca-37mml53", 
+    "equipmentId": "de-37mml43", 
     "type": "weapon", 
-    "weaponName": "37mmL53", 
+    "weaponName": "37mmL43 (Pak36)", 
     "heEffect": "2/5+",
-    "ammo": [{"AP": "4,4,3,2,1,-"}, {"HE": "Very Light, 1,1,1,1,1,-"}],
-    "notes": ""
+    "ammo": [{"AP": "3(7)*,3(7)*,2,2,1,-"}, {"HE": "Very Light, 1,1,1,1,1,1"}],
+    "notes": "*Stielgranate 41"
   },
   { 
-    "equipmentId": "ca-6pdr", 
+    "equipmentId": "de-50mml60", 
     "type": "weapon", 
-    "weaponName": "6pdr", 
+    "weaponName": "50mmL60", 
     "heEffect": "3/5+",
-    "ammo": [{"AP": "7,7,6,5,4,-"}, {"HE": "Very Light, 2,2,2,2,2,-"}],
+    "ammo": [{"AP": "5,5,4,3,2,-"}, {"HE": "Very Light, 2,2,2,2,2,-"}],
     "notes": ""
   },
   { 
-    "equipmentId": "ca-75mml40", 
+    "equipmentId": "de-75mml24", 
     "type": "weapon", 
-    "weaponName": "75mmL40", 
+    "weaponName": "75mmL24", 
     "heEffect": "4/4+",
-    "ammo": [{"AP": "6,6,5,4,3,-"}, {"HE": "Light, 3,3,3,3,3,-"}],
+    "ammo": [{"AP": "4,4,3,2,1,-"}, {"HE": "Light, 2,2,2,2,2,-"}],
     "notes": ""
   },
   { 
-    "equipmentId": "ca-76mml53", 
+    "equipmentId": "de-75mml46", 
     "type": "weapon", 
-    "weaponName": "76mmL53", 
+    "weaponName": "75mmL46 (PaK 40)", 
     "heEffect": "4/4+",
-    "ammo": [{"AP": "7,7,6,5,4,-"}, {"HE": "Light, 3,3,3,3,3,-"}],
+    "ammo": [{"AP": "8,8,7,6,5,4"}, {"HE": "Light, 3,3,3,3,3,3"}],
     "notes": ""
   },
   { 
-    "equipmentId": "ca-17pdr", 
+    "equipmentId": "de-75mml48", 
     "type": "weapon", 
-    "weaponName": "17pdr", 
-    "ammo": [{"AP": "11,11,10,9,8,7"}] 
+    "weaponName": "75mmL48", 
+    "heEffect": "4/4+",
+    "ammo": [{"AP": "8,8,7,6,5,4"}, {"HE": "Light, 3,3,3,3,3,3"}],
+    "notes": ""
   },
   { 
-    "equipmentId": "ca-105mml22", 
+    "equipmentId": "de-75mml70", 
     "type": "weapon", 
-    "weaponName": "105mmL22", 
+    "weaponName": "75mmL70", 
+    "heEffect": "4/4+",
+    "ammo": [{"AP": "11,11,10,9,8,7"}, {"HE": "Light, 3,3,3,3,3,3"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "de-88mml56", 
+    "type": "weapon", 
+    "weaponName": "88mmL56 (Flak36)", 
+    "heEffect": "4/3+",
+    "ammo": [{"AP": "9,9,8,7,6,5"}, {"HE": "Medium, 3,3,3,3,3,3"}],
+    "notes": ""
+  },
+   { 
+    "equipmentId": "de-100mml52", 
+    "type": "weapon", 
+    "weaponName": "100mmL52 (K18)", 
     "heEffect": "5/3+",
-    "ammo": [{"HE": "Medium, 4,4,4,4,4,-"}],
+    "ammo": [{"AP": "10,10,9,8,7,6"},{"HE": "Medium, 4,4,4,4,4,4"}],
     "notes": ""
   },
   { 
-    "equipmentId": "ca-6inch-naval-gun", 
+    "equipmentId": "de-105mml28", 
     "type": "weapon", 
-    "weaponName": "6\" naval gun", 
+    "weaponName": "105mmL28", 
+    "heEffect": "5/3+",
+    "ammo": [{"HE": "Medium, 3,3,3,3,3,-"}],
+    "notes": ""
+  },
+  { 
+    "equipmentId": "de-150mml12", 
+    "type": "weapon", 
+    "weaponName": "150mmL12 (sIG33)", 
     "heEffect": "7/3+",
-    "ammo": [{"HE": "Medium, 6,6,6,6,6,-"}],
+    "ammo": [{"HE": "Medium, 5,5,5,5,5,-"}],
     "notes": ""
   },
   { 
-    "equipmentId": "ca-8inch-naval-gun", 
+    "equipmentId": "de-150mml30", 
     "type": "weapon", 
-    "weaponName": "8\" naval gun", 
-    "heEffect": "7/2+",
-    "ammo": [{"HE": "Heavy, 8,8,8,8,8,8"}],
-    "notes": ""
-  },
-  { 
-    "equipmentId": "ca-14inch-naval-gun", 
-    "type": "weapon", 
-    "weaponName": "14\" naval gun", 
-    "heEffect": "13/2+",
-    "ammo": [{"HE": "Heavy, 12,12,12,12,12,12"}],
-    "notes": ""
-  },
-  { 
-    "equipmentId": "ca-piat", 
-    "type": "weapon", 
-    "weaponName": "PIAT", 
-    "heEffect": "",
-    "ammo": [{"AP": "5,-,-,-,-,-"}],
-    "notes": ""
-  },
-  { 
-    "equipmentId": "ca-60ib-rocket", 
-    "type": "weapon", 
-    "weaponName": "60Ib Rocket", 
-    "heEffect": "5/4+",
-    "ammo": [{"HE": "Medium, -,-,8,-,-,-"}],
+    "weaponName": "150mmL30", 
+    "heEffect": "7/3+",
+    "ammo": [{"HE": "Medium, 5,5,5,5,5,-"}],
     "notes": ""
   }
 ] 

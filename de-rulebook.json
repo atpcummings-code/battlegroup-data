@@ -118,6 +118,28 @@
       ]
     },
     {
+      "id": "de-rulebook-fhu-comms-relay-team",
+      "name": "Comms Relay Team",
+      "category": "Forward Headquarters Units",
+      "points": 14,
+      "br": 0,
+      "morale": "R",
+      "unitComposition": [{"qty": 1, "name": "2 Men", "equipmentId": ""}],
+      "specialRules": [{"name": "Communications"}],
+      "options": []
+    },
+       {
+      "id": "de-rulebook-fhu-wire-team",
+      "name": "Wire Team",
+      "category": "Forward Headquarters Units",
+      "points": 8,
+      "br": 0,
+      "morale": "R",
+      "unitComposition": [{"qty": 1, "name": "2 Men", "equipmentId": ""}],
+      "specialRules": [{"name": "Wire Communications"}],
+      "options": []
+    },
+    {
       "id": "de-rulebook-fhu-motorcycle-dispatch-rider",
       "name": "Motorcycle Dispatch Rider",
       "category": "Forward Headquarters Units",
@@ -131,29 +153,20 @@
       "specialRules": [{"name": "Dispatches"}],
       "options": []
     },
+          {
+      "id": "de-rulebook-fhu-fanatical-resistance",
+      "name": "Fanatical Resistance",
+      "category": "Forward Headquarters Units",
+      "points": 15,
+      "br": 0,
+      "morale": "",
+      "unitComposition": [],
+      "specialRules": [],
+      "options": [],
+      "notes": "Youth's indoctrinated into Nazi philosophies ammost since birth and believers in the causes of the Third Reich and German racial supremacy, the young soldiers of 12th SS fought fanatically for their Fatherland.  At the start of the game incrase the Battlegroups BR rating by a D6"
+    },
     
-    {
-      "id": "de-rulebook-fhu-comms-relay-team",
-      "name": "Comms Relay Team",
-      "category": "Forward Headquarters Units",
-      "points": 14,
-      "br": 0,
-      "morale": "I",
-      "unitComposition": [{"qty": 1, "name": "2 Men", "equipmentId": ""}],
-      "specialRules": [{"name": "Communications"}],
-      "options": []
-    },
-    {
-      "id": "de-rulebook-fhu-wire-team",
-      "name": "Wire Team",
-      "category": "Forward Headquarters Units",
-      "points": 7,
-      "br": 0,
-      "morale": "I",
-      "unitComposition": [{"qty": 1, "name": "2 Men", "equipmentId": ""}],
-      "specialRules": [{"name": "Wire Communications"}],
-      "options": []
-    },
+ 
     {
       "id": "de-rulebook-iu-infantry-platoon",
       "name": "Infantry Platoon",

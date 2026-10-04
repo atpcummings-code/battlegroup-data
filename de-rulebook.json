@@ -59,53 +59,7 @@
         }
       ]
     },
-    {
-      "id": "de-rulebook-fhu-forward-air-control-officer",
-      "name": "Forward Air Control Officer",
-      "category": "Forward Headquarters Units",
-      "maxQty": 1,
-      "points": 26,
-      "br": 1,
-      "morale": "R",
-      "unitComposition": [
-        {"qty": 1, "name": "2 Men", "equipmentId": ""},
-        {"qty": 1, "name": "Jeep", "equipmentId": "de-jeep"}
-      ],
-      "specialRules": [
-        {"name": "Officer"},
-        {"name": "Air Spotter 3+"},
-        {"name": "Unique"}
-      ],
-      "optionGroupLimits": [
-        {"groupName": "Upgrade Jeep to:", "options": ["de-rulebook-fhu-forward-air-control-officer-1", "de-rulebook-fhu-forward-air-control-officer-2"], "min": 0, "max": 1},
-        {"groupName": "Replace 2 men and Jeep with:", "options": ["de-rulebook-fhu-forward-air-control-officer-3"], "min": 0, "max": 1}
-      ],
-      "options": [
-        {
-          "id": "de-rulebook-fhu-forward-air-control-officer-1",
-          "name": "Radio Medium Truck",
-          "points": 2,
-          "br": 0,
-          "composition": [{"qty": 1, "name": "Radio Medium Truck", "mode": "modify", "replaces": "Jeep", "equipmentId": "de-radio-medium-truck"}]
-        },
-        {
-          "id": "de-rulebook-fhu-forward-air-control-officer-2",
-          "name": "Bren Carrier",
-          "points": 4,
-          "br": 0,
-          "composition": [{"qty": 1, "name": "Bren Carrier", "mode": "modify", "replaces": "Jeep", "equipmentId": "de-bren-carrier"}]
-        },
-        {
-          "id": "de-rulebook-fhu-forward-air-control-officer-3",
-          "name": "Humber Scout Car",
-          "points": 6,
-          "br": 0,
-          "composition": [{"qty": 1, "name": "Humber Scout Car", "equipmentId": "de-humber-scout-car"}],
-          "compositionMode": "replace"
-        }
-      ]
-    },
-    {
+    {    {
       "id": "de-rulebook-fhu-motorcycle-dispatch-rider",
       "name": "Motorcycle Dispatch Rider",
       "category": "Forward Headquarters Units",
@@ -126,13 +80,34 @@
       "maxQty": 1,
       "points": 18,
       "br": 1,
-      "morale": "I",
+      "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "3 Men", "equipmentId": ""},
         {"qty": 1, "name": "Radio Medium Truck", "equipmentId": "de-radio-medium-truck"}
       ],
       "specialRules": [{"name": "Communications"}, {"name": "Unique"}],
-      "options": []
+      "optionGroupLimits": [
+        {"groupName": "Upgrade Radio Medium TRuck to:", "options": ["de-rulebook-fhu-forward-signals-unit-1", "de-rulebook-fhu-forward-signals-unit-2"],  "min": 0, "max": 1},
+        {"groupName": "Upgrade Radio Medium TRuck to:", "options": ["de-rulebook-fhu-forward-signals-unit-3", "de-rulebook-fhu-forward-signals-unit-4"],  "min": 0, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "de-rulebook-fhu-forward-signals-unit-1",
+          "name": "SdKfz 251/3 Radio Half Track",
+          "points": 6,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "SdKfz 251/3 Radio Half Track", "equipmentId": "de-sdkfz251"}],
+          "compositionMode": "replace"
+        },
+       {
+          "id": "de-rulebook-fhu-forward-signals-unit-2",
+          "name": "Panther G",
+          "points": 62,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "Panther G", "equipmentId": "de-panther-G"}],
+          "compositionMode": "replace"
+        }
+      ]
     },
     {
       "id": "de-rulebook-fhu-comms-relay-team",

@@ -74,7 +74,7 @@
       "specialRules": [{"name": "Communications"}, {"name": "Unique"}],
       "optionGroupLimits": [
         {"groupName": "Upgrade Radio Medium TRuck to:", "options": ["de-rulebook-fhu-forward-signals-unit-1", "de-rulebook-fhu-forward-signals-unit-2"],  "min": 0, "max": 1},
-        {"groupName": "Repalce 3men and radio medium truck with:", "options": ["de-rulebook-fhu-forward-signals-unit-3", "de-rulebook-fhu-forward-signals-unit-4"],  "min": 0, "max": 1}
+        {"groupName": "Repalce 3men and radio medium truck with:", "options": ["de-rulebook-fhu-forward-signals-unit-3", "de-rulebook-fhu-forward-signals-unit-4","de-rulebook-fhu-forward-signals-unit-5"],  "min": 0, "max": 1}
       ],
       "options": [
         {

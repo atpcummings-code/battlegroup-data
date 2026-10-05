@@ -168,34 +168,36 @@
     
  
     {
-      "id": "de-rulebook-iu-infantry-platoon",
+      "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon",
       "name": "Infantry Platoon",
       "category": "Infantry Units",
       "unitType": { "type": "platoon", "count": 1 },
       "categorySlots": 4,
-      "points": 94,
+      "points": 120,
       "br": 11,
-      "morale": "R",
+      "morale": "V",
       "subUnitsGroupLimit": [
         {
           "groupName": "The platoon may include up to four of the following additional units. No unit may be taken more than once:",
           "options": [
-            "de-rulebook-iu-infantry-platoon-1",
-            "de-rulebook-iu-infantry-platoon-2",
-            "de-rulebook-iu-infantry-platoon-3",
-            "de-rulebook-iu-infantry-platoon-4",
-            "de-rulebook-iu-infantry-platoon-5"
+            "de-rulebook-iu-armoured-panzer-grenadier-platoon-1",
+            "de-rulebook-iu-armoured-panzer-grenadier-platoon-2",
+            "de-rulebook-iu-armoured-panzer-grenadier-platoon-3",
+            "de-rulebook-iu-armoured-panzer-grenadier-platoon-4",
+            "de-rulebook-iu-armoured-panzer-grenadier-platoon-5"'
+            "de-rulebook-iu-armoured-panzer-grenadier-platoon-6",
+            "de-rulebook-iu-armoured-panzer-grenadier-platoon-7"
           ],
           "min": 0,
           "max": 4
         }
       ],
       "unitComposition": [
-        {"qty": 1, "name": "Platoon Command Section (5 Men)", "equipmentId": ""},
-        {"qty": 3, "name": "Rifle Section (10 Men with a Bren)", "equipmentId": ""},
-        {"qty": 1, "name": "Light Mortar Team (2 Men with a 2\" Mortar)", "equipmentId": "de-2inch-mortar"}
+        {"qty": 1, "name": "Panzer Grenadier Platoon Command Section (6 Men)", "equipmentId": ""},
+        {"qty": 3, "name": "Panzer Grenaider Squad (5 Men)", "equipmentId": ""},
+        {"qty": 3, "name": "MG Team", "equipmentId": "de-mg34-bipod"}
       ],
-      "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"},{"name": "Bren Team"}],
+      "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
       "subUnits": [
         {
           "id": "de-rulebook-iu-infantry-platoon-1",

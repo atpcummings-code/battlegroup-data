@@ -176,6 +176,15 @@
       "points": 120,
       "br": 11,
       "morale": "V",
+      "options": [
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon",
+          "name": "SdKfz 251/3 Radio Half Track",
+          "points": 6,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "SdKfz 251/3 Radio Half Track", "mode": "modify", "replaces": "Radio Medium Truck","equipmentId": "de-sdkfz251-3"}]
+        },
+      ],
       "subUnitsGroupLimit": [
         {
           "groupName": "The platoon may include up to four of the following additional units. No unit may be taken more than once:",
@@ -195,7 +204,7 @@
       "unitComposition": [
         {"qty": 1, "name": "Panzer Grenadier Platoon Command Section (6 Men)", "equipmentId": ""},
         {"qty": 3, "name": "Panzer Grenaider Squad (5 Men)", "equipmentId": ""},
-        {"qty": 3, "name": "MG Team", "equipmentId": "de-mg34-bipod"}
+        {"qty": 3, "name": "MG Team (MG34 Bipod)", "equipmentId": ""}
       ],
       "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
       "subUnits": [

@@ -203,7 +203,7 @@
       ],
       "unitComposition": [
         {"qty": 1, "name": "Panzer Grenadier Platoon Command Section (6 Men)", "equipmentId": ""},
-        {"qty": 3, "name": "Panzer Grenaider Squad (5 Men)", "equipmentId": ""},
+        {"qty": 3, "name": "Panzer Grenadier Squad (5 Men)", "equipmentId": ""},
         {"qty": 3, "name": "MG Team (MG34 Bipod)", "equipmentId": ""}
       ],
       "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
@@ -311,18 +311,46 @@
       ]
     },
     {
-      "id": "de-rulebook-iu-rifle-section",
-      "name": "Rifle Section",
+      "id": "de-rulebook-iu-armoured-panzer-grenadier-squad",
+      "name": "Armoured Panzer Grenadier Squad",
       "category": "Infantry Units",
-      "points": 21,
+      "points": 32,
       "unitType": { "type": "squad", "count": 1 },
-      "br": 2,
-      "morale": "R",
+      "br": 3,
+      "morale": "V",
       "unitComposition": [
-        {"qty": 1, "name": "10 Men with a Bren", "equipmentId": ""}
+        {"qty": 3, "name": "Panzer Grenadier Squad (5 Men)", "equipmentId": ""},
+        {"qty": 3, "name": "MG Team (MG34 Bipod)", "equipmentId": ""}
       ],
-      "specialRules": [{"name": "Bren Team"}],
-      "options": []
+      "specialRules": [],
+      "optionGroupLimits": [
+        {"groupName": "may take up to 2 panzerfaust", "options": ["de-rulebook-iu-armoured-panzer-grenadier-squad-2","de-rulebook-iu-armoured-panzer-grenadier-squad-3","de-rulebook-iu-armoured-panzer-grenadier-squad-3"], "min": 0, "max": 1}
+      ],
+      "options": [
+        {
+                      "id": "de-rulebook-iu-armoured-panzer-grenadier-squad-1",
+                      "name": "Mount in SdKfz 251/1",
+                      "points": 10,
+                      "br": 1,
+                      "morale": "V",
+                      "composition": [{"qty": 1, "name": "SdKfz 251/1", "equipmentId": "de-sdkfz251-1"}],
+                      "compositionMode": "append"
+                    },
+        {
+                      "id": "de-rulebook-iu-armoured-panzer-grenadier-squad-2",
+                      "name": "Squad may take up a Panzerfaust",
+                      "points": 5,
+                      "composition": [{"qty": 1, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
+                      "compositionMode": "append"
+                    },
+        {
+                      "id": "de-rulebook-iu-armoured-panzer-grenadier-squad-3",
+                      "name": "Squad may take 2 Panzerfaust",
+                      "points": 10,
+                      "composition": [{"qty": 2, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
+                      "compositionMode": "append"
+                    }
+      ]
     },
     {
       "id": "de-rulebook-iu-carrier-section",

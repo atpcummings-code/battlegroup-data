@@ -183,7 +183,7 @@
           "points": 6,
           "br": 0,
           "composition": [{"qty": 1, "name": "SdKfz 251/3 Radio Half Track", "mode": "modify", "replaces": "Radio Medium Truck","equipmentId": "de-sdkfz251-3"}]
-        },
+        }
       ],
       "subUnitsGroupLimit": [
         {

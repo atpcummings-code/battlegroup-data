@@ -52,7 +52,7 @@
     "specialRules": ["Recovery","Repair"] 
   },
   { 
-    "equipmentId": "de-sdkfz251-1", 
+    "equipmentId": "de-sdkfz-251-1", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 251/1", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -63,7 +63,7 @@
     "openTopped": true
   },
   { 
-    "equipmentId": "de-sdkfz251-2", 
+    "equipmentId": "de-sdkfz-251-2", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 251/2", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -73,7 +73,7 @@
     "openTopped": true
   },
   { 
-    "equipmentId": "de-sdkfz251-3", 
+    "equipmentId": "de-sdkfz-251-3", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 251/3", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -83,7 +83,7 @@
     "openTopped": true
   },
     { 
-    "equipmentId": "de-sdkfz251-18", 
+    "equipmentId": "de-sdkfz-251-18", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 251/18", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -93,7 +93,7 @@
     "openTopped": true
   },
   { 
-    "equipmentId": "de-sdkfz251-7", 
+    "equipmentId": "de-sdkfz-251-7", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 251/7", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -103,7 +103,7 @@
     "openTopped": true
   },
   { 
-    "equipmentId": "de-sdkfz251-8", 
+    "equipmentId": "de-sdkfz-251-8", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 251/8", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -113,7 +113,7 @@
     "openTopped": true
   },
    { 
-    "equipmentId": "de-sdkfz251-9", 
+    "equipmentId": "de-sdkfz-251-9", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 251/9", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -124,7 +124,7 @@
     "openTopped": true
   },
   { 
-    "equipmentId": "de-sdkfz251-10", 
+    "equipmentId": "de-sdkfz-251-10", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 251/10", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -135,7 +135,7 @@
     "openTopped": true
   },
   { 
-    "equipmentId": "de-sdkfz250-1", 
+    "equipmentId": "de-sdkfz-250-1", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 250/1", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -145,7 +145,7 @@
     "openTopped": true
   },
   { 
-    "equipmentId": "de-sdkfz250-3", 
+    "equipmentId": "de-sdkfz-250-3", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 250/3", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -155,7 +155,7 @@
     "openTopped": true
   },
   { 
-    "equipmentId": "de-sdkfz250-7", 
+    "equipmentId": "de-sdkfz-250-7", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 250/7", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -166,7 +166,7 @@
     "openTopped": true
   },
     { 
-    "equipmentId": "de-sdkfz250-8", 
+    "equipmentId": "de-sdkfz-250-8", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 250/8", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -177,7 +177,7 @@
     "openTopped": true
   },
      { 
-    "equipmentId": "de-sdkfz250-9", 
+    "equipmentId": "de-sdkfz-250-9", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 250/9", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -188,7 +188,7 @@
     "openTopped": true
   },
    { 
-    "equipmentId": "de-sdkfz250-10", 
+    "equipmentId": "de-sdkfz-250-10", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 250/10", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -199,7 +199,7 @@
     "openTopped": true
   },
 { 
-    "equipmentId": "de-sdkfz222", 
+    "equipmentId": "de-sdkfz-222", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 222", 
     "movement": [{ "offroad": 8, "road": 24 }], 
@@ -209,7 +209,7 @@
      "ammoQty": 18
   },
   { 
-    "equipmentId": "de-sdkfz234-1", 
+    "equipmentId": "de-sdkfz-234-1", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 234/1", 
     "movement": [{ "offroad": 8, "road": 24 }], 
@@ -219,7 +219,7 @@
      "ammoQty": 18
   },
   { 
-    "equipmentId": "de-sdkfz234-2", 
+    "equipmentId": "de-sdkfz-234-2", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 234/2", 
     "movement": [{ "offroad": 8, "road": 24 }], 
@@ -229,7 +229,7 @@
      "ammoQty": 6
   },
   { 
-    "equipmentId": "de-sdkfz234-3", 
+    "equipmentId": "de-sdkfz-234-3", 
     "type": "vehicle", 
     "vehicleName": "SdKfz 234/3", 
     "movement": [{ "offroad": 8, "road": 24 }], 

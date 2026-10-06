@@ -405,8 +405,8 @@
       "options": []
     },
      {
-      "id": "de-rulebook-au-self-propelled-gun",
-      "name": "Self-propelled-Gun",
+      "id": "de-rulebook-au-self-propelled-artillery",
+      "name": "Self-propelled Artillery",
       "category": "Artillery Units",
       "points": 0,
       "maxQty": 1,
@@ -415,11 +415,11 @@
       "unitComposition": [],
       "specialRules": [],
        "optionGroupLimits": [
-        {"groupName": "Choose SPG:", "options": ["de-rulebook-au-self-propelled-gun-1", "de-rulebook-au-self-propelled-gun-2"], "min": 1, "max": 1}
+        {"groupName": "Choose SPG:", "options": ["de-rulebook-au-self-propelled-artillery-1", "de-rulebook-au-self-propelled-artillery-2"], "min": 1, "max": 1}
       ],
       "options": [
         {
-          "id": "de-rulebook-au-self-propelled-gun-1",
+          "id": "de-rulebook-au-self-propelled-artillery-1",
           "name": "Wespe",
           "points": 32,
           "br": 2,
@@ -427,13 +427,51 @@
           "composition": [{"qty": 1, "name": "Wespe", "equipmentId": "de-wespe"}]
         },
         {
-          "id": "de-rulebook-au-self-propelled-gun-2",
+          "id": "de-rulebook-au-self-propelled-artillery-2",
           "name": "Hummel",
           "points": 44,
           "br": 3,
           "morale": "R",
           "restricted": "yes",
           "composition": [{"qty": 1, "name": "Hummel", "equipmentId": "de-hummel"}]
+        }
+      ]
+    },
+    {
+      "id": "de-rulebook-au-heavy-mortar-team",
+      "name": "Heavy Mortar Team",
+      "category": "Artillery Units",
+      "points": 29,
+      "br": 1,
+      "morale": "R",
+      "unitComposition": [{"qty": 1, "name": "120mm mortar and 3 crew", "equipmentId": "de-120mm-mortar"}],
+      "optionGroupLimits": [
+         {"groupName": "Mount in:", "options": ["de-rulebook-au-heavy-mortar-team-2", "de-rulebook-au-heavy-mortar-team-3"], "min": 0, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "de-rulebook-au-heavy-mortar-team-1",
+          "name": "3 man loader team",
+          "points": 10,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
+          "compositionMode": "append"
+        },
+        {
+          "id": "de-rulebook-au-heavy-mortar-team-2",
+          "name": "Opel Blitz (Medium Truck)",
+          "points": 4,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "Opel Blitz", "equipmentId": "de-opel-blitz"}],
+          "compositionMode": "append"
+        },
+        {
+          "id": "de-rulebook-au-heavy-mortar-team-3",
+          "name": "Heavy Car",
+          "points": 4,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "Heavy Car", "equipmentId": "de-heavy-car"}],
+          "compositionMode": "append"
         }
       ]
     },
@@ -479,34 +517,7 @@
       "specialRules": [{"name": "Artillery Spotter+"}, {"name": "Unique"}],
       "options": []
     },
-    {
-      "id": "de-rulebook-au-heavy-mortar-team",
-      "name": "Heavy Mortar Team",
-      "category": "Artillery Units",
-      "points": 29,
-      "br": 1,
-      "morale": "R",
-      "unitComposition": [{"qty": 1, "name": "4.2\" mortar and 3 crew", "equipmentId": "de-42inch-mortar"}],
-      "optionGroupLimits": [],
-      "options": [
-        {
-          "id": "de-rulebook-au-heavy-mortar-team-1",
-          "name": "3 man loader team",
-          "points": 10,
-          "br": 0,
-          "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
-          "compositionMode": "append"
-        },
-        {
-          "id": "de-rulebook-au-heavy-mortar-team-2",
-          "name": "Mount in Bren Carrier",
-          "points": 6,
-          "br": 0,
-          "composition": [{"qty": 1, "name": "Bren Carrier", "equipmentId": "de-bren-carrier"}],
-          "compositionMode": "append"
-        }
-      ]
-    },
+    
     {
       "id": "de-rulebook-au-off-table-artillery-fire",
       "name": "Off Table Artillery Fire",

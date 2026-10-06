@@ -615,7 +615,7 @@
                       "name": "Upgrade anti-aircrtaft gun to 20mm FlaK Vierling",
                       "points": 14,
                       "br": 0,
-                      "composition": [{"qty": 1, "name": "20mm FlaK Vierling","mode": "modify", "replaces": "20mm FlaK with 3 crew", "equipmentId": "de-75mml46"}]
+                      "composition": [{"qty": 1, "name": "20mm FlaK Vierling","mode": "modify", "replaces": "20mm FlaK with 3 crew", "equipmentId": "de-20mml55"}]
                     },        
                     {
                       "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-14b",

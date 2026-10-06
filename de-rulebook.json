@@ -304,7 +304,7 @@
       "notes": "",
       "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
        "unitComposition": [
-        {"qty": 3, "name": "Panzer IV H", "equipmentId": "de-panzer-ivh"}
+        {"qty": 3, "name": "Panzer IV H", "equipmentId": "de-panzer-iv-h"}
        ],
       "optionGroupLimits": [
         {"groupName": "Add up to two additional Panzer IV Hs", "options": ["de-rulebook-tu-panzer-iv-platoon-1", "de-rulebook-tu-panzer-iv-platoon-2"], "min": 0, "max": 1}
@@ -316,7 +316,7 @@
           "points": 56,
           "br": 3,
           "morale": "R",
-          "composition": [{"qty": 4, "name": "Panzer IV H", "equipmentId": "de-panzer-ivh"}],
+          "composition": [{"qty": 4, "name": "Panzer IV H", "equipmentId": "de-panzer-iv-h"}],
           "compositionMode": "replace"        
         },
         {
@@ -325,7 +325,7 @@
           "points": 112,
           "br": 6,
           "morale": "R",
-          "composition": [{"qty": 5, "name": "Panzer IV H", "equipmentId": "de-panzer-ivh"}],
+          "composition": [{"qty": 5, "name": "Panzer IV H", "equipmentId": "de-panzer-iv-h"}],
           "compositionMode": "replace"
         }
       ]

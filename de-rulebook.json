@@ -432,7 +432,7 @@
           "points": 44,
           "br": 3,
           "morale": "R",
-          "restricted": yes,
+          "restricted": "yes",
           "composition": [{"qty": 1, "name": "Hummel", "equipmentId": "de-hummel"}]
         }
       ]

@@ -80,7 +80,6 @@
     "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
     "weapons": [{"weapon": "MG", "mount": "Pintle","range": 40}],
     "specialRules": [],
-    "ammoQty": 6,
     "openTopped": true
   },
     { 
@@ -91,7 +90,6 @@
     "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
     "weapons": [{"weapon": "MG", "mount": "Pintle","range": 40}],
     "specialRules": [],
-    "ammoQty": 6,
     "openTopped": true
   },
   { 

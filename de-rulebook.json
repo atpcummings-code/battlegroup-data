@@ -667,6 +667,131 @@
       ]
     },
     {
+      "id": "de-rulebook-rsu-armoured-panzer-grenadier-patrol",
+      "name": "Armoured Panzer Grenadier Patrol",
+      "category": "Reconnaissance",
+      "points": 36,
+      "br": 3,
+      "morale": "V",
+      "unitComposition": [{"qty": 1, "name": "4 Men with Bipod MG42", "equipmentId": ""}],
+      "specialRules": [
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"}
+      ],
+      "optionGroupLimits": [],
+      "options": [
+        {
+        "id": "de-rulebook-rsu-armoured-panzer-grenadier-patrol-1",
+        "name": "Squad may take a Panzerfaust",
+        "points": 5,
+        "composition": [{"qty": 1, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"},{"qty": 1, "name": "SdKfz 250/1", "equipmentId": "de-sdkfz-250-1"}],
+        "compositionMode": "append"
+      }
+      ]
+    },
+    {
+      "id": "de-rulebook-rsu-motorised-reconnaissance-patrol",
+      "name": "Motorised Reconnaissance Patrol",
+      "category": "Reconnaissance",
+      "points": 18,
+      "br": 1,
+      "morale": "R",
+      "unitComposition": [{"qty": 1, "name": "3 men", "equipmentId": ""},{"qty": 1, "name": "Schimmwagen", "equipmentId": "de-schimmwagen"],
+      "specialRules": [
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"}
+      ],
+      "optionGroupLimits": [],
+      "options": []
+    },
+    {
+      "id": "de-rulebook-rsu-recon-platoon-command",
+      "name": "Recon Platoon Command",
+      "category": "Reconnaissance",
+      "points": 36,
+      "br": 2,
+      "morale": "R",
+      "maxQty": 1,
+      "unitComposition": [
+        {"qty": 1, "name": "2 men", "equipmentId": ""},
+        {"qty": 1, "name": "SdKfz 250/10", "equipmentId": "de-sdkfz-250-10"}
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+        {"name": "Scout"},
+        {"name": "Artillery Spotter"},
+        {"name": "Unique"}
+      ],
+      "optionGroupLimits": [],
+      "options": []
+    },
+    {
+      "id": "de-rulebook-rsu-panzer-grenadier-foot-patrol",
+      "name": "Panzer Grenadier Foot Patrol",
+      "category": "Reconnaissance",
+      "points": 36,
+      "unitType": { "type": "squad", "count": 1 },
+      "br": 3,
+      "morale": "V",
+      "unitComposition": [
+      ],
+      "specialRules": [],
+      "subUnits": [
+        {
+          "id": "de-rulebook-rsu-panzer-grenadier-foot-patrol-1",
+          "name": "Panzer Grenadier Squad",
+          "autoEnable": true,
+          "points": 0,
+          "br": 0,
+          "maxQty": 1,
+          "morale": "V",
+          "specialRules": [{"name": ""}],
+          "composition": [{"qty": 1, "name": "Panzer Grenadier Squad (5 men)", "equipmentId": ""}],
+          "optionGroupLimits": [
+        {"groupName": "may take up to 2 panzerfaust", "options": ["de-rulebook-iu-armoured-panzer-grenadier-squad-1b","de-rulebook-iu-armoured-panzer-grenadier-squad-1c"], "min": 0, "max": 1}
+      ],
+          "options": [
+           {
+                      "id": "de-rulebook-iu-armoured-panzer-grenadier-squad-1b",
+                      "name": "Squad may take 1 Panzerfaust",
+                      "points": 5,
+                      "composition": [{"qty": 1, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
+                      "compositionMode": "append"
+                    },
+        {
+                      "id": "de-rulebook-iu-armoured-panzer-grenadier-squad-1c",
+                      "name": "Squad may take 2 Panzerfaust",
+                      "points": 10,
+                      "composition": [{"qty": 2, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
+                      "compositionMode": "append"
+                    }
+          ]
+        
+    },
+        {
+          "id": "de-rulebook-rsu-panzer-grenadier-foot-patrol-2",
+          "name": "Panzer Grenadier MG Team",
+          "autoEnable": true,
+          "points": 0,
+          "br": 0,
+          "maxQty": 1,
+          "morale": "V",
+          "specialRules": [{"name": ""}],
+          "composition": [{"qty": 1, "name": "3 men with Bipod MG34", "equipmentId": ""}],
+           "options": [
+          
+         {
+                      "id": "de-rulebook-rsu-panzer-grenadier-foot-patrol-2a",
+                      "name": "Upgrade Bipod MG34 to bipod MG42",
+                      "points": 4,
+                      "composition": [{"qty": 1, "name": "3 men with Bipod MG42","mode": "modify", "replaces": "3 men with Bipod MG34","equipmentId": ""}]
+                    }
+          ]
+        
+    }
+      ]
+    },
+    {
       "id": "de-rulebook-rsu-armoured-car",
       "name": "Armoured Car",
       "category": "Reconnaissance",
@@ -679,44 +804,78 @@
         {"name": "Mortar Spotter"}
       ],
       "optionGroupLimits": [
-        {"groupName": "Choose armoured car:", "options": ["de-rulebook-rsu-armoured-car-1", "de-rulebook-rsu-armoured-car-2", "de-rulebook-rsu-armoured-car-3", "de-rulebook-rsu-armoured-car-4"], "min": 1, "max": 1}
+        {"groupName": "Choose armoured car:", "options": ["de-rulebook-rsu-armoured-car-1", "de-rulebook-rsu-armoured-car-2", "de-rulebook-rsu-armoured-car-3", "de-rulebook-rsu-armoured-car-4", "de-rulebook-rsu-armoured-car-5", "de-rulebook-rsu-armoured-car-6", "de-rulebook-rsu-armoured-car-7"], "min": 1, "max": 1}
       ],
       "options": [
         {
           "id": "de-rulebook-rsu-armoured-car-1",
-          "name": "Humber Scout Car",
-          "points": 13,
+          "name": "SdKfz 222",
+          "points": 20,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Humber Scout Car", "equipmentId": "de-humber-scout-car"}],
+          "composition": [{"qty": 1, "name": "SdKfz 222", "equipmentId": "de-sdkfz-222"}],
           "compositionMode": "replace"
         },
         {
           "id": "de-rulebook-rsu-armoured-car-2",
-          "name": "Humber IV Armoured Car",
-          "points": 28,
+          "name": "SdKfz 234/1",
+          "points": 22,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Humber IV Armoured Car", "equipmentId": "de-humber-iv-armoured-car"}],
+          "composition": [{"qty": 1, "name": "SdKfz 234/1", "equipmentId": "de-sdkfz-234-1"}],
           "compositionMode": "replace"
         },
         {
           "id": "de-rulebook-rsu-armoured-car-3",
-          "name": "Dingo",
-          "points": 13,
+          "name": "SdKfz 234/2 Puma",
+          "points": 28,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Dingo", "equipmentId": "de-dingo"}],
+          "composition": [{"qty": 1, "name": "SdKfz 234/2 Puma", "equipmentId": "de-sdkfz-234-2"}],
           "compositionMode": "replace"
         },
         {
           "id": "de-rulebook-rsu-armoured-car-4",
-          "name": "Morris Light Reconnaissance Car",
-          "points": 13,
+          "name": "SdKfz 234/3",
+          "points": 34,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Morris Light Reconnaissance Car", "equipmentId": "de-morris-light-reconnaissance-car"}],
+          "composition": [{"qty": 1, "name": "SdKfz 234/3", "equipmentId": "de-sdkfz-234-3"}],
           "compositionMode": "replace"
+        },
+        {
+          "id": "de-rulebook-rsu-armoured-car-5",
+          "name": "SdKfz 250/7",
+          "points": 28,
+          "br": 1,
+          "morale": "R",
+          "restricted": "yes",
+          "composition": [{"qty": 1, "name": "SdKfz 2350/7", "equipmentId": "de-sdkfz-250-7"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "de-rulebook-rsu-armoured-car-6",
+          "name": "SdKfz 250/8",
+          "points": 32,
+          "br": 1,
+          "morale": "R",
+          "restricted": "yes",
+          "composition": [{"qty": 1, "name": "SdKfz 2350/8", "equipmentId": "de-sdkfz-250-8"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "de-rulebook-rsu-armoured-car-7",
+          "name": "SdKfz 250/9",
+          "points": 32,
+          "br": 1,
+          "morale": "R",
+          "restricted": "yes",
+          "composition": [{"qty": 1, "name": "SdKfz 2350/9", "equipmentId": "de-sdkfz-250-9"}],
+          "compositionMode": "replace"
+        }
+          
+          ],
+          
         }
       ]
     },
@@ -754,48 +913,7 @@
       "optionGroupLimits": [],
       "options": []
     },
-    {
-      "id": "de-rulebook-rsu-recon-platoon-command",
-      "name": "Recon Platoon Command",
-      "category": "Reconnaissance",
-      "points": 28,
-      "br": 2,
-      "morale": "R",
-      "maxQty": 1,
-      "unitComposition": [
-        {"qty": 1, "name": "3 men", "equipmentId": ""},
-        {"qty": 1, "name": "Jeep", "equipmentId": "de-jeep"}
-      ],
-      "specialRules": [
-        {"name": "Officer"},
-        {"name": "Scout"},
-        {"name": "Artillery Spotter"},
-        {"name": "Unique"}
-      ],
-      "optionGroupLimits": [
-        {"groupName": "Replace men and jeep:", "options": ["de-rulebook-rsu-recon-platoon-command-1", "de-rulebook-rsu-recon-platoon-command-2"], "min": 0, "max": 1}
-      ],
-      "options": [
-        {
-          "id": "de-rulebook-rsu-recon-platoon-command-1",
-          "name": "Dingo",
-          "points": 5,
-          "br": 0,
-          "morale": "R",
-          "composition": [{"qty": 1, "name": "Dingo", "equipmentId": "de-dingo"}],
-          "compositionMode": "replace"
-        },
-        {
-          "id": "de-rulebook-rsu-recon-platoon-command-2",
-          "name": "Humber Scout Car",
-          "points": 5,
-          "br": 0,
-          "morale": "R",
-          "composition": [{"qty": 1, "name": "Humber Scout Car", "equipmentId": "de-humber-scout-car"}],
-          "compositionMode": "replace"
-        }
-      ]
-    },
+    
     {
       "id": "de-rulebook-esu-recovery-vehicle",
       "name": "Recovery Vehicle",

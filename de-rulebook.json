@@ -877,41 +877,7 @@
           ]
           
         },
-    {
-      "id": "de-rulebook-rsu-infantry-foot-patrol",
-      "name": "Infantry Foot Patrol",
-      "category": "Reconnaissance",
-      "points": 31,
-      "br": 2,
-      "morale": "R",
-      "unitComposition": [{"qty": 1, "name": "Rifle Section (10 Men with a Bren)", "equipmentId": ""}],
-      "specialRules": [
-        {"name": "Scout"},
-        {"name": "Mortar Spotter"},
-        {"name": "Bren Team"}
-      ],
-      "optionGroupLimits": [],
-      "options": []
-    },
-    {
-      "id": "de-rulebook-rsu-carrier-team",
-      "name": "Carrier Team",
-      "category": "Reconnaissance",
-      "points": 24,
-      "br": 1,
-      "morale": "R",
-      "unitComposition": [
-        {"qty": 1, "name": "Carrier Rifle Section (3 Men with a Bren)", "equipmentId": ""},
-        {"qty": 1, "name": "Bren Carrier", "equipmentId": "de-bren-carrier"}
-      ],
-      "specialRules": [
-        {"name": "Scout"},
-        {"name": "Mortar Spotter"}
-      ],
-      "optionGroupLimits": [],
-      "options": []
-    },
-    
+       
     {
       "id": "de-rulebook-esu-recovery-vehicle",
       "name": "Recovery Vehicle",

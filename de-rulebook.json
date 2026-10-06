@@ -357,19 +357,6 @@
       "options": []
     },
     {
-      "id": "de-rulebook-tu-self-propelled-anti-tank-gun",
-      "name": "Self-propelled Anti-tank Gun",
-      "category": "Tank Units",
-      "points": 34,
-      "br": 2,
-      "morale": "R",
-      "unitComposition": [
-        {"qty": 1, "name": "M10 Wolverine", "equipmentId": "de-m10-wolverine"}
-      ],
-      "specialRules": [],
-      "options": []
-    },
-    {
       "id": "de-rulebook-au-forward-observer-team",
       "name": "Forward Observer Team",
       "category": "Artillery Units",
@@ -378,7 +365,7 @@
       "morale": "R",
       "unitComposition": [
         {"qty": 1, "name": "2 Men", "equipmentId": ""},
-        {"qty": 1, "name": "Jeep", "equipmentId": "de-jeep"}
+        {"qty": 1, "name": "Kubelwagen", "equipmentId": "de-kubelwagen"}
       ],
       "specialRules": [{"name": "Artillery Spotter+"}],
       "options": [

@@ -1156,7 +1156,7 @@
       "morale": "R",
       "specialRules": [],
       "unitComposition": [
-        {"qty": 1, "name": "Flak36 88mm gun with 4 crew", "equipmentId": "de-88mm"}
+        {"qty": 1, "name": "Flak36 88mm gun with 4 crew", "equipmentId": "de-88mml56"}
       ],
       "notes": "",
       "optionGroupLimits": [],

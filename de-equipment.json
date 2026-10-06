@@ -484,7 +484,7 @@
   { 
     "equipmentId": "de-50mml60", 
     "type": "weapon", 
-    "weaponName": "50mmL60", 
+    "weaponName": "50mmL60 (PaK 38)", 
     "heEffect": "3/5+",
     "ammo": [{"AP": "5,5,4,3,2,-"}, {"HE": "Very Light, 2,2,2,2,2,-"}],
     "notes": ""

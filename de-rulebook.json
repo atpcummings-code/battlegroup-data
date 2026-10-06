@@ -545,7 +545,7 @@
           "morale": "R",
           "composition": [{"qty": 1, "name": "50mm PaK 38 with 3 crew",  "equipmentId": "de-50mml60"}],
           "optionGroupLimits": [
-        {"groupName": "Choose Tow Vehicle:", "options": ["de-rulebook-iu-armoured-panzer-grenadier-platoon-12c", "dde-rulebook-iu-armoured-panzer-grenadier-platoon-12d", "de-rulebook-iu-armoured-panzer-grenadier-platoon-12e"],  "min": 0, "max": 1}
+        {"groupName": "Choose Tow Vehicle:", "options": ["de-rulebook-iu-armoured-panzer-grenadier-platoon-12c", "de-rulebook-iu-armoured-panzer-grenadier-platoon-12d", "de-rulebook-iu-armoured-panzer-grenadier-platoon-12e"],  "min": 0, "max": 1}
       ],
           "options": [
             {

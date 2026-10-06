@@ -248,10 +248,9 @@
           
          {
                       "id": "de-rulebook-iu-armoured-panzer-grenadier-squad-2a",
-                      "name": "Upgrade Panzer Grnadier Squad Bipod MG34 to bipod MG42",
+                      "name": "Upgrade Panzer Grenadier Squad Bipod MG34 to bipod MG42",
                       "points": 4,
-                      "composition": [{"qty": 1, "name": "3 Men with Bipod MG42","mode": "modify", "replaces": "3 men with Bipod MG34","equipmentId": ""}],
-                       "requires": "de-rulebook-iu-armoured-panzer-grenadier-squad-1d"
+                      "composition": [{"qty": 1, "name": "3 Men with Bipod MG42","mode": "modify", "replaces": "3 men with Bipod MG34","equipmentId": ""}]
                     }
           ]
         

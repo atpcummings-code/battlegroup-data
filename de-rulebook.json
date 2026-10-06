@@ -22,7 +22,7 @@
       "br": 3,
       "morale": "R",
       "unitComposition": [
-        {"qty": 1, "name": "3 Men", "equipmentId": ""}, {"qty": 1, "name": "SdKfz 251/3", "equipmentId": "de-sdkfz251-1"}
+        {"qty": 1, "name": "3 Men", "equipmentId": ""}, {"qty": 1, "name": "SdKfz 251/3", "equipmentId": "de-sdkfz-251-1"}
       ],
       "specialRules": [
         {"name": "Senior Officer"},
@@ -82,21 +82,21 @@
           "name": "SdKfz 251/3 Radio Half Track",
           "points": 6,
           "br": 0,
-          "composition": [{"qty": 1, "name": "SdKfz 251/3 Radio Half Track", "mode": "modify", "replaces": "Radio Medium Truck","equipmentId": "de-sdkfz251-3"}]
+          "composition": [{"qty": 1, "name": "SdKfz 251/3 Radio Half Track", "mode": "modify", "replaces": "Radio Medium Truck","equipmentId": "de-sdkfz-251-3"}]
         },
        {
           "id": "de-rulebook-fhu-forward-signals-unit-2",
           "name": "SdKfz 250/3 Radio Half Track",
           "points": 6,
           "br": 0,
-          "composition": [{"qty": 1, "name": "SdKfz 250/3 Radio Half Track","mode": "modify", "replaces": "Radio Medium Truck", "equipmentId": "de-sdkfz250-3"}]
+          "composition": [{"qty": 1, "name": "SdKfz 250/3 Radio Half Track","mode": "modify", "replaces": "Radio Medium Truck", "equipmentId": "de-sdkfz-250-3"}]
         },
         {
           "id": "de-rulebook-fhu-forward-signals-unit-3",
           "name": "Panzer IV H",
           "points": 50,
           "br": 2,
-          "composition": [{"qty": 1, "name": "Panzer IV H", "equipmentId": "de-sdkfz250-3"}],
+          "composition": [{"qty": 1, "name": "Panzer IV H", "equipmentId": "de-sdkfz-250-3"}],
           "compositionMode": "replace"
         },
         {
@@ -200,7 +200,7 @@
                       "points": 10,
                       "br": 1,
                       "morale": "V",
-                      "composition": [{"qty": 1, "name": "SdKfz 251/1", "equipmentId": "de-sdkfz251-1"}],
+                      "composition": [{"qty": 1, "name": "SdKfz 251/1", "equipmentId": "de-sdkfz-251-1"}],
                       "compositionMode": "append"
                     },
         {
@@ -378,7 +378,7 @@
           "points": 8,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "SdKfz 251/18", "mode": "modify", "replaces": "Kubelwagen", "equipmentId": "de-sdkfz251-18"}]
+          "composition": [{"qty": 1, "name": "SdKfz 251/18", "mode": "modify", "replaces": "Kubelwagen", "equipmentId": "de-sdkfz-251-18"}]
         },
         {
           "id": "de-rulebook-au-forward-observer-team-2",
@@ -386,7 +386,7 @@
           "points": 8,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "SdKfz 251/3", "mode": "modify", "replaces": "Kubelwagen", "equipmentId": "de-sdkfz251-3"}]
+          "composition": [{"qty": 1, "name": "SdKfz 251/3", "mode": "modify", "replaces": "Kubelwagen", "equipmentId": "de-sdkfz-251-3"}]
         }
       ]
     },

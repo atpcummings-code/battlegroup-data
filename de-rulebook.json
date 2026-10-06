@@ -596,7 +596,7 @@
           "br": 1,
           "maxQty": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "SdKfz 251/9", "equipmentId": "de-251-9"}]
+          "composition": [{"qty": 1, "name": "SdKfz 251/9", "equipmentId": "de-sdkfz-251-9"}]
         },
         {
           "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-14",

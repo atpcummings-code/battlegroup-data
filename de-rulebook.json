@@ -1002,34 +1002,48 @@
       "options": [
         {
           "id": "de-rulebook-lsu-supply-column-1",
-          "name": "Add 1 Medium Truck",
+          "name": "Add 1 Opel Blitz (medium truck)",
           "points": 4,
           "br": 0,
-          "composition": [{"qty": 1, "name": "Medium Truck", "mode": "append", "equipmentId": "de-bedford-oxd"}]
+          "composition": [{"qty": 1, "name": "Opel Blitz (medium truck)", "mode": "append", "equipmentId": "de-opel-blitz"}]
         },
         {
           "id": "de-rulebook-lsu-supply-column-2",
-          "name": "Add 2 Medium Truck",
+          "name": "Add 2 Opel Blitz (medium truck)",
           "points": 8,
           "br": 0,
-          "composition": [{"qty": 2, "name": "Medium Truck", "mode": "append", "equipmentId": "de-bedford-oxd"}]
+          "composition": [{"qty": 2, "name": "Opel Blitz (medium truck)", "mode": "append", "equipmentId": "de-opel-blitz"}]
         }
       ]
+    },
+    {
+      "id": "de-rulebook-lsu-stretcher-party",
+      "name": "Stretcher Party",
+      "category": "Logistics",
+      "points": 10,
+      "br": 1,
+      "morale": "I",
+      "specialRules": [{"name": "Medic"}],
+      "unitComposition": [{"qty": 1, "name": "2 men",  "equipmentId": ""}],
+      "notes": "",
+      "optionGroupLimits": [],
+      "options": []
     },
     {
       "id": "de-rulebook-lsu-ambulance",
       "name": "Ambulance",
       "category": "Logistics",
-      "points": 8,
+      "points": 14,
       "br": 2,
       "morale": "I",
+      "restricted": "yes",
       "specialRules": [{"name": "Medic"}],
       "unitComposition": [
-        {"qty": 1, "name": "Jeep Ambulance", "equipmentId": "de-jeep"}
+        {"qty": 1, "name": "Kubelwagen Ambulance", "equipmentId": "de-kubelwagen"}
       ],
       "notes": "",
       "optionGroupLimits": [
-        {"groupName": "Upgrade Jeep Ambulance to:", "options": ["de-rulebook-lsu-ambulance-1"], "min": 0, "max": 1}
+        {"groupName": "Upgrade Kubelwagen Ambulance to:", "options": ["de-rulebook-lsu-ambulance-1","de-rulebook-lsu-ambulance-2"], "min": 0, "max": 1}
       ],
       "options": [
         {
@@ -1037,7 +1051,15 @@
           "name": "Ambulance Medium Truck",
           "points": 2,
           "br": 0,
-          "composition": [{"qty": 1, "name": "Ambulance Medium Truck",  "equipmentId": "de-austin-k2-ambulance"}],
+          "composition": [{"qty": 1, "name": "Ambulance Medium Truck",  "equipmentId": "de-opel-blitz"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "de-rulebook-lsu-ambulance-2",
+          "name": "SdKfz 251/8 Ambulance",
+          "points": 6,
+          "br": 0,
+          "composition": [{"qty": 1, "name": "SdKfz 251/8 Ambulance",  "equipmentId": "de-sdkfz-251-8"}],
           "compositionMode": "replace"
         }
       ]
@@ -1057,20 +1079,7 @@
       "optionGroupLimits": [],
       "options": []
     },
-      {
-      "id": "de-rulebook-lsu-stretcher-party",
-      "name": "Stretcher Party",
-      "category": "Logistics",
-      "points": 10,
-      "br": 1,
-      "morale": "I",
-      "restricted": "yes",
-      "specialRules": [{"name": "Medic"}],
-      "unitComposition": [{"qty": 1, "name": "2 men",  "equipmentId": ""}],
-      "notes": "",
-      "optionGroupLimits": [],
-      "options": []
-    },
+      
     {
       "id": "de-rulebook-ssu-heavy-anti-tank-gun",
       "name": "Heavy Anti-tank Gun",

@@ -267,7 +267,7 @@
           "br": 2,
           "maxQty": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "6pdr gun with 3 crew",  "equipmentId": "ca-6pdr-gun"}],
+          "composition": [{"qty": 1, "name": "6pdr gun with 3 crew",  "equipmentId": "ca-6pdr"}],
           "options": [
                     {
                       "id": "ca-rulebook-iu-infantry-platoon-5a",

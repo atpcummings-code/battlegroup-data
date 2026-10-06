@@ -967,7 +967,7 @@
           "points": 18,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "SdKfz 9 FAMO", "equipmentId": "de-sdkfz-9-famo"}],
+          "composition": [{"qty": 1, "name": "SdKfz 9 FAMO", "equipmentId": "de-3-tonne-sdkfz-9-famo"}],
           "compositionMode": "replace"
         },
         {

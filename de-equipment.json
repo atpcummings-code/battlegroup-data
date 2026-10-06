@@ -141,7 +141,7 @@
     "movement": [{ "offroad": 12, "road": 16 }], 
     "armour": [{"Front": "O", "Side": "O", "Rear": "O"}], 
     "weapons": [{"weapon": "MG", "mount": "Pintle","range": 40}],
-    "specialRules": ["Medic"],
+    "specialRules": [""],
     "openTopped": true
   },
   { 

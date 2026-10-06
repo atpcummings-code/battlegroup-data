@@ -165,6 +165,501 @@
       "options": [],
       "notes": "Youth's indoctrinated into Nazi philosophies almost since birth and believers in the causes of the Third Reich and German racial supremacy, the young soldiers of 12th SS fought fanatically for their Fatherland.  At the start of the game increase the Battlegroups BR rating by a D6"
     }, 
+{
+      "id": "de-rulebook-armoured-panzer-grenadier-platoon",
+      "name": "Armoured Panzer Grenadier Platoon",
+      "category": "Infantry Units",
+      "unitType": { "type": "platoon", "count": 1 },
+      "categorySlots": 4,
+      "points": 120,
+      "br": 11,
+      "morale": "V",
+      "subUnitsGroupLimit": [
+        {
+          "groupName": "The platoon may include up to four of the following additional units. No unit may be taken more than once:",
+          "options": [
+           
+            "de-rulebook-armoured-panzer-grenadier-platoon-4",
+            "de-rulebook-armoured-panzer-grenadier-platoon-5",
+             "de-rulebook-armoured-panzer-grenadier-platoon-6",
+            "de-rulebook-armoured-panzer-grenadier-platoon-7",
+             "de-rulebook-armoured-panzer-grenadier-platoon-8",
+            "de-rulebook-armoured-panzer-grenadier-platoon-9",
+            "de-rulebook-armoured-panzer-grenadier-platoon-10"
+          ],
+          "min": 0,
+          "max": 4
+        }
+      ],
+      "unitComposition": [],
+      "subUnits": [
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-1",
+          "name": "Platoon Command Squad",
+          "points": 8,
+          "br": 0,
+          "maxQty": 1,
+          "autoEnable": true,
+          "morale": "V",
+          "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
+          "composition": [{"qty": 1, "name": "6 Men", "equipmentId": ""}],
+          "optionGroupLimits": [
+        {"groupName": "Mount in:", "options": ["de-rulebook-armoured-panzer-grenadier-platoon-1a", "de-rulebook-armoured-panzer-grenadier-platoon-1b"], "min": 0, "max": 1},
+        {"groupName": "May take up to 2 Panzerfausts:", "options": ["de-rulebook-armoured-panzer-grenadier-platoon-1c", "de-rulebook-armoured-panzer-grenadier-platoon-1d"], "min": 0, "max": 1}      
+      ],
+      "options": [
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-1a",
+          "name": "SdKfz 251/10",
+          "points": 12,
+          "br": 1,
+          "morale": "V",
+          "composition": [{"qty": 1, "name": "SdKfz 251/10", "equipmentId": "de-sdkfz-251-10"}],
+          "compositionMode": "append"
+        },
+       {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-1b",
+          "name": "SdKfz 251/1",
+          "points": 10,
+          "br": 1,
+          "morale": "V",
+          "composition": [{"qty": 1, "name": "SdKfz 251/1", "equipmentId": "de-sdkfz-251-1"}],
+          "compositionMode": "append"
+        },
+        {{
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-1c",
+          "name": "Squad may take 1 Panzerfaust",
+          "points": 5,
+          "composition": [{"qty": 1, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
+          "compositionMode": "append"
+          },
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-1d",
+          "name": "Squad may take 2 Panzerfaust",
+          "points": 10,
+          "composition": [{"qty": 2, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
+          "compositionMode": "append"
+          }
+      ]
+},
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-2",
+          "name": "1st Panzer Grenadier Squad",
+          "points": ,
+          "br": 0,
+          "autoEnable": true,
+          "morale": "V",
+          "specialRules": [],
+          "composition": [{"qty": 1, "name": "5 Men", "equipmentId": ""}],
+          "optionGroupLimits": [
+            {"groupName": "May take up to 2 Panzerfausts:", "options": ["de-rulebook-armoured-panzer-grenadier-platoon-2b", "de-rulebook-armoured-panzer-grenadier-platoon-2c"], "min": 0, "max": 1}      
+      ],
+      "options": [
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-2a",
+          "name": "SdKfz 251/1",
+          "points": 10,
+          "br": 1,
+          "morale": "V",
+          "composition": [{"qty": 1, "name": "SdKfz 251/1", "equipmentId": "de-sdkfz-251-1"}],
+          "compositionMode": "append"
+        },
+        {{
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-2b",
+          "name": "Squad may take 1 Panzerfaust",
+          "points": 5,
+          "composition": [{"qty": 1, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
+          "compositionMode": "append"
+          },
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-2c",
+          "name": "Squad may take 2 Panzerfaust",
+          "points": 10,
+          "composition": [{"qty": 2, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
+          "compositionMode": "append"
+          },
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-2d",
+          "name": "Squad may add bipod MG34",
+          "points": 10,
+          "composition": [{"qty": 1, "name": "Bipod MG34","equipmentId": ""}],
+          "compositionMode": "append"
+         },
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-2e",
+          "name": "Upgrade bipod MG34 to bipod MG42",
+          "points": 4,
+          "composition": [{"qty": 1, "name": "Bipod MG42","mode": "modify", "replaces": "Bipod MG34","equipmentId": ""}],
+          "requires": "de-rulebook-iu-armoured-panzer-grenadier-platoon-2d"
+         }
+      ]
+},
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-3",
+          "name": "2nd Panzer Grenadier Squad",
+          "points": ,
+          "br": 0,
+          "autoEnable": true,
+          "morale": "V",
+          "specialRules": [],
+          "composition": [{"qty": 1, "name": "5 Men", "equipmentId": ""}],
+          "optionGroupLimits": [
+            {"groupName": "May take up to 2 Panzerfausts:", "options": ["de-rulebook-armoured-panzer-grenadier-platoon-3b", "de-rulebook-armoured-panzer-grenadier-platoon-3c"], "min": 0, "max": 1}      
+      ],
+      "options": [
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-3a",
+          "name": "SdKfz 251/1",
+          "points": 10,
+          "br": 1,
+          "morale": "V",
+          "composition": [{"qty": 1, "name": "SdKfz 251/1", "equipmentId": "de-sdkfz-251-1"}],
+          "compositionMode": "append"
+        },
+        {{
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-3b",
+          "name": "Squad may take 1 Panzerfaust",
+          "points": 5,
+          "composition": [{"qty": 1, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
+          "compositionMode": "append"
+          },
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-3c",
+          "name": "Squad may take 2 Panzerfaust",
+          "points": 10,
+          "composition": [{"qty": 2, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
+          "compositionMode": "append"
+          },
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-3d",
+          "name": "Squad may add bipod MG34",
+          "points": 10,
+          "composition": [{"qty": 1, "name": "Bipod MG34","equipmentId": ""}],
+          "compositionMode": "append"
+         },
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-3e",
+          "name": "Upgrade bipod MG34 to bipod MG42",
+          "points": 4,
+          "composition": [{"qty": 1, "name": "Bipod MG42","mode": "modify", "replaces": "Bipod MG34","equipmentId": ""}],
+          "requires": "de-rulebook-iu-armoured-panzer-grenadier-platoon-3d"
+         }
+      ]
+},
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-4",
+          "name": "3rd Panzer Grenadier Squad",
+          "points": ,
+          "br": 0,
+          "autoEnable": true,
+          "morale": "V",
+          "specialRules": [],
+          "composition": [{"qty": 1, "name": "5 Men", "equipmentId": ""}],
+          "optionGroupLimits": [
+            {"groupName": "May take up to 2 Panzerfausts:", "options": ["de-rulebook-armoured-panzer-grenadier-platoon-4b", "de-rulebook-armoured-panzer-grenadier-platoon-4c"], "min": 0, "max": 1}      
+      ],
+      "options": [
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-4a",
+          "name": "SdKfz 251/1",
+          "points": 10,
+          "br": 1,
+          "morale": "V",
+          "composition": [{"qty": 1, "name": "SdKfz 251/1", "equipmentId": "de-sdkfz-251-1"}],
+          "compositionMode": "append"
+        },
+        {{
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-4b",
+          "name": "Squad may take 1 Panzerfaust",
+          "points": 5,
+          "composition": [{"qty": 1, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
+          "compositionMode": "append"
+          },
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-4c",
+          "name": "Squad may take 2 Panzerfaust",
+          "points": 10,
+          "composition": [{"qty": 2, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
+          "compositionMode": "append"
+          },
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-4d",
+          "name": "Squad may add bipod MG34",
+          "points": 10,
+          "composition": [{"qty": 1, "name": "Bipod MG34","equipmentId": ""}],
+          "compositionMode": "append"
+         },
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-4e",
+          "name": "Upgrade bipod MG34 to bipod MG42",
+          "points": 4,
+          "composition": [{"qty": 1, "name": "Bipod MG42","mode": "modify", "replaces": "Bipod MG34","equipmentId": ""}],
+          "requires": "de-rulebook-iu-armoured-panzer-grenadier-platoon-4d"
+         }
+      ]
+},
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-5",
+          "name": "Armoured Panzer Grenadier MG Team",
+          "autoEnable": true,
+          "points": 0,
+          "br": 0,
+          "maxQty": 1,
+          "morale": "V",
+          "specialRules": [{"name": ""}],
+          "composition": [{"qty": 1, "name": "3 men with Bipod MG34", "equipmentId": ""}],
+           "options": [
+          
+         {
+                      "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-5a",
+                      "name": "Upgrade Panzer Grenadier Squad Bipod MG34 to bipod MG42",
+                      "points": 4,
+                      "composition": [{"qty": 1, "name": "3 men with Bipod MG42","mode": "modify", "replaces": "3 men with Bipod MG34","equipmentId": ""}]
+                    }
+          ]
+        
+    },
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-6",
+          "name": "Armoured Panzer Grenadier MG Team",
+          "autoEnable": true,
+          "points": 0,
+          "br": 0,
+          "maxQty": 1,
+          "morale": "V",
+          "specialRules": [{"name": ""}],
+          "composition": [{"qty": 1, "name": "3 men with Bipod MG34", "equipmentId": ""}],
+           "options": [
+          
+         {
+                      "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-6a",
+                      "name": "Upgrade Panzer Grenadier Squad Bipod MG34 to bipod MG42",
+                      "points": 4,
+                      "composition": [{"qty": 1, "name": "3 men with Bipod MG42","mode": "modify", "replaces": "3 men with Bipod MG34","equipmentId": ""}]
+                    }
+          ]
+        
+    },
+        {
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-7",
+          "name": "Armoured Panzer Grenadier MG Team",
+          "autoEnable": true,
+          "points": 0,
+          "br": 0,
+          "maxQty": 1,
+          "morale": "V",
+          "specialRules": [{"name": ""}],
+          "composition": [{"qty": 1, "name": "3 men with Bipod MG34", "equipmentId": ""}],
+           "options": [
+          
+         {
+                      "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-7a",
+                      "name": "Upgrade Panzer Grenadier Squad Bipod MG34 to bipod MG42",
+                      "points": 4,
+                      "composition": [{"qty": 1, "name": "3 men with Bipod MG42","mode": "modify", "replaces": "3 men with Bipod MG34","equipmentId": ""}]
+                    }
+          ]
+        
+    }
+        
+
+
+
+
+
+
+
+        
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-8",
+          "name": "Combat Medic",
+          "points": 8,
+          "br": 0,
+          "maxQty": 1,
+          "morale": "V",
+          "specialRules": [{"name": "Medic"}],
+          "composition": [{"qty": 1, "name": "Combat Medic (1 Man)", "equipmentId": "ca-combat-medic"}]
+        },
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-9",
+          "name": "Heavy Machine Gun Team",
+          "points": 22,
+          "br": 1,
+          "maxQty": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "3 men with a tripod MG34", "equipmentId": "de-tripod-mg34"}],
+          "options": [
+                   {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-9a",
+                      "name": "Upgrade MG34 with a tripod MG42",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 men with Tripod MG42", "mode": "modify", "replaces": "3 men with a tripod MG34", "equipmentId": ""}]
+                    },        
+            {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-9b",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    }
+      ]
+        },
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-10",
+          "name": "Panzerchreck Team",
+          "points": 24,
+          "br": 1,
+          "maxQty": 1,
+          "morale": "V",
+          "composition": [{"qty": 1, "name": "2 men Panzerchreck", "equipmentId": "de-panzerchreck"}]
+        },
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-11",
+          "name": "Medium Mortar Team",
+          "points": 24,
+          "br": 1,
+          "maxQty": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "3 men with 80mm Mortar", "equipmentId": "de-80mm-mortar"}],
+          "options": [
+                    {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-11a",
+                      "name": "Replace with SdKfz 251/2",
+                      "points": 6,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "dKfz 251/2", "equipmentId": "de-sdkfz-251-2"}],
+                      "compositionMode": "replaces"
+                    },
+                    {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-11b",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    }
+      ]
+        },
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-12",
+          "name": "Anti-tank Gun",
+          "points": 26,
+          "br": 2,
+          "maxQty": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "50mm PaK 38 with 3 crew",  "equipmentId": "de-50mml60"}],
+          "optionGroupLimits": [
+        {"groupName": "Choose Tow Vehicle:", "options": ["de-rulebook-armoured-panzer-grenadier-platoon-12c", "dde-rulebook-armoured-panzer-grenadier-platoon-12d", "de-rulebook-armoured-panzer-grenadier-platoon-12e"],  "min": 0, "max": 1}
+      ],
+          "options": [
+            {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-12a",
+                      "name": "Upgrade antitank gun to 75mm PaK 40",
+                      "points": 16,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "75mm PaK 40","mode": "modify", "replaces": "50mm PaK 38 with 3 crew", "equipmentId": "de-75mml46"}]
+                    },        
+            {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-12b",
+                      "name": "Include a 3 man loader team",
+                      "points": 10,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    },
+                    {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-12c",
+                      "name": "Medium Truck Tow",
+                      "points": 4,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Medium Truck Tow", "equipmentId": "de-opel-blitz"}],
+                      "compositionMode": "append"
+                    },
+            {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-12d",
+                      "name": "SdKfz 6 half track tow",
+                      "points": 4,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "SdKfz 6 half track tow", "equipmentId": "de-5-tonne-sdkfz-6"}],
+                      "compositionMode": "append"
+                    },
+            {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-12e",
+                      "name": "SdKfz 251/1tow",
+                      "points": 16,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "SdKfz 251/1 tow", "equipmentId": "de-sdkfz-251-1"}],
+                      "compositionMode": "append"
+                    }
+      ]
+        },
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-13",
+          "name": "Self Popelled Infantry Gun",
+          "points": 32,
+          "br": 1,
+          "maxQty": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "SdKfz 251/9", "equipmentId": "de-251-9"}]
+        },
+        {
+          "id": "de-rulebook-armoured-panzer-grenadier-platoon-14",
+          "name": "Towed Anti-aircraft Gun",
+          "points": 28,
+          "br": 2,
+          "maxQty": 1,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "20mm FlaK with 3 crew",  "equipmentId": "de-20mml55"}],
+          "optionGroupLimits": [
+        {"groupName": "Choose Tow Vehicle:", "options": ["de-rulebook-armoured-panzer-grenadier-platoon-14b", "dde-rulebook-armoured-panzer-grenadier-platoon-14c", "de-rulebook-armoured-panzer-grenadier-platoon-14d"],  "min": 0, "max": 1}
+      ],
+          "options": [
+            {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-14a",
+                      "name": "Upgrade anti-aircrtaft gun to 20mm FlaK Vierling",
+                      "points": 14,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "20mm FlaK Vierling","mode": "modify", "replaces": "20mm FlaK with 3 crew", "equipmentId": "de-75mml46"}]
+                    },        
+                    {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-14b",
+                      "name": "Medium Truck Tow",
+                      "points": 4,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Medium Truck Tow", "equipmentId": "de-opel-blitz"}],
+                      "compositionMode": "append"
+                    },
+            {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-14c",
+                      "name": "SdKfz 10 half track tow",
+                      "points": 8,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "SdKfz 6 half track tow", "equipmentId": "de-1-tonne-sdkfz-10"}],
+                      "compositionMode": "append"
+                    },
+            {
+                      "id": "de-rulebook-armoured-panzer-grenadier-platoon-14d",
+                      "name": "SdKfz 11 half track tow",
+                      "points": 8,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "SdKfz 11 half track tow", "equipmentId": "de-3-tonne-sdkfz-1`"}],
+                      "compositionMode": "append"
+                    }
+      ]
+        }
+
+
+
+
+        
+      ]
+    },
+
+
+
+    
     {
       "id": "de-rulebook-iu-armoured-panzer-grenadier-squad",
       "name": "Armoured Panzer Grenadier Squad",

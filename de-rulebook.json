@@ -226,7 +226,7 @@
           "composition": [{"qty": 1, "name": "SdKfz 251/1", "equipmentId": "de-sdkfz-251-1"}],
           "compositionMode": "append"
         },
-        {{
+        {
           "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-1c",
           "name": "Squad may take 1 Panzerfaust",
           "points": 5,
@@ -245,7 +245,7 @@
         {
           "id": "de-rulebook-armoured-panzer-grenadier-platoon-2",
           "name": "1st Panzer Grenadier Squad",
-          "points": ,
+          "points": 0,
           "br": 0,
           "autoEnable": true,
           "morale": "V",
@@ -264,7 +264,7 @@
           "composition": [{"qty": 1, "name": "SdKfz 251/1", "equipmentId": "de-sdkfz-251-1"}],
           "compositionMode": "append"
         },
-        {{
+        {
           "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-2b",
           "name": "Squad may take 1 Panzerfaust",
           "points": 5,
@@ -297,7 +297,7 @@
         {
           "id": "de-rulebook-armoured-panzer-grenadier-platoon-3",
           "name": "2nd Panzer Grenadier Squad",
-          "points": ,
+          "points": 0,
           "br": 0,
           "autoEnable": true,
           "morale": "V",
@@ -316,7 +316,7 @@
           "composition": [{"qty": 1, "name": "SdKfz 251/1", "equipmentId": "de-sdkfz-251-1"}],
           "compositionMode": "append"
         },
-        {{
+        {
           "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-3b",
           "name": "Squad may take 1 Panzerfaust",
           "points": 5,
@@ -349,7 +349,7 @@
         {
           "id": "de-rulebook-armoured-panzer-grenadier-platoon-4",
           "name": "3rd Panzer Grenadier Squad",
-          "points": ,
+          "points": 0,
           "br": 0,
           "autoEnable": true,
           "morale": "V",
@@ -368,7 +368,7 @@
           "composition": [{"qty": 1, "name": "SdKfz 251/1", "equipmentId": "de-sdkfz-251-1"}],
           "compositionMode": "append"
         },
-        {{
+        {
           "id": "de-rulebook-iu-armoured-panzer-grenadier-platoon-4b",
           "name": "Squad may take 1 Panzerfaust",
           "points": 5,
@@ -460,15 +460,7 @@
                     }
           ]
         
-    }
-        
-
-
-
-
-
-
-
+    },   
         
         {
           "id": "de-rulebook-armoured-panzer-grenadier-platoon-8",

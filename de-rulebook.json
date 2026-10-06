@@ -189,7 +189,7 @@
           "maxQty": 1,
           "morale": "V",
           "specialRules": [{"name": ""}],
-          "composition": [{"qty": 1, "name": "Panzer Grenadier Squad (5 Men)", "equipmentId": ""}],
+          "composition": [{"qty": 1, "name": "Panzer Grenadier Squad (5 men)", "equipmentId": ""}],
           "optionGroupLimits": [
         {"groupName": "may take up to 2 panzerfaust", "options": ["de-rulebook-iu-armoured-panzer-grenadier-squad-1b","de-rulebook-iu-armoured-panzer-grenadier-squad-1c"], "min": 0, "max": 1}
       ],
@@ -250,7 +250,7 @@
                       "id": "de-rulebook-iu-armoured-panzer-grenadier-squad-2a",
                       "name": "Upgrade Panzer Grenadier Squad Bipod MG34 to bipod MG42",
                       "points": 4,
-                      "composition": [{"qty": 1, "name": "3 Men with Bipod MG42","mode": "modify", "replaces": "3 men with Bipod MG34","equipmentId": ""}]
+                      "composition": [{"qty": 1, "name": "3 men with Bipod MG42","mode": "modify", "replaces": "3 men with Bipod MG34","equipmentId": ""}]
                     }
           ]
         

@@ -1082,7 +1082,7 @@
       {
       "id": "de-rulebook-ssu-anti-aircraft-vehicle",
       "name": "Armoured Car",
-      "category": "Reconnaissance",
+      "category": "Specialist Units",
       "points": 0,
       "br": 0,
       "morale": "R",

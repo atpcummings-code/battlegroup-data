@@ -607,7 +607,7 @@
           "morale": "R",
           "composition": [{"qty": 1, "name": "20mm FlaK with 3 crew",  "equipmentId": "de-20mml55"}],
           "optionGroupLimits": [
-        {"groupName": "Choose Tow Vehicle:", "options": ["de-rulebook-iu-armoured-panzer-grenadier-platoon-14b", "dde-rulebook-iu-armoured-panzer-grenadier-platoon-14c", "de-rulebook-iu-armoured-panzer-grenadier-platoon-14d"],  "min": 0, "max": 1}
+        {"groupName": "Choose Tow Vehicle:", "options": ["de-rulebook-iu-armoured-panzer-grenadier-platoon-14b", "de-rulebook-iu-armoured-panzer-grenadier-platoon-14c", "de-rulebook-iu-armoured-panzer-grenadier-platoon-14d"],  "min": 0, "max": 1}
       ],
           "options": [
             {

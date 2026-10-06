@@ -382,7 +382,7 @@
     "notes": ""
   },
   { 
-     "equipmentId": "de-3-tonne-sdkfz-6", 
+     "equipmentId": "de-5-tonne-sdkfz-6", 
     "type": "vehicle", 
     "vehicleName": "5 Tonne-SdKfz 6", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -391,7 +391,7 @@
     "notes": ""
   },
     { 
-     "equipmentId": "de-3-tonne-sdkfz-7", 
+     "equipmentId": "de-8-tonne-sdkfz-7", 
     "type": "vehicle", 
     "vehicleName": "8 Tonne-SdKfz 7", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -400,7 +400,7 @@
     "notes": ""
   },
   { 
-     "equipmentId": "de-3-tonne-sdkfz-8", 
+     "equipmentId": "de-12-tonne-sdkfz-8", 
     "type": "vehicle", 
     "vehicleName": "12 Tonne-SdKfz 8", 
     "movement": [{ "offroad": 12, "road": 16 }], 
@@ -409,7 +409,7 @@
     "notes": ""
   },
    { 
-     "equipmentId": "de-3-tonne-sdkfz-9-famo", 
+     "equipmentId": "de-18-tonne-sdkfz-9-famo", 
     "type": "vehicle", 
     "vehicleName": "18 Tonne-SdKfz 9 FAMO", 
     "movement": [{ "offroad": 12, "road": 16 }], 

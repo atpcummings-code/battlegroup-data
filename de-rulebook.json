@@ -561,7 +561,7 @@
       "br": 1,
       "morale": "R",
       "unitComposition": [
-        {"qty": 1, "name": "3 men and a Vickers HMG in reinforced cover", "equipmentId": "de-vickers-hmg"}
+        {"qty": 1, "name": "3 men and a tripod MG34 in reinforced cover", "equipmentId": "de-tripod-mg34"}
       ],
       "specialRules": [],
       "notes": "The cover is lost if the MG team move.",
@@ -575,7 +575,7 @@
       "br": 1,
       "morale": "R",
       "unitComposition": [
-        {"qty": 1, "name": "3 men and a 3\" mortar", "equipmentId": "de-3inch-mortar"}
+        {"qty": 1, "name": "3 men and a 80mm mortar", "equipmentId": "de-80mm-mortar"}
       ],
       "specialRules": [],
       "notes": "The cover is lost if the mortar team move.",
@@ -599,20 +599,13 @@
       "specialRules": [],
       "notes": "Deploy up to 10 infantry in foxholes; they count as reinforced cover until they move."
     },
-    {
-      "id": "de-rulebook-def-trenches",
-      "name": "Trenches",
-      "category": "Defences",
-      "points": 10,
-      "br": 0,
-      "specialRules": [],
-      "notes": "Up to 10\" of trenches which count as reinforced cover for infantry in them."
-    },
+   
     {
       "id": "de-rulebook-def-sniper-hideout",
       "name": "Sniper Hideout",
       "category": "Defences",
       "points": 15,
+      "restricted": "yes",
       "br": 0,
       "morale": "V",
       "specialRules": [{"name": "Sniper Scout"}],
@@ -632,48 +625,7 @@
       "unitComposition": [],
       "notes": "Reinforced cover for a single anti-tank gun and crew until the gun moves. The gun must be purchased from the army list."
     },
-    {
-      "id": "de-rulebook-def-minefield",
-      "name": "Minefield",
-      "category": "Defences",
-      "points": 20,
-      "br": 0,
-      "morale": "",
-      "specialRules": [],
-      "unitComposition": [],
-      "notes": "A single mixed anti-tank and anti-personnel minefield."
-    },
-    {
-      "id": "de-rulebook-def-command-bunker",
-      "name": "Command Bunker",
-      "category": "Defences",
-      "points": 30,
-      "br": 3,
-      "maxQty": 1,
-      "restricted": "yes",
-      "morale": "R",
-      "specialRules": [{"name": "Senior Officer"}, {"name": "Mortar Spotter"}, {"name": "Unique"}],
-      "unitComposition": [
-        {"qty": 1, "name": "Command Unit (4 Men)", "equipmentId": ""}
-      ],
-      "notes": "A command post in a wood and earth bunker. Hardened cover. The cover is lost if the command unit moves."
-    },
-    {
-      "id": "de-rulebook-def-artillery-observation-post",
-      "name": "Artillery Observation Post",
-      "category": "Defences",
-      "points": 26,
-      "br": 1,
-      "maxQty": 1,
-      "restricted": "yes",
-      "morale": "R",
-      "specialRules": [{"name": "Artillery Spotter+"}, {"name": "Unique"}],
-      "unitComposition": [
-        {"qty": 1, "name": "Forward Observer Team (2 men)", "equipmentId": ""}
-      ],
-      "notes": "A forward observer team in reinforced cover. The cover is lost if the FO team moves. Includes a Forward Observer Team."
-    },
-    {
+       {
       "id": "de-rulebook-def-booby-trapped-building",
       "name": "Booby-Trapped Building",
       "category": "Defences",
@@ -681,15 +633,6 @@
       "br": 0,
       "specialRules": [],
       "notes": "A chosen building anywhere on the table has been wired with booby-traps. The first time an enemy unit enters the building roll a D6. On a 2+ it detonates and the unit takes a 3/3+ HE hit. On a 1 there is a fault and the booby trap fails to go off!"
-    },
-    {
-      "id": "de-rulebook-def-barbed-wire",
-      "name": "Barbed Wire",
-      "category": "Defences",
-      "points": 10,
-      "br": 0,
-      "specialRules": [],
-      "notes": "Up to 10\" of barbed wire. It is an obstacle for vehicles and infantry."
     },
     {
       "id": "de-rulebook-def-improvised-road-block",
@@ -700,25 +643,7 @@
       "specialRules": [],
       "notes": "Something large and heavy across a road. Place on any road or track, anywhere on table. It counts as an obstacle."
     },
-    {
-      "id": "de-rulebook-def-anti-tank-ditch-embankment",
-      "name": "Anti-tank Ditch/Embankment",
-      "category": "Defences",
-      "points": 20,
-      "br": 0,
-      "restricted": "yes",
-      "specialRules": [],
-      "notes": "10\" of ditch or embankment, impassable to vehicles without a bridge."
-    },
-    {
-      "id": "de-rulebook-def-off-table-17pdr-anti-tank-shot",
-      "name": "Off-table 17pdr Anti-tank Shot",
-      "category": "Defences",
-      "points": 5,
-      "br": 0,
-      "specialRules": [],
-      "notes": "The positions are covered by 17pdr anti-tank guns well camouflaged behind the lines. You may take a single 17pdr Aimed Fire - Armour Piercing shot at an enemy vehicle within 30\" of your table edge. The shot will hit on a dice roll of 6, with a penetration value of 8. This requires no order to use."
-    },
+    
     {
       "id": "de-rulebook-rsu-sniper",
       "name": "Sniper",

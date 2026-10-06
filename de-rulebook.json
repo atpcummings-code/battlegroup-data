@@ -164,10 +164,7 @@
       "specialRules": [],
       "options": [],
       "notes": "Youth's indoctrinated into Nazi philosophies almost since birth and believers in the causes of the Third Reich and German racial supremacy, the young soldiers of 12th SS fought fanatically for their Fatherland.  At the start of the game increase the Battlegroups BR rating by a D6"
-    },
-    
- 
-    
+    }, 
     {
       "id": "de-rulebook-iu-armoured-panzer-grenadier-squad",
       "name": "Armoured Panzer Grenadier Squad",
@@ -181,7 +178,7 @@
       "specialRules": [],
       "subUnits": [
         {
-          "id": "de-rulebook-iu-panzer-grenadier-squad-1",
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-squad-1",
           "name": "Panzer Grenadier Squad",
           "autoEnable": true,
           "points": 0,
@@ -235,7 +232,7 @@
         
     },
         {
-          "id": "de-rulebook-iu-panzer-grenadier-squad-2",
+          "id": "de-rulebook-iu-armoured-panzer-grenadier-squad-2",
           "name": "Panzer Grenadier MG Team",
           "autoEnable": true,
           "points": 0,
@@ -877,7 +874,77 @@
           ]
           
         },
-       
+       {
+      "id": "de-rulebook-esu-assault-pioneer-squad",
+      "name": "Assault Pioneer Squad",
+      "category": "Infantry Units",
+      "points": 42,
+      "br": 3,
+      "morale": "V",
+      "unitComposition": [
+      ],
+      "specialRules": [],
+      "subUnits": [
+        {
+          "id": "de-rulebook-esu-assault-pioneer-squad-1",
+          "name": "Assault Pioneer Squad",
+          "autoEnable": true,
+          "points": 0,
+          "br": 0,
+          "maxQty": 1,
+          "morale": "V",
+          "specialRules": [{"name": ""}],
+          "composition": [{"qty": 1, "name": "Assault Pioneer Squad (5 men)", "equipmentId": ""},{"qty": 1, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"},{"qty": 3, "name": "Demolition Charges", "equipmentId": ""},{"qty": 1, "name": "Opel Blitz (medium truck)", "equipmentId": "de-opel-blitz"}],
+          "optionGroupLimits": [],
+          "options": [
+          {
+                      "id": "de-rulebook-esu-assault-pioneer-squad-1a",
+                      "name": "Mreplace medium truck with SdKfz 251/7",
+                      "points": 8,
+                      "br": 0,
+                      "morale": "V",
+                      "composition": [{"qty": 1, "name": "SdKfz 251/7", ,"mode": "modify", "replaces": "Opel Blitz (medium truck)""equipmentId": "de-sdkfz-251-7"}]
+                    },
+        {
+                      "id": "de-rulebook-esu-assault-pioneer-squad-1b",
+                      "name": "Squad may take a flamethrower",
+                      "points": 10,
+                      "composition": [{"qty": 1, "name": "Flamethrower", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    },
+        {
+                      "id": "de-rulebook-esu-assault-pioneer-squad-1c",
+                      "name": "Squad may take a mine sweeper",
+                      "points": 5,
+                      "composition": [{"qty": 1, "name": "Mine Sweeper", "equipmentId": ""}],
+                      "compositionMode": "append"
+                    }
+          ]
+        
+    },
+        {
+          "id": "de-rulebook-esu-assault-pioneer-squad-2",
+          "name": "Assault Pioneer MG Team",
+          "autoEnable": true,
+          "points": 0,
+          "br": 0,
+          "maxQty": 1,
+          "morale": "V",
+          "specialRules": [{"name": ""}],
+          "composition": [{"qty": 1, "name": "3 men with Bipod MG34", "equipmentId": ""}],
+           "options": [
+          
+         {
+                      "id": "de-rulebook-esu-assault-pioneer-squad-2a",
+                      "name": "Upgrade Bipod MG34 to bipod MG42",
+                      "points": 4,
+                      "composition": [{"qty": 1, "name": "3 men with Bipod MG42","mode": "modify", "replaces": "3 men with Bipod MG34","equipmentId": ""}]
+                    }
+          ]
+        
+    }
+      ]
+    },
     {
       "id": "de-rulebook-esu-recovery-vehicle",
       "name": "Recovery Vehicle",

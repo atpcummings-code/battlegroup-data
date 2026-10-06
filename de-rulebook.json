@@ -993,7 +993,7 @@
       "morale": "I",
       "specialRules": [{"name": "Resupply"},{"name": "Unique"}],
       "unitComposition": [
-        {"qty": 1, "name": "Medium Truck", "equipmentId": "de-bedford-oxd"}
+        {"qty": 1, "name": "Opel Blitz (medium truck)", "equipmentId": "de-opel-blitz"}
       ],
       "notes": "",
       "optionGroupLimits": [

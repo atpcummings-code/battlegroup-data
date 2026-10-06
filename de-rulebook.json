@@ -395,7 +395,6 @@
       "name": "Light Panzer Artillery Battery",
       "category": "Artillery Units",
       "points": 64,
-      "maxQty": 1,
       "br": 4,
       "morale": "R",
       "unitComposition": [
@@ -409,7 +408,6 @@
       "name": "Self-propelled Artillery",
       "category": "Artillery Units",
       "points": 0,
-      "maxQty": 1,
       "br": 4,
       "morale": "R",
       "unitComposition": [],

@@ -900,7 +900,7 @@
           "points": 18,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "SdKfz 9 FAMO", "equipmentId": "de-sdkfz-9"}],
+          "composition": [{"qty": 1, "name": "SdKfz 9 FAMO", "equipmentId": "de-sdkfz-9-famo"}],
           "compositionMode": "replace"
         },
         {

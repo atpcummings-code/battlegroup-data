@@ -903,7 +903,7 @@
                       "points": 8,
                       "br": 0,
                       "morale": "V",
-                      "composition": [{"qty": 1, "name": "SdKfz 251/7", ,"mode": "modify", "replaces": "Opel Blitz (medium truck)""equipmentId": "de-sdkfz-251-7"}]
+                      "composition": [{"qty": 1, "name": "SdKfz 251/7", ,"mode": "modify", "replaces": "Opel Blitz (medium truck)","equipmentId": "de-sdkfz-251-7"}]
                     },
         {
                       "id": "de-rulebook-esu-assault-pioneer-squad-1b",

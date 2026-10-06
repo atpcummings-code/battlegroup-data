@@ -205,7 +205,7 @@
                     },
         {
                       "id": "de-rulebook-iu-armoured-panzer-grenadier-squad-1b",
-                      "name": "Squad may take up a Panzerfaust",
+                      "name": "Squad may take 1 Panzerfaust",
                       "points": 5,
                       "composition": [{"qty": 1, "name": "Panzerfaust", "equipmentId": "de-panzerfaust"}],
                       "compositionMode": "append"
@@ -219,16 +219,16 @@
                     },
             {
                       "id": "de-rulebook-iu-armoured-panzer-grenadier-squad-1d",
-                      "name": "Panzer Grnadier Squad may add a bipod MG34",
+                      "name": "Squad may add a bipod MG34",
                       "points": 10,
-                      "composition": [{"qty": 1, "name": "Panzer Grenadier Squad Bipod MG34", "equipmentId": ""}],
+                      "composition": [{"qty": 1, "name": "Bipod MG34", "equipmentId": ""}],
                       "compositionMode": "append"
                     },
          {
                       "id": "de-rulebook-iu-armoured-panzer-grenadier-squad-1e",
-                      "name": "Upgrade Panzer Grnadier Squad Bipod MG34 to bipod MG42",
+                      "name": "Upgrade Bipod MG34 to bipod MG42",
                       "points": 4,
-                      "composition": [{"qty": 1, "name": "Bipod MG42","mode": "modify", "replaces": "Panzer Grnadier Squad Bipod MG34","equipmentId": ""}],
+                      "composition": [{"qty": 1, "name": "Bipod MG42","mode": "modify", "replaces": "Bipod MG34","equipmentId": ""}],
                        "requires": "de-rulebook-iu-armoured-panzer-grenadier-squad-1d"
                     }
           ]

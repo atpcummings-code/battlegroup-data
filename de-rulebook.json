@@ -368,14 +368,25 @@
         {"qty": 1, "name": "Kubelwagen", "equipmentId": "de-kubelwagen"}
       ],
       "specialRules": [{"name": "Artillery Spotter+"}],
+      "optionGroupLimits": [
+        {"groupName": "Upgrade Kubelwagen to:", "options": ["de-rulebook-au-forward-observer-team-1", "de-rulebook-au-forward-observer-team-2"], "min": 0, "max": 1}
+      ],
       "options": [
         {
           "id": "de-rulebook-au-forward-observer-team-1",
-          "name": "Bren Carrier",
-          "points": 4,
+          "name": "SdKfz 251/18",
+          "points": 8,
           "br": 0,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Bren Carrier", "mode": "modify", "replaces": "Jeep", "equipmentId": "de-bren-carrier"}]
+          "composition": [{"qty": 1, "name": "SdKfz 251/18", "mode": "modify", "replaces": "Kubelwagen", "equipmentId": "de-sdkfz251-18"}]
+        },
+        {
+          "id": "de-rulebook-au-forward-observer-team-1",
+          "name": "SdKfz 251/3",
+          "points": 8,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "SdKfz 251/3", "mode": "modify", "replaces": "Kubelwagen", "equipmentId": "de-sdkfz251-3"}]
         }
       ]
     },

@@ -539,10 +539,10 @@
         },
         {
           "id": "ca-rulebook-au-off-table-mortar-fire-2",
-          "name": "4 2\" mortars",
+          "name": "2 4.2\" mortars",
           "points": 72,
           "br": 0,
-          "composition": [{"qty": 4, "name": "2\" mortars", "equipmentId": "ca-2inch-mortar"}],
+          "composition": [{"qty": 2, "name": "4.2\" mortars", "equipmentId": "ca-42inch-mortar"}],
           "compositionMode": "replace"
         }
       ]

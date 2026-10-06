@@ -1179,17 +1179,7 @@
         }
       ]
     },
-    
     {
-      "id": "de-rulebook-afs-pre-registered-target-point",
-      "name": "Pre-registered Target Point",
-      "category": "Additional Fire Support",
-      "points": 15,
-      "br": 0,
-      "specialRules": [],
-      "notes": ""
-    },
-{
       "id": "de-rulebook-afs-off-table-artillery-support-request",
       "name": "Off Table Artillery Support Request",
       "category": "Additional Fire Support",
@@ -1219,23 +1209,25 @@
         },
         {
         "id": "de-rulebook-afs-off-table-artillery-support-request-3",
-          "name": "1st Target Priority (2+)",
+          "name": "1st Target Priority (3+)",
           "points": 20,
           "br": 0,
-          "composition": [{"qty": 1, "name": "1st Target Priority (2+)",  "equipmentId": ""}],
+          "composition": [{"qty": 1, "name": "1st Target Priority (3+)",  "equipmentId": ""}],
           "compositionMode": "replace"
         }
       ]
     },
     {
-      "id": "de-rulebook-afs-timed-typhoon-air-strike",
-      "name": "Timed Typhoon Air Strike",
+      "id": "de-rulebook-afs-pre-registered-target-point",
+      "name": "Pre-registered Target Point",
       "category": "Additional Fire Support",
-      "points": 25,
-      "composition": [{"qty": 1, "name": "Typhoon (Medium Bombs)",  "equipmentId": "de-typhoon-2"}],
-      "notes": "An air strike by a Typhoon carrying 4 medium bombs. Before the game, write down which turn the aircraft will arrive on.  The points cost includes a pre-registered target as the target point of the air strike."
+      "points": 15,
+      "br": 0,
+      "specialRules": [],
+      "notes": ""
     },
-     {
+  
+    {
       "id": "de-rulebook-afs-counter-battery-fire-mission",
       "name": "Counter Battery Fire Mission",
       "category": "Additional Fire Support",
@@ -1243,21 +1235,30 @@
       "notes": "The counter battery fire mission is effective on a 5+."
     },
     {
-      "id": "de-rulebook-afs-timed-105mm-barrage",
-      "name": "Timed 105mm Barrage",
+      "id": "de-rulebook-afs-timed-80mm-mortar-barrage",
+      "name": "Timed 80mm Mortar Barrage",
       "category": "Additional Fire Support",
-      "points": 20,
-      "notes": "Fired by a battery of four 105mmL22 guns. Before the game, write down the turn the guns will fire on. The points cost includes a pre-registered target as the target point of the barrage.",
-      "composition": [{"qty": 4, "name": "105mmL22",  "equipmentId": "de-105mml22"}],
+      "points": 5,
+      "notes": "Fired by a battery of four 80mm mortars. Before the game, write down the turn the guns will fire on. The points cost includes a pre-registered target as the target point of the barrage.",
+      "composition": [{"qty": 4, "name": "80mm Mortars",  "equipmentId": "de-80mm-mortar"}],
           "compositionMode": "replace"
     },
     {
-      "id": "de-rulebook-afs-timed-6inch-barrage",
-      "name": "Timed 6\" Barrage",
+      "id": "de-rulebook-afs-timed-105mm-barrage",
+      "name": "Timed 105mm Barrage",
+      "category": "Additional Fire Support",
+      "points": 100,
+      "notes": "Fired by a battery of four 105mmL28 guns. Before the game, write down the turn the guns will fire on. The points cost includes a pre-registered target as the target point of the barrage.",
+      "composition": [{"qty": 4, "name": "105mmL22",  "equipmentId": "de-105mml28"}],
+          "compositionMode": "replace"
+    },
+    {
+      "id": "de-rulebook-afs-timed-150mm-barrage",
+      "name": "Timed 150mm Barrage",
       "category": "Additional Fire Support",
       "points": 30,
-      "notes": "Fired by a battery of four 6\" guns. Before the game, write down the turn the guns will fire on. The points cost includes a pre-registered target as the target point of the barrage.",
-      "composition": [{"qty": 4, "name": "6\" naval guns",  "equipmentId": "de-6inch-naval-gun"}],
+      "notes": "Fired by a battery of four 150L30 guns. Before the game, write down the turn the guns will fire on. The points cost includes a pre-registered target as the target point of the barrage.",
+      "composition": [{"qty": 4, "name": "6\" naval guns",  "equipmentId": "de-150mml30"}],
           "compositionMode": "replace"
     }
     

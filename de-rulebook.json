@@ -280,8 +280,8 @@
           "points": 90,
           "br": 3,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Panther G", "equipmentId": "de-panther-g"}]
-        },
+          "composition": [{"qty": 4, "name": "Panther G", "equipmentId": "de-panther-g"}],
+          "compositionMode": "replace"        },
         {
           "id": "de-rulebook-tu-sherman-tank-troop-2",
           "name": "Upgrade 2 M4A4 to M4 Shermans",

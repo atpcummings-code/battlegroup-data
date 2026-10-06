@@ -366,7 +366,7 @@
   { 
      "equipmentId": "de-1-tonne-sdkfz-10", 
     "type": "vehicle", 
-    "vehicleName": "1 Tonne-SdFfz 10", 
+    "vehicleName": "1 Tonne-SdKfz 10", 
     "movement": [{ "offroad": 12, "road": 16 }], 
     "hits": 2,
     "specialRules": ["Transport Capacity 5"],
@@ -375,7 +375,7 @@
    { 
      "equipmentId": "de-3-tonne-sdkfz-11", 
     "type": "vehicle", 
-    "vehicleName": "3 Tonne-SdFfz 11", 
+    "vehicleName": "3 Tonne-SdKfz 11", 
     "movement": [{ "offroad": 12, "road": 16 }], 
     "hits": 3,
     "specialRules": ["Transport Capacity 8"],
@@ -384,7 +384,7 @@
   { 
      "equipmentId": "de-3-tonne-sdkfz-6", 
     "type": "vehicle", 
-    "vehicleName": "5 Tonne-SdFfz 6", 
+    "vehicleName": "5 Tonne-SdKfz 6", 
     "movement": [{ "offroad": 12, "road": 16 }], 
     "hits": 3,
     "specialRules": ["Transport Capacity 10"],
@@ -393,7 +393,7 @@
     { 
      "equipmentId": "de-3-tonne-sdkfz-7", 
     "type": "vehicle", 
-    "vehicleName": "8 Tonne-SdFfz 7", 
+    "vehicleName": "8 Tonne-SdKfz 7", 
     "movement": [{ "offroad": 12, "road": 16 }], 
     "hits": 4,
     "specialRules": ["Transport Capacity 12"],
@@ -402,7 +402,7 @@
   { 
      "equipmentId": "de-3-tonne-sdkfz-8", 
     "type": "vehicle", 
-    "vehicleName": "12 Tonne-SdFfz 8", 
+    "vehicleName": "12 Tonne-SdKfz 8", 
     "movement": [{ "offroad": 12, "road": 16 }], 
     "hits": 4,
     "specialRules": ["Transport Capacity 15"],
@@ -411,7 +411,7 @@
    { 
      "equipmentId": "de-3-tonne-sdkfz-9-famo", 
     "type": "vehicle", 
-    "vehicleName": "18 Tonne-SdFfz 9 FAMO", 
+    "vehicleName": "18 Tonne-SdKfz 9 FAMO", 
     "movement": [{ "offroad": 12, "road": 16 }], 
     "hits": 5,
     "specialRules": ["Repair", "Recovery"],

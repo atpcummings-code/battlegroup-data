@@ -896,11 +896,11 @@
       "options": [
         {
           "id": "de-rulebook-esu-recovery-vehicle-1",
-          "name": "SdKfz 251/9 FAMO",
+          "name": "SdKfz 9 FAMO",
           "points": 18,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "SdKfz 251/9 FAMO", "equipmentId": "de-sdkfz-251-9"}],
+          "composition": [{"qty": 1, "name": "SdKfz 9 FAMO", "equipmentId": "de-sdkfz-9"}],
           "compositionMode": "replace"
         },
         {

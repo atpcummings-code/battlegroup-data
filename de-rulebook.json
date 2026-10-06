@@ -73,8 +73,8 @@
       ],
       "specialRules": [{"name": "Communications"}, {"name": "Unique"}],
       "optionGroupLimits": [
-        {"groupName": "Upgrade Radio Medium TRuck to:", "options": ["de-rulebook-fhu-forward-signals-unit-1", "de-rulebook-fhu-forward-signals-unit-2"],  "min": 0, "max": 1},
-        {"groupName": "Repalce 3men and radio medium truck with:", "options": ["de-rulebook-fhu-forward-signals-unit-3", "de-rulebook-fhu-forward-signals-unit-4","de-rulebook-fhu-forward-signals-unit-5"],  "min": 0, "max": 1}
+        {"groupName": "Upgrade Radio Medium Truck to:", "options": ["de-rulebook-fhu-forward-signals-unit-1", "de-rulebook-fhu-forward-signals-unit-2"],  "min": 0, "max": 1},
+        {"groupName": "Replace 3men and Radio Medium Truck with:", "options": ["de-rulebook-fhu-forward-signals-unit-3", "de-rulebook-fhu-forward-signals-unit-4","de-rulebook-fhu-forward-signals-unit-5"],  "min": 0, "max": 1}
       ],
       "options": [
         {
@@ -163,7 +163,7 @@
       "unitComposition": [],
       "specialRules": [],
       "options": [],
-      "notes": "Youth's indoctrinated into Nazi philosophies almost since birth and believers in the causes of the Third Reich and German racial supremacy, the young soldiers of 12th SS fought fanatically for their Fatherland.  At the start of the game incrase the Battlegroups BR rating by a D6"
+      "notes": "Youth's indoctrinated into Nazi philosophies almost since birth and believers in the causes of the Third Reich and German racial supremacy, the young soldiers of 12th SS fought fanatically for their Fatherland.  At the start of the game increase the Battlegroups BR rating by a D6"
     },
     
  
@@ -284,7 +284,7 @@
           "compositionMode": "replace"        
         },
         {
-         "id": "de-rulebook-tu-panther-platoon-1",
+         "id": "de-rulebook-tu-panther-platoon-2",
           "name": "Add 1 Panther G",
           "points": 180,
           "br": 6,

@@ -265,7 +265,7 @@
       "points": 235,
       "br": 9,
       "morale": "R",
-      "notes": "Choose tank type.",
+      "notes": "",
       "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
        "unitComposition": [
         {"qty": 3, "name": "Panther G", "equipmentId": "de-panther-g"}
@@ -285,11 +285,47 @@
         },
         {
          "id": "de-rulebook-tu-panther-platoon-2",
-          "name": "Add 1 Panther G",
+          "name": "Add 2 Panther G",
           "points": 180,
           "br": 6,
           "morale": "R",
           "composition": [{"qty": 5, "name": "Panther G", "equipmentId": "de-panther-g"}],
+          "compositionMode": "replace"
+        }
+      ]
+    },
+    {
+      "id": "de-rulebook-tu-panzer-iv-platoon",
+      "name": "Panzer IV Platoon",
+      "category": "Tank Units",
+      "points": 150,
+      "br": 9,
+      "morale": "R",
+      "notes": "",
+      "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
+       "unitComposition": [
+        {"qty": 3, "name": "Panzer IV H", "equipmentId": "de-panzer-ivh"}
+       ],
+      "optionGroupLimits": [
+        {"groupName": "Add up to two additional Panzer IV Hs", "options": ["de-rulebook-tu-panzer-iv-platoon-1", "de-rulebook-tu-panzer-iv-platoon-2"], "min": 0, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "de-rulebook-tu-panzer-iv-platoon-1",
+          "name": "Add 1 Panzer IV H",
+          "points": 56,
+          "br": 3,
+          "morale": "R",
+          "composition": [{"qty": 4, "name": "Panzer IV H", "equipmentId": "de-panzer-ivh"}],
+          "compositionMode": "replace"        
+        },
+        {
+         "id": "de-rulebook-tu-panzer-iv-platoon-2",
+          "name": "Add 2 Panzer IV H",
+          "points": 112,
+          "br": 6,
+          "morale": "R",
+          "composition": [{"qty": 5, "name": "Panzer IV H", "equipmentId": "de-panzer-ivh"}],
           "compositionMode": "replace"
         }
       ]

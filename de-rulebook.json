@@ -523,7 +523,7 @@
         },
         {
           "id": "de-rulebook-au-off-table-artillery-fire-2",
-          "name": "2 150mm" (L12) infantry guns",
+          "name": "2 150mm (L12) infantry guns",
           "points": 135,
           "br": 0,
           "composition": [{"qty": 2, "name": "150mmL12 infantry guns", "equipmentId": "de-150mml12"}],
@@ -531,7 +531,7 @@
         },
         {
           "id": "de-rulebook-au-off-table-artillery-fire-3",
-          "name": "2 150mm" (L12) howitzer",
+          "name": "2 150mm (L12) howitzer",
           "points": 135,
           "br": 0,
           "composition": [{"qty": 2, "name": "150mmL30 howitzer", "equipmentId": "de-150mml30"}],
@@ -539,7 +539,7 @@
         },
         {
           "id": "de-rulebook-au-off-table-artillery-fire-4",
-          "name": "2 100mm" (L52) cannon",
+          "name": "2 100mm (L52) cannon",
           "points": 126,
           "br": 0,
           "composition": [{"qty": 2, "name": "100mmL52 cannon", "equipmentId": "de-100mml52"}],

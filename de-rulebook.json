@@ -179,13 +179,13 @@
           "groupName": "The platoon may include up to four of the following additional units. No unit may be taken more than once:",
           "options": [
            
-            "de-rulebook-armoured-panzer-grenadier-platoon-4",
-            "de-rulebook-armoured-panzer-grenadier-platoon-5",
-             "de-rulebook-armoured-panzer-grenadier-platoon-6",
-            "de-rulebook-armoured-panzer-grenadier-platoon-7",
-             "de-rulebook-armoured-panzer-grenadier-platoon-8",
+            "de-rulebook-armoured-panzer-grenadier-platoon-8",
             "de-rulebook-armoured-panzer-grenadier-platoon-9",
-            "de-rulebook-armoured-panzer-grenadier-platoon-10"
+             "de-rulebook-armoured-panzer-grenadier-platoon-10",
+            "de-rulebook-armoured-panzer-grenadier-platoon-11",
+             "de-rulebook-armoured-panzer-grenadier-platoon-12",
+            "de-rulebook-armoured-panzer-grenadier-platoon-13",
+            "de-rulebook-armoured-panzer-grenadier-platoon-14"
           ],
           "min": 0,
           "max": 4

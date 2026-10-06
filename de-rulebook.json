@@ -381,7 +381,7 @@
           "composition": [{"qty": 1, "name": "SdKfz 251/18", "mode": "modify", "replaces": "Kubelwagen", "equipmentId": "de-sdkfz251-18"}]
         },
         {
-          "id": "de-rulebook-au-forward-observer-team-1",
+          "id": "de-rulebook-au-forward-observer-team-2",
           "name": "SdKfz 251/3",
           "points": 8,
           "br": 0,

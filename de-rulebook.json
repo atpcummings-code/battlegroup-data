@@ -257,49 +257,30 @@
     }
       ]
     },
+    
     {
-      "id": "de-rulebook-iu-carrier-section",
-      "name": "Carrier Section",
-      "category": "Infantry Units",
-      "points": 54,
-      "unitType": { "type": "squad", "count": 1 },
-      "br": 6,
-      "restricted": "yes",
-      "morale": "R",
-      "unitComposition": [
-        {"qty": 1, "name": "Carrier Rifle Section (3 Men with a Bren)", "equipmentId": ""},
-        {"qty": 1, "name": "Carrier Light Mortar Team (3 Men with a 2\" Mortar)", "equipmentId": "de-2inch-mortar"},
-        {"qty": 1, "name": "Carrier PIAT Team (3 Men with a PIAT)", "equipmentId": "de-piat"},
-        {"qty": 3, "name": "Bren Carriers", "equipmentId": "de-bren-carrier"}
-      ],
-      "specialRules": [],
-      "options": []
-    },
-    {
-      "id": "de-rulebook-tu-sherman-tank-troop",
-      "name": "Sherman Tank Troop",
+      "id": "de-rulebook-tu-panther-platoon",
+      "name": "Panther Platoon",
       "category": "Tank Units",
-      "points": 146,
+      "points": 235,
       "br": 9,
       "morale": "R",
       "notes": "Choose tank type.",
       "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
        "unitComposition": [
-        {"qty": 2, "name": "M4A4 Sherman", "equipmentId": "de-m4a4-sherman"},
-        {"qty": 1, "name": "M4A4 Sherman Firefly", "equipmentId": "de-m4a4-sherman-firefly"}
+        {"qty": 3, "name": "Panther G", "equipmentId": "de-panther-g"}
        ],
       "optionGroupLimits": [
-        {"groupName": "Upgrade to M4 Sherman:", "options": ["de-rulebook-tu-sherman-tank-troop-1", "de-rulebook-tu-sherman-tank-troop-2"], "min": 0, "max": 1}
+        {"groupName": "Upgrade to M4 Sherman:", "options": ["de-rulebook-tu-panther-platoon-1", "de-rulebook-tu-panther-platoon-2"], "min": 0, "max": 1}
       ],
       "options": [
         {
-          "id": "de-rulebook-tu-sherman-tank-troop-1",
-          "name": "Upgrade 1 M4A4 to M4 Shermans",
-          "points": 2,
-          "br": 0,
+          "id": "de-rulebook-tu-panther-platoon-1",
+          "name": "Add 1 Panther G",
+          "points": 90,
+          "br": 3,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "M4 Sherman", "equipmentId": "de-m4-sherman"},{"qty": 1, "name": "M4A4 Sherman","equipmentId": "de-m4a4-sherman"},{"qty": 1, "name": "M4A4 Sherman Firefly", "equipmentId": "de-m4a4-sherman-firefly"}],
-          "compositionMode": "replace"
+          "composition": [{"qty": 1, "name": "Panther G", "equipmentId": "de-panther-g"}]
         },
         {
           "id": "de-rulebook-tu-sherman-tank-troop-2",

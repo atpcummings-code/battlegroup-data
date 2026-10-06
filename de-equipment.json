@@ -312,18 +312,18 @@
     "notes": ""
   },
   { 
-     "equipmentId": "de-kubelwagon", 
+     "equipmentId": "de-kubelwagen", 
     "type": "vehicle", 
-    "vehicleName": "Kubelwagon", 
+    "vehicleName": "Kubelwagen", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 2,
     "specialRules": ["Transport Capacity 3"],
     "notes": ""
   },
     { 
-     "equipmentId": "de-schwimmwagon", 
+     "equipmentId": "de-schwimmwagen", 
     "type": "vehicle", 
-    "vehicleName": "Schwimmwagon", 
+    "vehicleName": "Schwimmwagen", 
     "movement": [{ "offroad": 6, "road": 24 }], 
     "hits": 2,
     "specialRules": ["Transport Capacity 3"],

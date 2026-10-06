@@ -303,24 +303,69 @@
       "specialRules": [{"name": "Bren Team"}],
       "options": []
     },
-    {
+{
       "id": "ca-rulebook-iu-carrier-section",
       "name": "Carrier Section",
       "category": "Infantry Units",
       "points": 54,
       "unitType": { "type": "squad", "count": 1 },
       "br": 6,
-      "restricted": "yes",
-      "morale": "R",
+      "morale": "V",
       "unitComposition": [
-        {"qty": 1, "name": "Carrier Rifle Section (3 Men with a Bren)", "equipmentId": ""},
-        {"qty": 1, "name": "Carrier Light Mortar Team (3 Men with a 2\" Mortar)", "equipmentId": "ca-2inch-mortar"},
-        {"qty": 1, "name": "Carrier PIAT Team (3 Men with a PIAT)", "equipmentId": "ca-piat"},
-        {"qty": 3, "name": "Bren Carriers", "equipmentId": "ca-bren-carrier"}
       ],
       "specialRules": [],
-      "options": []
+      "subUnits": [
+        {
+          "id": "ca-rulebook-iu-carrier-section-1",
+          "name": "Carrier Rifle Team",
+          "autoEnable": true,
+          "points": 0,
+          "br": 0,
+          "maxQty": 1,
+          "morale": "R",
+          "specialRules": [{"name": ""}],
+          "composition": [{"qty": 1, "name": "3 men with a Bren", "equipmentId": ""},{"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
+          "optionGroupLimits": [
+      ],
+          "options": []
+        
     },
+        {
+          "id": "ca-rulebook-iu-carrier-section-2",
+          "name": "Carrier Light Mortar Team",
+          "autoEnable": true,
+          "points": 0,
+          "br": 0,
+          "maxQty": 1,
+          "morale": "R",
+          "specialRules": [{"name": ""}],
+          "composition": [{"qty": 1, "name": "3 men with 2\" mortar", "equipmentId": "ca-2inch-mortar"},{"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
+          "optionGroupLimits": [
+      ],
+          "options": []
+        
+    },
+        {
+          "id": "ca-rulebook-iu-carrier-section-2",
+          "name": "Carrier PIAT Team",
+          "autoEnable": true,
+          "points": 0,
+          "br": 0,
+          "maxQty": 1,
+          "morale": "R",
+          "specialRules": [{"name": ""}],
+          "composition": [{"qty": 1, "name": "3 men with a PIAT", "equipmentId": "ca-piat"},{"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
+          "optionGroupLimits": [
+      ],
+          "options": []
+        
+    }
+        
+      ]
+    },
+
+
+    
     {
       "id": "ca-rulebook-tu-sherman-tank-troop",
       "name": "Sherman Tank Troop",

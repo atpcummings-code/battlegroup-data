@@ -850,7 +850,7 @@
           "br": 1,
           "morale": "R",
           "restricted": "yes",
-          "composition": [{"qty": 1, "name": "SdKfz 2350/7", "equipmentId": "de-sdkfz-250-7"}],
+          "composition": [{"qty": 1, "name": "SdKfz 250/7", "equipmentId": "de-sdkfz-250-7"}],
           "compositionMode": "replace"
         },
         {
@@ -860,7 +860,7 @@
           "br": 1,
           "morale": "R",
           "restricted": "yes",
-          "composition": [{"qty": 1, "name": "SdKfz 2350/8", "equipmentId": "de-sdkfz-250-8"}],
+          "composition": [{"qty": 1, "name": "SdKfz 250/8", "equipmentId": "de-sdkfz-250-8"}],
           "compositionMode": "replace"
         },
         {
@@ -870,7 +870,7 @@
           "br": 1,
           "morale": "R",
           "restricted": "yes",
-          "composition": [{"qty": 1, "name": "SdKfz 2350/9", "equipmentId": "de-sdkfz-250-9"}],
+          "composition": [{"qty": 1, "name": "SdKfz 250/9", "equipmentId": "de-sdkfz-250-9"}],
           "compositionMode": "replace"
         }
           

@@ -391,6 +391,53 @@
       ]
     },
     {
+      "id": "de-rulebook-au-light-panzer-artillery-battery",
+      "name": "Light Panzer Artillery Battery",
+      "category": "Artillery Units",
+      "points": 64,
+      "maxQty": 1,
+      "br": 4,
+      "morale": "R",
+      "unitComposition": [
+        {"qty": 2, "name": "Wespe", "equipmentId": "de-wespe"}
+      ],
+      "specialRules": [],
+      "options": []
+    },
+     {
+      "id": "de-rulebook-au-self-propelled-gun",
+      "name": "Self-propelled-Gun",
+      "category": "Artillery Units",
+      "points": 0,
+      "maxQty": 1,
+      "br": 4,
+      "morale": "R",
+      "unitComposition": [],
+      "specialRules": [],
+       "optionGroupLimits": [
+        {"groupName": "Upgrade Kubelwagen to:", "options": ["de-rulebook-au-self-propelled-gun-1", "de-rulebook-au-self-propelled-gun-2"], "min": 1, "max": 1}
+      ],
+      "options": [
+        {
+          "id": "de-rulebook-au-self-propelled-gun-1",
+          "name": "Wespe",
+          "points": 32,
+          "br": 2,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "Wespe", "equipmentId": "de-wespe"}]
+        },
+        {
+          "id": "de-rulebook-au-self-propelled-gun-2",
+          "name": "Hummel",
+          "points": 44,
+          "br": 3,
+          "morale": "R",
+          "restricted": yes,
+          "composition": [{"qty": 1, "name": "Hummel", "equipmentId": "de-hummel"}]
+        }
+      ]
+    },
+    {
       "id": "de-rulebook-au-off-table-mortar-fire",
       "name": "Off Table Mortar Fire",
       "category": "Artillery Units",

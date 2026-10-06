@@ -157,7 +157,7 @@
       "specialRules": [{"name": "Wire Communications"}],
       "options": []
     },
-    {
+{
       "id": "ca-rulebook-iu-infantry-platoon",
       "name": "Infantry Platoon",
       "category": "Infantry Units",
@@ -170,25 +170,68 @@
         {
           "groupName": "The platoon may include up to four of the following additional units. No unit may be taken more than once:",
           "options": [
-            "ca-rulebook-iu-infantry-platoon-1",
-            "ca-rulebook-iu-infantry-platoon-2",
-            "ca-rulebook-iu-infantry-platoon-3",
-            "ca-rulebook-iu-infantry-platoon-4",
-            "ca-rulebook-iu-infantry-platoon-5"
+           
+            "de-rulebook-iu-armoured-panzer-grenadier-platoon-4",
+            "de-rulebook-iu-armoured-panzer-grenadier-platoon-5",
+             "de-rulebook-iu-armoured-panzer-grenadier-platoon-6",
+            "de-rulebook-iu-armoured-panzer-grenadier-platoon-7",
+             "de-rulebook-iu-armoured-panzer-grenadier-platoon-8"
           ],
           "min": 0,
           "max": 4
         }
       ],
-      "unitComposition": [
-        {"qty": 1, "name": "Platoon Command Section (5 Men)", "equipmentId": ""},
-        {"qty": 3, "name": "Rifle Section (10 Men with a Bren)", "equipmentId": ""},
-        {"qty": 1, "name": "Light Mortar Team (2 Men with a 2\" Mortar)", "equipmentId": "ca-2inch-mortar"}
-      ],
-      "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"},{"name": "Bren Team"}],
+      "unitComposition": [],
       "subUnits": [
         {
           "id": "ca-rulebook-iu-infantry-platoon-1",
+          "name": "Platoon Command Section",
+          "points": 0,
+          "br": 0,
+          "maxQty": 1,
+          "autoEnable": true,
+          "morale": "R",
+          "specialRules": [{"name": "Officer"},{"name": "Mortar Spotter"}],
+          "composition": [{"qty": 1, "name": "5 Men", "equipmentId": ""}],
+          "optionGroupLimits": [],
+      "options": [
+        {
+          "id": "ca-rulebook-iu-infantry-platoon-1a",
+          "name": "Section may include a PIAT",
+          "points": 5,
+          "br": 0,
+          "morale": "R",
+          "composition": [{"qty": 1, "name": "PIAT", "equipmentId": "ca-piat"}],
+          "compositionMode": "append"
+        }
+      ]
+},
+        {
+          "id": "ca-rulebook-iu-infantry-platoon-2",
+          "name": "3 Rifle Sections",
+          "points": 0,
+          "br": 0,
+          "autoEnable": true,
+          "morale": "R",
+          "specialRules": [{"name": "Bren Team"}],
+          "composition": [{"qty": 3, "name": "10 men with a Bren", "equipmentId": ""}],
+          "optionGroupLimits": [],
+      "options": []
+},
+        {
+          "id": "ca-rulebook-iu-infantry-platoon-3",
+          "name": "Light Mortar Team",
+          "points": 0,
+          "br": 0,
+          "autoEnable": true,
+          "morale": "R",
+          "specialRules": [],
+          "composition": [{"qty": 1, "name": "2 men with a 2\" mortar", "equipmentId": "ca-2inch-mortar"}],
+          "optionGroupLimits": [],
+      "options": []
+},
+        {
+          "id": "ca-rulebook-iu-infantry-platoon-4",
           "name": "Combat Medic",
           "points": 8,
           "br": 0,
@@ -198,34 +241,34 @@
           "composition": [{"qty": 1, "name": "Combat Medic (1 Man)", "equipmentId": "ca-combat-medic"}]
         },
         {
-          "id": "ca-rulebook-iu-infantry-platoon-2",
+          "id": "ca-rulebook-iu-infantry-platoon-5",
           "name": "Heavy Machine Gun Team",
           "points": 22,
           "br": 1,
           "maxQty": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "3 men with a Vickers HMG", "equipmentId": "ca-vickers-hmg"}],
+          "composition": [{"qty": 1, "name": "3 men with a Vickers HMG", "equipmentId": ""}],
           "options": [
-                    {
-                      "id": "ca-rulebook-iu-infantry-platoon-2a",
+                   {
+                      "id": "ca-rulebook-iu-infantry-platoon-5a",
+                      "name": "Mount in Bren Carrier",
+                      "points": 6,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Mount in Bren Carrier", "equipmentId": ""}],
+                     "compositionMode": "append"
+                    },        
+            {
+                      "id": "ca-rulebook-iu-infantry-platoon-5b",
                       "name": "Include a 3 man loader team",
                       "points": 10,
                       "br": 0,
                       "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
                       "compositionMode": "append"
-                    },
-                    {
-                      "id": "ca-rulebook-iu-infantry-platoon-2b",
-                      "name": "Mount in a Bren Carrier",
-                      "points": 6,
-                      "br": 0,
-                      "composition": [{"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
-                      "compositionMode": "append"
                     }
       ]
         },
         {
-          "id": "ca-rulebook-iu-infantry-platoon-3",
+          "id": "ca-rulebook-iu-infantry-platoon-6",
           "name": "PIAT Team",
           "points": 14,
           "br": 1,
@@ -234,61 +277,69 @@
           "composition": [{"qty": 1, "name": "2 men with a PIAT", "equipmentId": "ca-piat"}]
         },
         {
-          "id": "ca-rulebook-iu-infantry-platoon-4",
+          "id": "ca-rulebook-iu-infantry-platoon-7",
           "name": "Medium Mortar Team",
           "points": 24,
           "br": 1,
           "maxQty": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "3 men with a 3\" Mortar", "equipmentId": "ca-3inch-mortar"}],
+          "composition": [{"qty": 1, "name": "3 men with 3\" Mortar", "equipmentId": "ca-3inch-mortar"}],
           "options": [
                     {
-                      "id": "ca-rulebook-iu-infantry-platoon-4a",
+                      "id": "ca-rulebook-iu-infantry-platoon-7a",
+                      "name": "Mount in Bren Carrier",
+                      "points": 6,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Mount in Bren Carrier", "equipmentId": ""}],
+                     "compositionMode": "append"
+                    },        
+            {
+                      "id": "ca-rulebook-iu-infantry-platoon-7b",
                       "name": "Include a 3 man loader team",
                       "points": 10,
                       "br": 0,
                       "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
                       "compositionMode": "append"
-                    },
-                    {
-                      "id": "ca-rulebook-iu-infantry-platoon-4b",
-                      "name": "Mount in a Bren Carrier",
-                      "points": 6,
-                      "br": 0,
-                      "composition": [{"qty": 1, "name": "Bren Carrier", "equipmentId": "ca-bren-carrier"}],
-                      "compositionMode": "append"
                     }
       ]
         },
         {
-          "id": "ca-rulebook-iu-infantry-platoon-5",
+          "id": "ca-rulebook-iu-infantry-platoon-8",
           "name": "Anti-tank Gun",
           "points": 34,
           "br": 2,
           "maxQty": 1,
           "morale": "R",
           "composition": [{"qty": 1, "name": "6pdr gun with 3 crew",  "equipmentId": "ca-6pdr"}],
+          "optionGroupLimits": [],
           "options": [
-                    {
-                      "id": "ca-rulebook-iu-infantry-platoon-5a",
+            {
+                      "id": "ca-rulebook-iu-infantry-platoon-8a",
+                      "name": "Loyd Carrier Tow",
+                      "points": 5,
+                      "br": 0,
+                      "composition": [{"qty": 1, "name": "Mount in Bren Carrier", "equipmentId": "ca-loyd-carrier"}],
+                     "compositionMode": "append"
+                    },        
+            {
+                      "id": "ca-rulebook-iu-infantry-platoon-8b",
                       "name": "Include a 3 man loader team",
                       "points": 10,
                       "br": 0,
                       "composition": [{"qty": 1, "name": "3 Man Loader Team", "equipmentId": ""}],
                       "compositionMode": "append"
-                    },
-                    {
-                      "id": "ca-rulebook-iu-infantry-platoon-5b",
-                      "name": "Loyd Carrier Tow",
-                      "points": 5,
-                      "br": 0,
-                      "composition": [{"qty": 1, "name": "Loyd Carrier Tow", "equipmentId": "ca-loyd-carrier"}],
-                      "compositionMode": "append"
                     }
       ]
         }
+           
       ]
     },
+
+
+
+
+
+    
     {
       "id": "ca-rulebook-iu-rifle-section",
       "name": "Rifle Section",

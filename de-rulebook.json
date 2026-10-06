@@ -470,7 +470,7 @@
           "name": "Heavy Car",
           "points": 4,
           "br": 0,
-          "composition": [{"qty": 1, "name": "Heavy Car", "equipmentId": "de-heavy-car"}],
+          "composition": [{"qty": 1, "name": "Heavy Car", "equipmentId": "de-steyr-horch-heavy-car"}],
           "compositionMode": "append"
         }
       ]

@@ -183,6 +183,7 @@
         {
           "id": "de-rulebook-iu-panzer-grenadier-squad-1",
           "name": "Panzer Grenadier Squad",
+          "autoEnable": true,
           "points": 0,
           "br": 0,
           "maxQty": 1,

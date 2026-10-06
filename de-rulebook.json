@@ -1101,7 +1101,7 @@
           "points": 16,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "SdKfz 10 with 20mm", "equipmentId": "de-1-tonne-sdklfz-10"}],
+          "composition": [{"qty": 1, "name": "SdKfz 10 with 20mm", "equipmentId": "de-1-tonne-sdkfz-10"}],
           "compositionMode": "replace"
         },
         {
@@ -1110,7 +1110,7 @@
           "points": 36,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "SdKfz 7 with 20mm Vierling", "equipmentId": "de-8-tonne-sdklfz-7"}],
+          "composition": [{"qty": 1, "name": "SdKfz 7 with 20mm Vierling", "equipmentId": "de-8-tonne-sdkfz-7"}],
           "compositionMode": "replace"
         },
         {
@@ -1119,7 +1119,7 @@
           "points": 20,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "SdKfz 6 with 37mm", "equipmentId": "de-5-tonne-sdklfz-6"}],
+          "composition": [{"qty": 1, "name": "SdKfz 6 with 37mm", "equipmentId": "de-5-tonne-sdkfz-6"}],
           "compositionMode": "replace"
         },
         {

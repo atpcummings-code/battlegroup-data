@@ -415,7 +415,7 @@
       "unitComposition": [],
       "specialRules": [],
        "optionGroupLimits": [
-        {"groupName": "Upgrade Kubelwagen to:", "options": ["de-rulebook-au-self-propelled-gun-1", "de-rulebook-au-self-propelled-gun-2"], "min": 1, "max": 1}
+        {"groupName": "Choose SPG:", "options": ["de-rulebook-au-self-propelled-gun-1", "de-rulebook-au-self-propelled-gun-2"], "min": 1, "max": 1}
       ],
       "options": [
         {

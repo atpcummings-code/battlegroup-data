@@ -487,37 +487,22 @@
       "options": [
         {
           "id": "de-rulebook-au-off-table-mortar-fire-1",
-          "name": "2 3\" mortars",
+          "name": "2 80mm mortars",
           "points": 54,
           "br": 0,
-          "composition": [{"qty": 2, "name": "3\" mortars", "equipmentId": "de-3inch-mortar"}],
+          "composition": [{"qty": 2, "name": "80mm mortars", "equipmentId": "de-80mm-mortar"}],
           "compositionMode": "replace"
         },
         {
           "id": "de-rulebook-au-off-table-mortar-fire-2",
-          "name": "4 2\" mortars",
+          "name": "2 120mm mortars",
           "points": 72,
           "br": 0,
-          "composition": [{"qty": 4, "name": "2\" mortars", "equipmentId": "de-2inch-mortar"}],
+          "composition": [{"qty": 2, "name": "120mm mortars", "equipmentId": "de-120mm-mortar"}],
           "compositionMode": "replace"
         }
       ]
-    },
-    {
-      "id": "de-rulebook-au-aerial-artillery-observer",
-      "name": "Aerial Artillery Observer",
-      "category": "Artillery Units",
-      "points": 66,
-      "maxQty": 1,
-      "br": 3,
-      "morale": "R",
-      "unitComposition": [
-        {"qty": 1, "name": "Auster III", "equipmentId": "de-auster-iii"}
-      ],
-      "specialRules": [{"name": "Artillery Spotter+"}, {"name": "Unique"}],
-      "options": []
-    },
-    
+    }, 
     {
       "id": "de-rulebook-au-off-table-artillery-fire",
       "name": "Off Table Artillery Fire",
@@ -525,23 +510,39 @@
       "points": 0,
       "br": 0,
       "optionGroupLimits": [
-        {"groupName": "Choose Artillery Fire:", "options": ["de-rulebook-au-off-table-artillery-fire-1", "de-rulebook-au-off-table-artillery-fire-2"], "min": 1, "max": 1}
+        {"groupName": "Choose Artillery Fire:", "options": ["de-rulebook-au-off-table-artillery-fire-1", "de-rulebook-au-off-table-artillery-fire-2", "de-rulebook-au-off-table-artillery-fire-3", "de-rulebook-au-off-table-artillery-fire-4"], "min": 1, "max": 1}
       ],
       "options": [
         {
           "id": "de-rulebook-au-off-table-artillery-fire-1",
-          "name": "2 105mmL22",
+          "name": "2 105mm (L28) howitzer",
           "points": 90,
           "br": 0,
-          "composition": [{"qty": 2, "name": "105mmL22", "equipmentId": "de-105mml22"}],
+          "composition": [{"qty": 2, "name": "105mmL28", "equipmentId": "de-105mml28"}],
           "compositionMode": "replace"
         },
         {
           "id": "de-rulebook-au-off-table-artillery-fire-2",
-          "name": "2 6\" (naval guns)",
-          "points": 140,
+          "name": "2 150mm" (L12) infantry guns",
+          "points": 135,
           "br": 0,
-          "composition": [{"qty": 2, "name": "6\" (naval guns)", "equipmentId": "de-6inch-naval-gun"}],
+          "composition": [{"qty": 2, "name": "150mmL12 infantry guns", "equipmentId": "de-150mml12"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "de-rulebook-au-off-table-artillery-fire-3",
+          "name": "2 150mm" (L12) howitzer",
+          "points": 135,
+          "br": 0,
+          "composition": [{"qty": 2, "name": "150mmL30 howitzer", "equipmentId": "de-150mml30"}],
+          "compositionMode": "replace"
+        },
+        {
+          "id": "de-rulebook-au-off-table-artillery-fire-4",
+          "name": "2 100mm" (L52) cannon",
+          "points": 126,
+          "br": 0,
+          "composition": [{"qty": 2, "name": "100mmL52 cannon", "equipmentId": "de-100mml52"}],
           "compositionMode": "replace"
         }
       ]

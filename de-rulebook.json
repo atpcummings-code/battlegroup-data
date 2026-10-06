@@ -891,132 +891,31 @@
         {"name": "Vehicle Repair"}
       ],
       "optionGroupLimits": [
-        {"groupName": "Choose vehicle:", "options": ["de-rulebook-esu-recovery-vehicle-1", "de-rulebook-esu-recovery-vehicle-2", "de-rulebook-esu-recovery-vehicle-3"], "min": 1, "max": 1}
+        {"groupName": "Choose vehicle:", "options": ["de-rulebook-esu-recovery-vehicle-1", "de-rulebook-esu-recovery-vehicle-2"], "min": 1, "max": 1}
       ],
       "options": [
         {
           "id": "de-rulebook-esu-recovery-vehicle-1",
-          "name": "M4 Sherman ARV",
-          "points": 22,
+          "name": "SdKfz 251/9 FAMO",
+          "points": 18,
           "br": 1,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "M4 Sherman ARV", "equipmentId": "de-m4-sherman-arv"}],
+          "composition": [{"qty": 1, "name": "SdKfz 251/9 FAMO", "equipmentId": "de-sdkfz-251-9"}],
           "compositionMode": "replace"
         },
         {
           "id": "de-rulebook-esu-recovery-vehicle-2",
-          "name": "Scammel Pioneer",
-          "points": 16,
-          "br": 1,
+          "name": "Bergpanther",
+          "points": 40,
+          "br": 2,
           "morale": "R",
-          "composition": [{"qty": 1, "name": "Scammel Pioneer", "equipmentId": "de-scammel-pioneer"}],
-          "compositionMode": "replace"
-        },
-        {
-          "id": "de-rulebook-esu-recovery-vehicle-3",
-          "name": "M1 Wrecker Heavy Truck",
-          "points": 16,
-          "br": 1,
-          "morale": "R",
-          "composition": [{"qty": 1, "name": "M1 Wrecker Heavy Truck", "equipmentId": "de-m1-wrecker"}],
+          "restricted": "yes",
+          "composition": [{"qty": 1, "name": "Bergpanther", "equipmentId": "de-bergpanther"}],
           "compositionMode": "replace"
         }
       ]
     },
-    {
-      "id": "de-rulebook-esu-armoured-engineering-vehicle",
-      "name": "Armoured Engineering Vehicle",
-      "category": "Engineers",
-      "points": 0,
-      "br": 0,
-      "morale": "R",
-      "unitComposition": [],
-      "specialRules": [],
-      "optionGroupLimits": [
-        {"groupName": "Choose vehicle:", "options": ["de-rulebook-esu-armoured-engineering-vehicle-1", "de-rulebook-esu-armoured-engineering-vehicle-2"], "min": 1, "max": 1}
-      ],
-      "options": [
-        {
-          "id": "de-rulebook-esu-armoured-engineering-vehicle-1",
-          "name": "M4 Sherman Crab",
-          "points": 54,
-          "br": 3,
-          "morale": "R",
-          "composition": [{"qty": 1, "name": "M4 Sherman Crab", "equipmentId": "de-m4-sherman-crab"}],
-          "compositionMode": "replace"
-        },
-        {
-          "id": "de-rulebook-esu-armoured-engineering-vehicle-2",
-          "name": "Armoured Bulldozer",
-          "points": 12,
-          "br": 1,
-          "morale": "R",
-          "composition": [{"qty": 1, "name": "Armoured Bulldozer", "equipmentId": "de-armoured-bulldozer"}],
-          "compositionMode": "replace"
-        }
-      ]
-    },
-    {
-      "id": "de-rulebook-esu-combat-engineer-section",
-      "name": "Combat Engineer Section",
-      "category": "Engineers",
-      "points": 26,
-      "br": 3,
-      "morale": "R",
-      "unitComposition": [
-        {"qty": 1, "name": "Combat Engineer Section (10 Men with a Bren)", "equipmentId": ""}
-      ],
-      "specialRules": [
-        {"name": "Engineers"},
-        {"name": "Bren Team"}
-      ],
-      "optionGroupLimits": [],
-      "options": [
-        {
-          "id": "de-rulebook-esu-combat-engineer-section-1",
-          "name": "Flamethrower",
-          "points": 10,
-          "br": 0,
-          "morale": "R",
-          "composition": [{"qty": 1, "name": "Flamethrower", "mode": "append", "equipmentId": ""}]
-        },
-        {
-          "id": "de-rulebook-esu-combat-engineer-section-2",
-          "name": "Mine Sweeper",
-          "points": 5,
-          "br": 0,
-          "morale": "R",
-          "composition": [{"qty": 1, "name": "Mine Sweeper", "mode": "append", "equipmentId": ""}]
-        },
-        {
-          "id": "de-rulebook-esu-combat-engineer-section-3",
-          "name": "Demolition Charge",
-          "points": 5,
-          "br": 0,
-          "morale": "R",
-          "composition": [{"qty": 1, "name": "Demolition Charge",  "equipmentId": ""}],
-           "compositionMode": "append"
-        },
-        {
-          "id": "de-rulebook-esu-combat-engineer-section-4",
-          "name": "Demolition Charge",
-          "points": 5,
-          "br": 0,
-          "morale": "R",
-          "composition": [{"qty": 1, "name": "Demolition Charge",  "equipmentId": ""}],
-           "compositionMode": "append"
-        },
-        {
-          "id": "de-rulebook-esu-combat-engineer-section-5",
-          "name": "Demolition Charge",
-          "points": 5,
-          "br": 0,
-          "morale": "R",
-          "composition": [{"qty": 1, "name": "Demolition Charge",  "equipmentId": ""}],
-           "compositionMode": "append"
-        }
-      ]
-    },
+    
     {
       "id": "de-rulebook-lsu-supply-column",
       "name": "Supply Column",
